@@ -105,8 +105,9 @@
       var hit = a.classList.contains('opt') ? a : null;
       if (hit) { hit.classList.add('opt-hit'); hit.setAttribute('aria-current', 'true'); }
       var go = function(){
-        if (hit) { hit.scrollIntoView({block: 'center', behavior: 'instant'}); return; }
         var d = document.getElementById('detail'); if (d) d.scrollIntoView({block: 'start', behavior: 'instant'});
+        // keep the trim title in view when the colour also fits; otherwise centre the colour
+        if (hit) { var r = hit.getBoundingClientRect(); if (r.bottom > innerHeight - 24 || r.top < 0) hit.scrollIntoView({block: 'center', behavior: 'instant'}); }
       };
       go(); setTimeout(go, 120);
       if (document.readyState !== 'complete') window.addEventListener('load', function(){ setTimeout(go, 0); }, {once: true});
