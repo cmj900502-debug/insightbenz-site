@@ -1,48 +1,178 @@
 {
- "_about": "전국 재고 모델명 → 카탈로그 링크 (build/stock_maps.py). First matching rule wins (regex on the stock 모델명). 'slug' = this site's own page cars/<slug>.html; 'url' = external official page (must return 200; opens in a new tab). Unmatched models are shown without a link and logged by build/update_stock.py ('WARN model link missing').",
+ "_about": "전국 재고 모델명 → 카탈로그 링크 (build/stock_maps.py). First matching rule wins (regex on the stock 모델명). 'slug' = this site's own page cars/<slug>.html; 'url' = external official page (must return 200; opens in a new tab). Unmatched models are shown without a link and logged by build/update_stock.py ('WARN model link missing'). 'trims' = manual trim overrides {\"<stock 모델명>|<MY>\": \"<trim name on our page>|<MY>\"} — otherwise build/stock_maps.py match_trim() picks the exact trim (#t-<year>-<trim> anchor on cars/<slug>.html opens that trim's 옵션·제원 panel); approximate/missing matches are logged as WARN.",
  "rules": [
-  {"match": "^Maybach EQS", "slug": "mercedes-maybach-eqs-suv"},
-  {"match": "^Maybach SL", "slug": "mercedes-maybach-sl"},
-  {"match": "^Maybach GLS", "slug": "mercedes-maybach-gls"},
-  {"match": "^Maybach S", "slug": "mercedes-maybach-s-class"},
-  {"match": "^AMG GT .*4-?(Door|도어)", "slug": "mercedes-amg-gt-4-door"},
-  {"match": "^AMG GT ", "slug": "mercedes-amg-gt-coupe"},
-  {"match": "^AMG SL ", "slug": "mercedes-amg-sl"},
-  {"match": "^AMG CLE .*Cabriolet", "slug": "mercedes-amg-cle-cabriolet"},
-  {"match": "^AMG CLE ", "slug": "mercedes-amg-cle-coupe"},
-  {"match": "^AMG GLC .*Coup", "slug": "mercedes-amg-glc-coupe"},
-  {"match": "^AMG GLC ", "slug": "mercedes-amg-glc"},
-  {"match": "^AMG GLE .*Coup", "slug": "mercedes-amg-gle-coupe"},
-  {"match": "^AMG GLE ", "slug": "mercedes-amg-gle"},
-  {"match": "^AMG GLS ", "slug": "mercedes-amg-gls"},
-  {"match": "^AMG GLB ", "slug": "mercedes-amg-glb"},
-  {"match": "^AMG CLA ", "slug": "mercedes-amg-cla"},
-  {"match": "^AMG E ", "slug": "mercedes-amg-e-class"},
-  {"match": "^AMG A ", "slug": "mercedes-amg-a-class"},
-  {"match": "^AMG S ", "slug": "mercedes-amg-s-class"},
-  {"match": "^AMG G ", "slug": "g-class"},
-  {"match": "^G .*EQ", "slug": "g-class-electric"},
-  {"match": "^G ", "slug": "g-class"},
-  {"match": "^EQS .*SUV", "slug": "eqs-suv"},
-  {"match": "^EQE .*SUV", "slug": "eqe-suv"},
-  {"match": "^EQE ", "slug": "eqe"},
-  {"match": "^EQA ", "slug": "eqa"},
-  {"match": "^EQB ", "slug": "eqb"},
-  {"match": "^CLE .*Cabriolet", "slug": "cle-cabriolet"},
-  {"match": "^CLE ", "slug": "cle-coupe"},
-  {"match": "^GLC .*Coup", "slug": "glc-coupe"},
-  {"match": "^GLC ", "slug": "glc"},
-  {"match": "^GLE .*Coup", "slug": "gle-coupe"},
-  {"match": "^GLE ", "slug": "gle"},
-  {"match": "^GLS ", "slug": "gls"},
-  {"match": "^GLB ", "slug": "glb"},
-  {"match": "^GLA ", "slug": "gla"},
-  {"match": "^CLA ", "slug": "cla"},
-  {"match": "^A ", "slug": "a-class"},
-  {"match": "^C ", "slug": "c-class"},
-  {"match": "^E ", "slug": "e-class"},
-  {"match": "^S ", "slug": "s-class"},
-  {"match": "^SL ", "slug": "mercedes-amg-sl"},
-  {"match": "^V ", "slug": "v-class"}
- ]
+  {
+   "match": "^Maybach EQS",
+   "slug": "mercedes-maybach-eqs-suv"
+  },
+  {
+   "match": "^Maybach SL",
+   "slug": "mercedes-maybach-sl"
+  },
+  {
+   "match": "^Maybach GLS",
+   "slug": "mercedes-maybach-gls"
+  },
+  {
+   "match": "^Maybach S",
+   "slug": "mercedes-maybach-s-class"
+  },
+  {
+   "match": "^AMG GT .*4-?(Door|도어)",
+   "slug": "mercedes-amg-gt-4-door"
+  },
+  {
+   "match": "^AMG GT ",
+   "slug": "mercedes-amg-gt-coupe"
+  },
+  {
+   "match": "^AMG SL ",
+   "slug": "mercedes-amg-sl"
+  },
+  {
+   "match": "^AMG CLE .*Cabriolet",
+   "slug": "mercedes-amg-cle-cabriolet"
+  },
+  {
+   "match": "^AMG CLE ",
+   "slug": "mercedes-amg-cle-coupe"
+  },
+  {
+   "match": "^AMG GLC .*Coup",
+   "slug": "mercedes-amg-glc-coupe"
+  },
+  {
+   "match": "^AMG GLC ",
+   "slug": "mercedes-amg-glc"
+  },
+  {
+   "match": "^AMG GLE .*Coup",
+   "slug": "mercedes-amg-gle-coupe"
+  },
+  {
+   "match": "^AMG GLE ",
+   "slug": "mercedes-amg-gle"
+  },
+  {
+   "match": "^AMG GLS ",
+   "slug": "mercedes-amg-gls"
+  },
+  {
+   "match": "^AMG GLB ",
+   "slug": "mercedes-amg-glb"
+  },
+  {
+   "match": "^AMG CLA ",
+   "slug": "mercedes-amg-cla"
+  },
+  {
+   "match": "^AMG E ",
+   "slug": "mercedes-amg-e-class"
+  },
+  {
+   "match": "^AMG A ",
+   "slug": "mercedes-amg-a-class"
+  },
+  {
+   "match": "^AMG S ",
+   "slug": "mercedes-amg-s-class"
+  },
+  {
+   "match": "^AMG G ",
+   "slug": "g-class"
+  },
+  {
+   "match": "^G .*EQ",
+   "slug": "g-class-electric"
+  },
+  {
+   "match": "^G ",
+   "slug": "g-class"
+  },
+  {
+   "match": "^EQS .*SUV",
+   "slug": "eqs-suv"
+  },
+  {
+   "match": "^EQE .*SUV",
+   "slug": "eqe-suv"
+  },
+  {
+   "match": "^EQE ",
+   "slug": "eqe"
+  },
+  {
+   "match": "^EQA ",
+   "slug": "eqa"
+  },
+  {
+   "match": "^EQB ",
+   "slug": "eqb"
+  },
+  {
+   "match": "^CLE .*Cabriolet",
+   "slug": "cle-cabriolet"
+  },
+  {
+   "match": "^CLE ",
+   "slug": "cle-coupe"
+  },
+  {
+   "match": "^GLC .*Coup",
+   "slug": "glc-coupe"
+  },
+  {
+   "match": "^GLC ",
+   "slug": "glc"
+  },
+  {
+   "match": "^GLE .*Coup",
+   "slug": "gle-coupe"
+  },
+  {
+   "match": "^GLE ",
+   "slug": "gle"
+  },
+  {
+   "match": "^GLS ",
+   "slug": "gls"
+  },
+  {
+   "match": "^GLB ",
+   "slug": "glb"
+  },
+  {
+   "match": "^GLA ",
+   "slug": "gla"
+  },
+  {
+   "match": "^CLA ",
+   "slug": "cla"
+  },
+  {
+   "match": "^A ",
+   "slug": "a-class"
+  },
+  {
+   "match": "^C ",
+   "slug": "c-class"
+  },
+  {
+   "match": "^E ",
+   "slug": "e-class"
+  },
+  {
+   "match": "^S ",
+   "slug": "s-class"
+  },
+  {
+   "match": "^SL ",
+   "slug": "mercedes-amg-sl"
+  },
+  {
+   "match": "^V ",
+   "slug": "v-class"
+  }
+ ],
+ "trims": {}
 }

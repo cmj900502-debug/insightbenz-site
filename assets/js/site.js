@@ -91,6 +91,20 @@
       });
     });
     select(trims[0].getAttribute('data-trim'));
+    // deep link #t-<year>-<trim> (전국 재고 모델명 → this trim's 옵션·제원 panel): open that panel, then scroll to it
+    var openHash = function(){
+      var h = decodeURIComponent((location.hash || '').slice(1));
+      if (!/^t-/.test(h)) return;
+      var a = document.getElementById(h), p = a && a.closest('.trim-panel');
+      if (!p) return;
+      var id = p.id.replace('panel-', '');
+      var allY = document.querySelector('[data-year="전체"]'); if (allY) allY.click();
+      select(id);
+      var go = function(){ var d = document.getElementById('detail'); if (d) d.scrollIntoView({block: 'start', behavior: 'instant'}); };
+      go(); setTimeout(go, 120);
+      if (document.readyState !== 'complete') window.addEventListener('load', function(){ setTimeout(go, 0); }, {once: true});
+    };
+    openHash(); window.addEventListener('hashchange', openHash);
   }
 
   // 5) contact form (static: no backend)
