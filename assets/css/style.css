@@ -802,3 +802,17 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .btn.rv-kakao:hover{background:#f5dc00;border-color:#f5dc00;color:#191600}
 .rv-send-lead{margin:-6px 0 14px;font-size:14px;line-height:1.65;color:var(--text-2)}
 .rv-send .rv-btns{margin:0 0 22px}
+/* ---------- 전국 재고: 시트 색상 (build/stock_maps.py · data/interior-colors.json) + 모델명 → 카탈로그 링크 (data/model-links.json) ---------- */
+.stxt .sint{display:flex;flex-wrap:wrap;align-items:center;gap:2px 6px;margin-top:4px;font-size:12px;line-height:1.45;color:var(--muted)}
+.stxt .sint-k{font-size:11px;font-weight:600;letter-spacing:.02em;color:var(--muted);border:1px solid var(--line-2);border-radius:3px;padding:0 4px;line-height:16px}
+.stxt .sint-cs{display:inline-flex}
+.stxt .sint-c{display:inline-block;width:12px;height:12px;border-radius:50%;border:1px solid rgba(127,127,127,.55)}
+.stxt .sint-c+.sint-c{margin-left:-4px}
+.stxt b.sint-l{display:inline;font-size:13.5px;font-weight:700;color:var(--head);margin:0}
+.stxt .sint-src{flex-basis:100%;color:var(--muted)}
+.scard-head h3 a.scard-link{color:inherit;text-decoration:none;border-bottom:1px solid transparent}
+.scard-head h3 a.scard-link::after{content:" →";font-family:var(--sans);font-size:14px;color:var(--accent)}
+.scard-head h3 a.scard-link.ext::after{content:" ↗"}
+.scard-head h3 a.scard-link:hover,.scard-head h3 a.scard-link:focus-visible{border-bottom-color:currentColor}
+.stxt .sint-c{border-color:rgba(170,170,170,.85)}
+.stxt .sint-unk .sint-src{flex-basis:auto}

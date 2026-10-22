@@ -1,0 +1,34 @@
+{
+ "_about": "전국 재고 내장(시트) 색상 표시 — build/stock_maps.py. The seat colour is read ONLY from the stock file's own 내장 색상 text (colour words below, in the order they appear: first = main seat colour). Names with no colour word need an entry in 'overrides' with evidence; unknown ones are shown as-is and logged by build/update_stock.py ('WARN interior colour unknown').",
+ "families": {
+  "black":  {"label": "블랙",   "hex": "#141414"},
+  "brown":  {"label": "브라운", "hex": "#7a4a2a"},
+  "beige":  {"label": "베이지", "hex": "#d9c3a0"},
+  "grey":   {"label": "그레이", "hex": "#8b8f93"},
+  "red":    {"label": "레드",   "hex": "#a3222b"},
+  "white":  {"label": "화이트", "hex": "#f1eee7"},
+  "silver": {"label": "실버",   "hex": "#c4c8cc"}
+ },
+ "tokens": [
+  ["브라운", "brown"], ["brown", "brown"], ["에스프레소", "brown"],
+  ["베이지", "beige"], ["beige", "beige"],
+  ["블랙", "black"], ["black", "black"],
+  ["그레이", "grey"], ["grey", "grey"], ["gray", "grey"],
+  ["레드", "red"], ["red", "red"],
+  ["화이트", "white"], ["white", "white"],
+  ["실버", "silver"], ["silver", "silver"]
+ ],
+ "overrides": {
+  "익스클루시브 나파 가죽, 자바": {
+   "colors": ["brown"],
+   "note": "자바(Java) = 브라운 계열 시트",
+   "evidence": [
+    "Mercedes-Maybach GLS MY26 국내 카탈로그 색상 목록: 514A = '익스클루시브 나파 가죽, 자바' (ref/data/mercedes-maybach-gls.json)",
+    "Mercedes-Maybach EQS SUV MY26 국내 카탈로그 트림 옵션: 514A = 'Maybach 익스클루시브 나파 가죽, 발라오 브라운 펄 / 에스프레소 브라운' (ref/data/mercedes-maybach-eqs-suv.json)",
+    "Mercedes-Benz Media (Maybach EQS SUV): standard Maybach Exclusive Nappa leather in espresso brown/balao brown pearl",
+    "Mercedes-Maybach S-Class brochure (UK): Exclusive nappa leather in nut brown/black (code 514A)"
+   ],
+   "models": ["Maybach EQS 680 SUV", "Maybach GLS 600", "Maybach GLS 600 MANUFAKTUR"]
+  }
+ }
+}
