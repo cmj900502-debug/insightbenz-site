@@ -783,3 +783,22 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .e2-cta{display:flex;flex-wrap:wrap;gap:10px}.e2-cta .btn{margin:0}
 .e2-note{margin-top:14px;font-size:12.5px;color:var(--muted)}
 @media(max-width:640px){.fh-card.fh-promo{grid-column:1/-1}.e2-head{font-size:16.5px}.e2-cta .btn{flex:1 1 100%}.e2-rates li{padding:12px}}
+/* ---------- 구매후기 접수: 카카오톡/문자 (reviews.html #write — replaces the Netlify form, 2026-10-22) ---------- */
+.rv-send-h{margin:0 0 14px;font-size:19px;color:var(--head)}
+.rv-how{list-style:none;margin:0 0 18px;padding:0;display:grid;gap:10px;counter-reset:rvh}
+.rv-how li{counter-increment:rvh;display:grid;grid-template-columns:26px 1fr;column-gap:10px;font-size:14px;line-height:1.6;color:var(--text-2)}
+.rv-how li::before{content:counter(rvh);grid-row:1/3;width:24px;height:24px;border-radius:50%;background:var(--head);color:var(--bg);font:600 12px/24px var(--sans);text-align:center}
+.rv-how b{color:var(--head);font-size:14.5px}
+.rv-tpl{background:var(--bg);border:1px solid var(--line);padding:14px 16px;margin:0 0 16px}
+.rv-tpl-h{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.04em;color:var(--muted)}
+.rv-template{margin:0 0 12px;white-space:pre-wrap;word-break:keep-all;font:14px/1.75 var(--sans);color:var(--text)}
+.rv-copy-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.rv-copy{min-height:42px;margin:0}
+.rv-copied{margin:0;font-size:13px;color:var(--accent)}
+.rv-btns{margin:0 0 18px}
+.rv-btns .btn{flex:1 1 220px}
+.btn.rv-kakao{background:#fee500;border-color:#fee500;color:#191600}
+.btn.rv-kakao svg{width:18px;height:18px;fill:currentColor}
+.btn.rv-kakao:hover{background:#f5dc00;border-color:#f5dc00;color:#191600}
+.rv-send-lead{margin:-6px 0 14px;font-size:14px;line-height:1.65;color:var(--text-2)}
+.rv-send .rv-btns{margin:0 0 22px}
