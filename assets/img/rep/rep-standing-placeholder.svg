@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 620" role="img" aria-label="전신 사진 자리(실루엣)">
+<defs><linearGradient id="p" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9a978f"/><stop offset="1" stop-color="#55534e"/></linearGradient></defs>
+<ellipse cx="110" cy="612" rx="78" ry="7" fill="#000" opacity=".35"/>
+<path d="M50 132C62 118 86 112 110 112C134 112 158 118 170 132L186 300C187 312 178 318 172 306L160 228L156 330H64L60 228L48 306C42 318 33 312 34 300Z" fill="url(#p)"/>
+<path d="M110 112L94 122L110 210L126 122Z" fill="#3a3a40" opacity=".55"/>
+<path d="M66 328H154L148 604H120L110 400L100 604H72Z" fill="#5d5b56"/>
+<rect x="96" y="84" width="28" height="34" rx="12" fill="#8a877f"/>
+<ellipse cx="110" cy="60" rx="30" ry="37" fill="url(#p)"/>
+</svg>

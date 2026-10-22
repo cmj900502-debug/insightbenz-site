@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="프로필 사진 자리">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a2d31"/><stop offset="1" stop-color="#0e0f11"/></linearGradient></defs>
+<rect width="400" height="500" fill="url(#g)"/>
+<circle cx="200" cy="190" r="78" fill="#5b6067"/>
+<path d="M70 470c8-96 64-160 130-160s122 64 130 160z" fill="#5b6067"/>
+<text x="200" y="440" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#c9cdd1">[프로필 사진]</text>
+</svg>

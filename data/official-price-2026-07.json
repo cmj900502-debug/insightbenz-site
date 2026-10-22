@@ -1,0 +1,521 @@
+{
+ "title": "26MY 차량가격표",
+ "date": "2026-07-01",
+ "source": "메르세데스-벤츠 코리아 가격표 이미지 (영업 담당자 제공)",
+ "unit": "KRW",
+ "transcribed": "2026-10-18, 2회 확대 판독 교차 확인",
+ "rows": [
+  {
+   "class": "A-Class",
+   "trim": "A 220",
+   "price": 48700000
+  },
+  {
+   "class": "A-Class",
+   "trim": "A 220 Sedan",
+   "price": 50500000
+  },
+  {
+   "class": "A-Class",
+   "trim": "AMG A 35 4M Sedan",
+   "price": 68600000
+  },
+  {
+   "class": "A-Class",
+   "trim": "AMG A 45 S 4M+",
+   "price": 81400000
+  },
+  {
+   "class": "CLA",
+   "trim": "CLA 250 4M AMG Line",
+   "price": 64500000
+  },
+  {
+   "class": "CLA",
+   "trim": "AMG CLA 45 S 4M+",
+   "price": 91800000
+  },
+  {
+   "class": "C-Class",
+   "trim": "C 200 AV",
+   "price": 65100000
+  },
+  {
+   "class": "C-Class",
+   "trim": "C 200 AMG Line",
+   "price": 68300000
+  },
+  {
+   "class": "E-Class",
+   "trim": "E 200 AV",
+   "price": 77500000
+  },
+  {
+   "class": "E-Class",
+   "trim": "E 200 EX",
+   "price": 77500000
+  },
+  {
+   "class": "E-Class",
+   "trim": "E 200 AMG Line",
+   "price": 81000000
+  },
+  {
+   "class": "E-Class",
+   "trim": "E 220d 4M EX",
+   "price": 87200000
+  },
+  {
+   "class": "E-Class",
+   "trim": "E 300 4M EX",
+   "price": 94800000
+  },
+  {
+   "class": "E-Class",
+   "trim": "E 300 4M AMG Line",
+   "price": 99000000
+  },
+  {
+   "class": "E-Class",
+   "trim": "E 350 e 4M EX",
+   "price": 100000000
+  },
+  {
+   "class": "E-Class",
+   "trim": "E 450 4M AMG Line",
+   "price": 116000000
+  },
+  {
+   "class": "E-Class",
+   "trim": "E 450 4M EX",
+   "price": 129600000
+  },
+  {
+   "class": "E-Class",
+   "trim": "AMG E 53 HYBRID 4M+ (KR3)",
+   "price": 143000000
+  },
+  {
+   "class": "E-Class",
+   "trim": "AMG E 53 HYBRID 4M+ (KR4)",
+   "price": 148400000
+  },
+  {
+   "class": "CLE",
+   "trim": "CLE 200 Coupe",
+   "price": 76700000
+  },
+  {
+   "class": "CLE",
+   "trim": "CLE 450 4M Coupe",
+   "price": 99700000
+  },
+  {
+   "class": "CLE",
+   "trim": "AMG CLE 53 4M+ Coupe",
+   "price": 109100000
+  },
+  {
+   "class": "CLE",
+   "trim": "CLE 200 Cabriolet",
+   "price": 83100000
+  },
+  {
+   "class": "CLE",
+   "trim": "CLE 450 4M Cabriolet",
+   "price": 104000000
+  },
+  {
+   "class": "CLE",
+   "trim": "AMG CLE 53 4M+ Cabriolet",
+   "price": 115000000
+  },
+  {
+   "class": "S-Class 26MY",
+   "trim": "S 350d 4M",
+   "price": 154000000
+  },
+  {
+   "class": "S-Class 26MY",
+   "trim": "S 350d 4M (CY25/2)",
+   "price": 155000000
+  },
+  {
+   "class": "S-Class 26MY",
+   "trim": "S 450 4M (SWB)",
+   "price": 161000000
+  },
+  {
+   "class": "S-Class 26MY",
+   "trim": "S 450 4M (SWB) (CY25/2)",
+   "price": 162000000
+  },
+  {
+   "class": "S-Class 26MY",
+   "trim": "S 450 4M L",
+   "price": 193000000
+  },
+  {
+   "class": "S-Class 26MY",
+   "trim": "S 450 4M L (CY25/2)",
+   "price": 195000000
+  },
+  {
+   "class": "S-Class 26MY",
+   "trim": "S 500 4M L",
+   "price": 215000000
+  },
+  {
+   "class": "S-Class 26MY",
+   "trim": "S 500 4M L (CY25/2)",
+   "price": 217000000
+  },
+  {
+   "class": "S-Class 26MY",
+   "trim": "S 580 4M L",
+   "price": 260000000
+  },
+  {
+   "class": "S-Class 26MY",
+   "trim": "AMG S 63 E Perfomance",
+   "price": 299000000
+  },
+  {
+   "class": "S-Class 26MY",
+   "trim": "Maybach S 580",
+   "price": 317000000
+  },
+  {
+   "class": "S-Class 26MY",
+   "trim": "Maybach S 680",
+   "price": 403000000
+  },
+  {
+   "class": "GT (4도어)",
+   "trim": "AMG GT 43 4M+",
+   "price": 164000000
+  },
+  {
+   "class": "GT (2도어)",
+   "trim": "AMG GT 43",
+   "price": 149500000
+  },
+  {
+   "class": "GT (2도어)",
+   "trim": "AMG GT 55 4M+",
+   "price": 210000000
+  },
+  {
+   "class": "GT (2도어)",
+   "trim": "AMG GT 63 S E Performance",
+   "price": 280000000
+  },
+  {
+   "class": "SL",
+   "trim": "AMG SL 43",
+   "price": 160000000
+  },
+  {
+   "class": "SL",
+   "trim": "AMG SL 63 4M+",
+   "price": 250000000
+  },
+  {
+   "class": "SL",
+   "trim": "Maybach SL 680",
+   "price": 344000000
+  },
+  {
+   "class": "S-Class 27MY F/L",
+   "trim": "S 350 d 4M",
+   "price": 154000000
+  },
+  {
+   "class": "S-Class 27MY F/L",
+   "trim": "S 450 4M",
+   "price": 162400000
+  },
+  {
+   "class": "S-Class 27MY F/L",
+   "trim": "S 450 4M L Exclusive",
+   "price": 175400000
+  },
+  {
+   "class": "S-Class 27MY F/L",
+   "trim": "S 450 4M L AMG Line",
+   "price": 195400000
+  },
+  {
+   "class": "S-Class 27MY F/L",
+   "trim": "S 500 4M L",
+   "price": 220000000
+  },
+  {
+   "class": "S-Class 27MY F/L",
+   "trim": "S 580 4M L",
+   "price": 270000000
+  },
+  {
+   "class": "S-Class 27MY F/L",
+   "trim": "Maybach S 580",
+   "price": 317000000
+  },
+  {
+   "class": "S-Class 27MY F/L",
+   "trim": "Maybach S 580 MANUFAKTUR",
+   "price": 336000000
+  },
+  {
+   "class": "S-Class 27MY F/L",
+   "trim": "Maybach S 680",
+   "price": 407000000
+  },
+  {
+   "class": "GLA",
+   "trim": "GLA 250 4M AMG Line",
+   "price": 70000000
+  },
+  {
+   "class": "GLB",
+   "trim": "GLB 200d",
+   "price": 64300000
+  },
+  {
+   "class": "GLB",
+   "trim": "GLB 250 4M",
+   "price": 72000000
+  },
+  {
+   "class": "GLB",
+   "trim": "AMG GLB 35 4M",
+   "price": 79500000
+  },
+  {
+   "class": "GLC",
+   "trim": "GLC 220d 4M",
+   "price": 82200000
+  },
+  {
+   "class": "GLC",
+   "trim": "GLC 300 4M AV",
+   "price": 82500000
+  },
+  {
+   "class": "GLC",
+   "trim": "GLC 300 4M AMG Line",
+   "price": 92500000
+  },
+  {
+   "class": "GLC",
+   "trim": "AMG GLC 43 4M",
+   "price": 103600000
+  },
+  {
+   "class": "GLC Coupe",
+   "trim": "GLC 300 4M Coupe AV",
+   "price": 86600000
+  },
+  {
+   "class": "GLC Coupe",
+   "trim": "GLC 300 4M Coupe AMG Line",
+   "price": 96900000
+  },
+  {
+   "class": "GLC Coupe",
+   "trim": "AMG GLC 43 4M Coupe",
+   "price": 108300000
+  },
+  {
+   "class": "GLE",
+   "trim": "GLE 300d 4M",
+   "price": 119200000
+  },
+  {
+   "class": "GLE",
+   "trim": "GLE 350 4M",
+   "price": 118000000
+  },
+  {
+   "class": "GLE",
+   "trim": "GLE 450 4M",
+   "price": 129000000
+  },
+  {
+   "class": "GLE",
+   "trim": "GLE 450 4M AMG Line",
+   "price": 139000000
+  },
+  {
+   "class": "GLE",
+   "trim": "AMG GLE 53 4M+",
+   "price": 166000000
+  },
+  {
+   "class": "GLE Coupe",
+   "trim": "GLE 450d 4M Coupe AMG Line",
+   "price": 134000000
+  },
+  {
+   "class": "GLE Coupe",
+   "trim": "GLE 450 4M Coupe AMG Line",
+   "price": 142500000
+  },
+  {
+   "class": "GLE Coupe",
+   "trim": "AMG GLE 53 4M+ Coupe",
+   "price": 170000000
+  },
+  {
+   "class": "GLS",
+   "trim": "GLS 450d 4M AMG Line",
+   "price": 154000000
+  },
+  {
+   "class": "GLS",
+   "trim": "GLS 450 4M AMG Line",
+   "price": 154000000
+  },
+  {
+   "class": "GLS",
+   "trim": "GLS 450d 4M AMG Line Premium",
+   "price": 158500000
+  },
+  {
+   "class": "GLS",
+   "trim": "GLS 450 4M AMG Line Premium",
+   "price": 158500000
+  },
+  {
+   "class": "GLS",
+   "trim": "GLS 580 4M AMG Line",
+   "price": 193400000
+  },
+  {
+   "class": "GLS",
+   "trim": "AMG GLS 63 4M+",
+   "price": 210000000
+  },
+  {
+   "class": "GLS",
+   "trim": "Maybach GLS 600",
+   "price": 295000000
+  },
+  {
+   "class": "GLS",
+   "trim": "Maybach GLS 600 4M Manufktur",
+   "price": 337000000
+  },
+  {
+   "class": "G-Class",
+   "trim": "G 450d",
+   "price": 194900000
+  },
+  {
+   "class": "G-Class",
+   "trim": "G 450d Manufaktur",
+   "price": 219100000
+  },
+  {
+   "class": "G-Class",
+   "trim": "AMG G 63",
+   "price": 262600000
+  },
+  {
+   "class": "G-Class",
+   "trim": "AMG G 63 Manufaktur",
+   "price": 289800000
+  },
+  {
+   "class": "G-Class",
+   "trim": "G 580 with EQ Technology",
+   "price": 216100000
+  },
+  {
+   "class": "EQA",
+   "trim": "EQA 250 Progressive",
+   "price": 70000000
+  },
+  {
+   "class": "EQA",
+   "trim": "EQA 250 AMG Line",
+   "price": 75800000
+  },
+  {
+   "class": "EQB",
+   "trim": "EQB 300 4M Progressive",
+   "price": 78800000
+  },
+  {
+   "class": "EQB",
+   "trim": "EQB 300 4M AMG Line",
+   "price": 84300000
+  },
+  {
+   "class": "EQE",
+   "trim": "EQE 350+",
+   "price": 1100000000,
+   "anomaly": "시트 표기 1,100,000,000원 — 자릿수 오기로 추정(11억). 게시하지 않음."
+  },
+  {
+   "class": "EQE",
+   "trim": "EQE 350 4M (24MY)",
+   "price": null,
+   "note": "가격 공란 → 가격 문의"
+  },
+  {
+   "class": "EQE SUV",
+   "trim": "EQE 350+ SUV",
+   "price": 106000000
+  },
+  {
+   "class": "EQE SUV",
+   "trim": "EQE 500 4M SUV",
+   "price": 141000000
+  },
+  {
+   "class": "EQE SUV",
+   "trim": "AMG EQE 53 4M+ SUV (24MY)",
+   "price": null,
+   "note": "가격 공란 → 가격 문의"
+  },
+  {
+   "class": "EQS",
+   "trim": "EQS 350",
+   "price": null,
+   "note": "가격 공란 → 가격 문의"
+  },
+  {
+   "class": "EQS",
+   "trim": "EQS 450+(23my)",
+   "price": null,
+   "note": "가격 공란 → 가격 문의"
+  },
+  {
+   "class": "EQS",
+   "trim": "EQS 450 4M(23my)",
+   "price": null,
+   "note": "가격 공란 → 가격 문의"
+  },
+  {
+   "class": "EQS",
+   "trim": "AMG EQS 53 4MATIC+(23my)",
+   "price": null,
+   "note": "가격 공란 → 가격 문의"
+  },
+  {
+   "class": "EQS SUV",
+   "trim": "EQS 450 4M SUV",
+   "price": 166000000
+  },
+  {
+   "class": "EQS SUV",
+   "trim": "EQS 580 4M SUV",
+   "price": 192000000
+  },
+  {
+   "class": "EQS SUV",
+   "trim": "Maybach EQS 680 SUV",
+   "price": 235000000
+  }
+ ]
+}

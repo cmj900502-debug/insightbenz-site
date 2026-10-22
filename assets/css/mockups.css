@@ -1,0 +1,116 @@
+/* Home hero mockups A/B/C (mockups/hero-*.html). Shared bits first. */
+.mh{position:relative;isolation:isolate;overflow:hidden;background:#0e0e10;color:#fff;border-bottom:1px solid #26262b}
+.mh picture,.mh picture img{display:block;width:100%;height:100%}
+.mh picture img{object-fit:cover}
+.mh-who{margin:0 0 14px;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px}
+.mh-who b{font-family:var(--serif);font-size:22px;color:#fff}
+.mh-who span{font-size:13.5px;color:#d6d2c9}
+.mh h1{font-size:clamp(32px,6.6vw,58px);line-height:1.18;color:#fff;margin:0}
+.mh h1 em{color:#e3d2ad;font-style:normal}
+.mh .lead{margin:16px 0 0;color:#ece9e2;max-width:32em;font-size:16px}
+.mh-chips{list-style:none;padding:0;margin:20px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+.mh-chips li{font-size:13px;font-weight:600;color:#f2e7cf;border:1px solid rgba(201,180,138,.55);background:rgba(14,14,16,.45);padding:5px 12px;border-radius:999px;white-space:nowrap}
+.mh-btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.mh-btns .btn{min-height:48px}
+.mh .btn.ghost{color:#fff;border-color:rgba(255,255,255,.45);background:rgba(14,14,16,.35)}
+.mh .btn.ghost:hover{border-color:#fff}
+.mh-primary{background:var(--champ)!important;border-color:var(--champ)!important;color:#0e0e10!important}
+.mh-ic svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round}
+.mh-credit{margin:16px 0 0;font-size:11px;color:#a9a59c}
+.ph-cap{position:absolute;left:50%;bottom:12px;transform:translateX(-50%);font-size:12px;font-weight:600;color:#e6e3dc;background:rgba(14,14,16,.7);border:1px dashed rgba(255,255,255,.4);padding:3px 10px;border-radius:999px;white-space:nowrap}
+
+/* A — split: copy left, large upper-body portrait right, blurred car behind */
+.mh-bg{position:absolute;inset:0;z-index:-2}
+.mh-bg.blur img{filter:blur(6px) brightness(.55) saturate(.9)}
+.mh-a-scrim{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(14,14,16,.92) 0%,rgba(14,14,16,.7) 50%,rgba(14,14,16,.45) 100%),linear-gradient(0deg,rgba(14,14,16,.9),rgba(14,14,16,0) 45%)}
+.mh-a-in{display:grid;gap:22px;padding-top:24px;padding-bottom:32px}
+.mh-portrait{position:relative;margin:0;order:-1;justify-self:center;width:min(52vw,200px);aspect-ratio:4/5;border-radius:4px;overflow:hidden;border:1px solid rgba(201,180,138,.5);box-shadow:0 18px 50px rgba(0,0,0,.45)}
+.mh-portrait img{width:100%;height:100%;object-fit:cover}
+@media(min-width:900px){
+  .mh-a-in{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:end;gap:56px;padding-top:56px;padding-bottom:0;min-height:min(78vh,700px)}
+  .mh-a .mh-copy{padding-bottom:56px;align-self:center}
+  .mh-portrait{order:0;width:100%;max-width:440px;justify-self:end;aspect-ratio:4/5;border-radius:4px 4px 0 0;border-bottom:0;box-shadow:0 0 0 1px rgba(201,180,138,.25),0 30px 80px rgba(0,0,0,.5)}
+}
+
+/* B family — real upper-body cutout in front of the car; per-scene grade via --grade */
+.mh-b{--grade:none;--fade:#0e0e10}
+.mh-b-scene{position:relative;height:350px;overflow:hidden}
+.mh-b-car{position:absolute;inset:0}
+.mh-b-car img{object-position:var(--opm,38% 62%)}
+.mh-b-scrim{position:absolute;inset:0;z-index:1;background:linear-gradient(0deg,var(--fade) 0%,rgba(14,14,16,0) 42%)}
+.mh-rep{position:absolute;margin:0;z-index:2;right:0;bottom:0;height:80%;aspect-ratio:700/877}
+.mh-rep img{width:100%;height:100%;object-fit:contain;object-position:bottom;filter:var(--grade);
+  -webkit-mask-image:linear-gradient(180deg,#000 55%,rgba(0,0,0,.55) 76%,transparent 96%),linear-gradient(90deg,transparent 0,#000 13%,#000 87%,transparent 100%);
+  mask-image:linear-gradient(180deg,#000 55%,rgba(0,0,0,.55) 76%,transparent 96%),linear-gradient(90deg,transparent 0,#000 13%,#000 87%,transparent 100%);
+  -webkit-mask-composite:source-in;mask-composite:intersect}
+.mh-stand{position:absolute;margin:0;z-index:2;right:8%;bottom:10%;height:70%;aspect-ratio:220/620}
+.mh-stand img{width:100%;height:100%;object-fit:contain}
+.mh-b-in{position:relative;z-index:3;margin-top:-26px;padding-bottom:32px}
+@media(min-width:900px){
+  .mh-b{min-height:min(78vh,700px)}
+  .mh-b-scene{position:absolute;inset:0;height:auto}
+  .mh-b-car{left:auto;right:0;width:74%}
+  .mh-b-car img{object-position:var(--opd,50% 55%)}
+  .mh-b-scrim{background:linear-gradient(90deg,var(--fade) 0%,var(--fade) 26%,rgba(14,14,16,.78) 34%,rgba(14,14,16,.12) 52%,rgba(14,14,16,0) 100%),linear-gradient(0deg,var(--fade) 0%,rgba(14,14,16,0) 26%)}
+  .mh-rep{right:1%;height:80%}
+  .mh-b-in{margin-top:0;display:flex;align-items:center;min-height:min(78vh,700px);padding-top:40px;padding-bottom:40px}
+  .mh-b .mh-copy{max-width:min(440px,35vw)}
+  .mh-b h1{font-size:clamp(36px,4.2vw,54px)}
+}
+@media(min-width:1500px){.mh-rep{right:4%}}
+/* scene grades: warm sunset / cool AMG / neutral studio / overcast daylight / light showroom */
+.mhv-sun{--grade:sepia(.22) saturate(1.08) brightness(.84) contrast(1.06) drop-shadow(-3px -2px 4px rgba(255,170,90,.5)) drop-shadow(-18px 14px 30px rgba(0,0,0,.55))}
+.mhv-amg{--grade:brightness(.84) contrast(1.12) saturate(.86) drop-shadow(-2px -1px 4px rgba(150,180,255,.45)) drop-shadow(-16px 14px 30px rgba(0,0,0,.6));--opm:52% 60%;--opd:50% 58%}
+.mhv-mb{--grade:brightness(.96) contrast(1.06) saturate(.92) drop-shadow(0 -2px 4px rgba(255,255,255,.35)) drop-shadow(-16px 14px 30px rgba(0,0,0,.55));--opm:30% 50%;--opd:40% 50%}
+.mhv-g{--grade:brightness(.97) saturate(.94) contrast(1.03) drop-shadow(-2px -2px 4px rgba(225,230,240,.4)) drop-shadow(-16px 14px 30px rgba(0,0,0,.45));--opm:26% 50%;--opd:30% 50%}
+.mhv-light{--fade:#efece6;background-color:#f1eee8;background-image:radial-gradient(ellipse 70% 80% at 70% 35%,#ffffff 0%,#f1eee8 55%,#e2ddd3 100%);color:#1d1c1a;--grade:drop-shadow(-14px 16px 26px rgba(60,50,30,.22))}
+.mhv-light .mh-b-scrim{background:linear-gradient(0deg,#efece6 0%,rgba(239,236,230,0) 30%)}
+.mhv-light .mh-b-motif{display:flex;align-items:flex-end;justify-content:center;padding-bottom:6%}
+.mhv-light .mh-b-motif::before{content:"";position:absolute;left:0;right:0;bottom:22%;height:1px;background:linear-gradient(90deg,transparent,#c9c2b4 30%,#c9c2b4 70%,transparent)}
+.mhv-light .mh-b-motif img{width:auto;height:46%;opacity:.12;object-fit:contain;margin-bottom:5%}
+.mhv-light h1,.mhv-light .mh-who b{color:#0e0e10}
+.mhv-light h1 em{color:#7a6431}
+.mhv-light .lead,.mhv-light .mh-who span{color:#3d3a35}
+.mhv-light .mh-chips li{color:#5c4a22;border-color:#c8b78f;background:rgba(255,255,255,.6)}
+.mhv-light .btn.ghost{color:#0e0e10;border-color:#bfb8aa;background:rgba(255,255,255,.5)}
+.mhv-light .btn.ghost:hover{border-color:#0e0e10}
+.mhv-light .mh-credit{color:#625e57}
+@media(min-width:900px){.mhv-light .mh-b-scrim{background:linear-gradient(90deg,rgba(239,236,230,.9) 0%,rgba(239,236,230,0) 45%),linear-gradient(0deg,#efece6 0%,rgba(239,236,230,0) 26%)}.mhv-light .mh-b-motif{left:30%;width:auto}}
+
+/* C — short car band + floating business card overlapping its bottom edge */
+.mh-c{background:#0e0e10}
+.mh-c-band{position:relative;height:260px}
+.mh-c-band picture{position:absolute;inset:0}
+.mh-c-band img{object-position:60% 80%}
+.mh-c-scrim{position:absolute;inset:0;background:linear-gradient(0deg,rgba(14,14,16,.85) 0%,rgba(14,14,16,.2) 50%,rgba(14,14,16,.2) 100%),linear-gradient(90deg,rgba(14,14,16,.7),rgba(14,14,16,0) 60%)}
+.mh-c-head{position:relative;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding-bottom:74px}
+.mh-c-head .kicker{color:#e3d2ad}
+.mh-c h1{font-size:clamp(26px,6.4vw,50px)}
+.bcard{position:relative;z-index:2;margin-top:-56px;display:grid;gap:16px;padding:20px;background:#f4f2ee;color:#1d1c1a;border-radius:6px;box-shadow:0 24px 60px rgba(0,0,0,.45);border-top:3px solid var(--champ)}
+.bc-photo{position:relative;margin:0;width:96px;height:96px;border-radius:50%;overflow:hidden;border:3px solid var(--champ);flex:none}
+.bc-photo img{width:100%;height:100%;object-fit:cover}
+.bc-photo .ph-cap{font-size:9.5px;padding:1px 6px;bottom:8px}
+.bc-name{margin:0;font-size:15px;color:#3d3a35}
+.bc-name b{font-family:var(--serif);font-size:28px;color:#0e0e10;margin-right:4px}
+.bc-org{margin:2px 0 0;font-size:13.5px;color:#625e57}
+.bc-tel{margin:8px 0 0}
+.bc-phone{font-size:20px;font-weight:700;color:#0e0e10;text-decoration:none;letter-spacing:.02em}
+.bcard .mh-chips li{color:#5c4a22;border-color:#c8b78f;background:#ebe5d8}
+.bcard .mh-btns{margin-top:0}
+.bcard .btn.ghost{color:#0e0e10;border-color:#bfb8aa;background:transparent}
+.bcard .btn.ghost:hover{border-color:#0e0e10}
+.mh-c .mh-credit{margin:12px 0 28px}
+.bcard{grid-template-columns:76px minmax(0,1fr);grid-template-areas:"photo info" "chips chips" "act act"}
+.bc-photo{grid-area:photo}.bc-info{grid-area:info;min-width:0}.bc-chips{grid-area:chips}.bc-act{grid-area:act}
+.bcard .mh-chips{margin:0;gap:6px}.bcard .mh-chips li{font-size:12.5px;padding:4px 10px}
+@media(max-width:899px){.bc-photo{width:76px;height:76px}.bc-photo .ph-cap{display:none}.bc-name b{font-size:24px}.mh-btns.col .btn{flex:1 1 40%}.mh-btns.col .mh-primary{flex-basis:100%}}
+@media(max-width:899px){.bcard .bc-photo.is-ph::after{content:"팀장님\A사진 자리";white-space:pre;line-height:1.25;position:absolute;left:0;right:0;bottom:8px;text-align:center;font-size:10px;font-weight:700;color:#fff}}
+@media(min-width:900px){
+  .mh-c-band{height:410px}
+  .mh-c-head{padding-bottom:96px}
+  .bcard{margin-top:-64px;grid-template-columns:150px minmax(0,1fr) auto;grid-template-areas:"photo info act" "photo chips act";align-items:center;gap:12px 32px;padding:28px 32px}
+  .bc-chips{align-self:start}
+  .bc-photo{width:150px;height:150px}
+  .bc-photo .ph-cap{font-size:11px;bottom:14px}
+  .mh-btns.col{flex-direction:column;min-width:200px}
+}

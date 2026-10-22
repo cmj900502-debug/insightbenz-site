@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="프로필 사진 자리(실루엣)">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3a40"/><stop offset="1" stop-color="#1c1c20"/></linearGradient>
+<linearGradient id="p" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8d8a84"/><stop offset="1" stop-color="#5f5d58"/></linearGradient></defs>
+<rect width="400" height="500" fill="url(#bg)"/>
+<path d="M30 500C30 382 92 318 200 312C308 318 370 382 370 500Z" fill="url(#p)"/>
+<path d="M200 312L162 330L200 440L238 330Z" fill="#3a3a40" opacity=".55"/>
+<path d="M200 330L186 344L200 420L214 344Z" fill="#26262b" opacity=".6"/>
+<rect x="170" y="250" width="60" height="72" rx="24" fill="#7c7973"/>
+<ellipse cx="200" cy="178" rx="74" ry="90" fill="url(#p)"/>
+</svg>
