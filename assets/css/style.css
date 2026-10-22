@@ -816,3 +816,15 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .scard-head h3 a.scard-link:hover,.scard-head h3 a.scard-link:focus-visible{border-bottom-color:currentColor}
 .stxt .sint-c{border-color:rgba(170,170,170,.85)}
 .stxt .sint-unk .sint-src{flex-basis:auto}
+
+/* 전국 재고: whole 색상 조합 row is the link → 차량 찾기 trim 옵션·색상 (#t-…-c<code>) */
+.srow:has(> .srow-link){display:block;padding:0}
+.srow-link{display:flex;gap:10px;align-items:flex-start;min-height:44px;padding:11px 8px;margin:0 -8px;border-radius:6px;color:inherit;text-decoration:none;flex-wrap:wrap;transition:background .15s}
+.srow-link .stxt{flex:1 1 0}
+.srow-link .sgo{flex-basis:100%;text-align:right;font-size:12px;font-weight:600;color:var(--accent);margin-top:-2px;letter-spacing:.01em}
+.srow-link:hover,.srow-link:focus-visible{background:rgba(127,127,127,.12)}
+.srow-link:hover .sgo,.srow-link:focus-visible .sgo{text-decoration:underline}
+.srow-link:active{background:rgba(127,127,127,.2)}
+.srow-link:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.opt.opt-hit{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px;background:rgba(127,127,127,.12);animation:optHit 1.6s ease-out 1}
+@keyframes optHit{0%{background:rgba(127,127,127,.35)}100%{background:rgba(127,127,127,.12)}}

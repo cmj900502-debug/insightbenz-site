@@ -100,7 +100,14 @@
       var id = p.id.replace('panel-', '');
       var allY = document.querySelector('[data-year="전체"]'); if (allY) allY.click();
       select(id);
-      var go = function(){ var d = document.getElementById('detail'); if (d) d.scrollIntoView({block: 'start', behavior: 'instant'}); };
+      // colour deep link (#t-…-c<code>, from 전국 재고 색상 조합 rows): highlight that 외장 컬러 and bring it into view
+      document.querySelectorAll('.opt.opt-hit').forEach(function(o){ o.classList.remove('opt-hit'); o.removeAttribute('aria-current'); });
+      var hit = a.classList.contains('opt') ? a : null;
+      if (hit) { hit.classList.add('opt-hit'); hit.setAttribute('aria-current', 'true'); }
+      var go = function(){
+        if (hit) { hit.scrollIntoView({block: 'center', behavior: 'instant'}); return; }
+        var d = document.getElementById('detail'); if (d) d.scrollIntoView({block: 'start', behavior: 'instant'});
+      };
       go(); setTimeout(go, 120);
       if (document.readyState !== 'complete') window.addEventListener('load', function(){ setTimeout(go, 0); }, {once: true});
     };
