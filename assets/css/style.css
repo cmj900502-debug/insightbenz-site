@@ -828,3 +828,38 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .srow-link:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 .opt.opt-hit{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px;background:rgba(127,127,127,.12);animation:optHit 1.6s ease-out 1}
 @keyframes optHit{0%{background:rgba(127,127,127,.35)}100%{background:rgba(127,127,127,.12)}}
+/* 차량찾기 옵션 사진: 색상·시트·장비 행 → 공식 이미지 대화상자 (build/mbk_media.py · assets/js/site.js) */
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.opt.has-ph{padding:0}
+.opt-ph{flex:1 1 auto;min-width:0;display:flex;align-items:center;gap:8px;min-height:44px;padding:6px 8px;margin:0 0 0 -8px;background:none;border:0;border-radius:6px;color:inherit;font:inherit;text-align:left;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background .15s}
+.opt-ph .opt-t{flex:1 1 auto;min-width:0}
+.opt-ph:hover,.opt-ph:focus-visible{background:rgba(127,127,127,.12)}
+.opt-ph:active{background:rgba(127,127,127,.2)}
+.opt-ph:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.opt-sw{flex:0 0 20px;width:20px;height:20px;border-radius:50%;object-fit:cover;border:1px solid var(--line-2)}
+.opt-cam{flex:0 0 16px;width:16px;height:16px;fill:none;stroke:var(--accent);stroke-width:1.8;stroke-linejoin:round;opacity:.85}
+.opt-ph:hover .opt-cam,.opt-ph:focus-visible .opt-cam{opacity:1}
+.note .opt-cam{display:inline-block;vertical-align:-3px;margin:0 1px}
+.opt.has-ph .badge{flex:0 0 auto}
+.ph-dlg{width:min(920px,calc(100vw - 24px));max-height:calc(100dvh - 24px);padding:0;border:1px solid var(--line-2);border-radius:10px;background:var(--surface-2);color:var(--text);overflow:auto;box-shadow:0 20px 60px rgba(0,0,0,.45)}
+.ph-dlg::backdrop{background:rgba(0,0,0,.72)}
+.ph-dlg .ph-head{display:flex;align-items:flex-start;gap:12px;padding:14px 16px 10px;position:sticky;top:0;background:var(--surface-2);z-index:1}
+.ph-dlg .ph-title{flex:1 1 auto;margin:0;font-size:16px;line-height:1.4;color:var(--head);font-weight:700}
+.ph-dlg .ph-title small{display:block;font-size:12px;font-weight:500;color:var(--muted);letter-spacing:.02em}
+.ph-dlg .ph-x{flex:0 0 auto;width:44px;height:44px;margin:-8px -8px 0 0;border:0;border-radius:50%;background:none;color:var(--text);font-size:26px;line-height:1;cursor:pointer}
+.ph-dlg .ph-x:hover,.ph-dlg .ph-x:focus-visible{background:rgba(127,127,127,.18)}
+.ph-dlg .ph-x:focus-visible{outline:2px solid var(--accent)}
+.ph-dlg figure{margin:0;padding:0 16px}
+.ph-dlg .ph-frame{display:flex;align-items:center;justify-content:center;background:#e9e7e3;border-radius:8px;overflow:hidden}
+.ph-dlg[data-k="int"] .ph-frame,.ph-dlg[data-k="eq"] .ph-frame{background:#111}
+.ph-dlg .ph-frame img{display:block;width:100%;height:auto;max-height:calc(100dvh - 230px);object-fit:contain}
+.ph-dlg[data-sw-only] .ph-frame img{width:auto;max-width:160px;margin:24px auto;border-radius:50%}
+.ph-dlg figcaption{display:flex;gap:10px;align-items:flex-start;padding:10px 0 4px;font-size:12.5px;line-height:1.5;color:var(--text-2)}
+.ph-dlg figcaption img{flex:0 0 32px;width:32px;height:32px;border-radius:50%;border:1px solid var(--line-2)}
+.ph-dlg .ph-nav{display:flex;justify-content:space-between;gap:8px;padding:6px 16px 14px}
+.ph-dlg .ph-nav button{min-height:44px;padding:0 14px;border:1px solid var(--line-2);border-radius:6px;background:none;color:var(--text);font:inherit;font-size:13px;cursor:pointer}
+.ph-dlg .ph-nav button:disabled{opacity:.35;cursor:default}
+.ph-dlg .ph-nav button:not(:disabled):hover,.ph-dlg .ph-nav button:focus-visible{background:rgba(127,127,127,.14)}
+.ph-dlg .ph-nav .ph-pos{align-self:center;font-size:12px;color:var(--muted)}
+.ph-dlg .ph-src{padding:0 16px 14px;margin:0;font-size:11.5px;color:var(--muted)}
+@media (max-width:560px){.ph-dlg{width:100vw;max-width:100vw;max-height:100dvh;border-radius:0;margin:auto 0 0}.ph-dlg .ph-frame img{max-height:58dvh}}

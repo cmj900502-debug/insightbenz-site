@@ -171,3 +171,62 @@
     if (e.isIntersecting) { v.play().catch(function(){ v.controls = true; }); } else { v.pause(); } }); }, {threshold: 0.35});
   vs.forEach(function(v){ io.observe(v); });
 })();
+/* 차량찾기 옵션 사진: 외장 컬러 · 실내 시트 · 장비 행(.opt-ph) → 공식 이미지 대화상자. 이전/다음 = 같은 목록 안에서 이동 (←/→ 키) */
+(function(){
+  var btns = document.querySelectorAll('.opt-ph[data-ph]'); if (!btns.length) return;
+  var dlg = document.createElement('dialog');
+  dlg.className = 'ph-dlg'; dlg.setAttribute('aria-labelledby', 'ph-title');
+  dlg.innerHTML = '<div class="ph-head"><h2 class="ph-title" id="ph-title"></h2><button type="button" class="ph-x" aria-label="닫기">×</button></div>' +
+    '<figure><div class="ph-frame"><img alt="" decoding="async"></div><figcaption><span class="ph-cap"></span></figcaption></figure>' +
+    '<div class="ph-nav"><button type="button" class="ph-prev">← 이전</button><span class="ph-pos" aria-live="polite"></span><button type="button" class="ph-next">다음 →</button></div>' +
+    '<p class="ph-src">이미지 출처: 메르세데스-벤츠 코리아 공식 컨피규레이터 (mercedes-benz.co.kr). 실제 차량 색상·사양은 전시장 실차와 견적서로 확인해 주세요.</p>';
+  document.body.appendChild(dlg);
+  var img = dlg.querySelector('.ph-frame img'), title = dlg.querySelector('.ph-title'), cap = dlg.querySelector('.ph-cap'),
+      fc = dlg.querySelector('figcaption'), prev = dlg.querySelector('.ph-prev'), next = dlg.querySelector('.ph-next'), pos = dlg.querySelector('.ph-pos');
+  var cur = null, group = [], opener = null;
+  var KIND = {ext: '외장 컬러', int: '실내 시트·소재', eq: '장비 구성'};
+  function show(b){
+    cur = b;
+    var list = b.closest('.opt-list');
+    group = list ? Array.prototype.slice.call(list.querySelectorAll('.opt-ph[data-ph]')) : [b];
+    var i = group.indexOf(b), k = b.getAttribute('data-pk') || '';
+    var panel = b.closest('.trim-panel'), tn = panel && panel.querySelector('h2');
+    title.innerHTML = '';
+    var sm = document.createElement('small'); sm.textContent = (KIND[k] || '') + (tn ? ' · ' + tn.textContent : ''); title.appendChild(sm);
+    title.appendChild(document.createTextNode(b.getAttribute('data-pt') || ''));
+    dlg.setAttribute('data-k', k);
+    var swOnly = /\/sw-[^/]+$/.test(b.getAttribute('data-ph'));
+    if (swOnly) dlg.setAttribute('data-sw-only', ''); else dlg.removeAttribute('data-sw-only');
+    img.removeAttribute('src');
+    img.width = +b.getAttribute('data-pw') || 800; img.height = +b.getAttribute('data-phh') || 450;
+    img.alt = (b.getAttribute('data-pt') || '') + ' — 공식 이미지';
+    img.src = b.getAttribute('data-ph');
+    var pc = b.getAttribute('data-pc') || '', ref = b.hasAttribute('data-pref');
+    cap.textContent = swOnly ? '공식 컬러 칩 · ' + pc + ' (차량 렌더링 없음)'
+      : k === 'ext' ? '공식 컨피규레이터 렌더링 · ' + pc + (ref ? ' — 색상 참고용 (선택하신 트림과 휠·범퍼·그릴 디자인이 다를 수 있습니다)' : '')
+      : k === 'int' ? '공식 컨피규레이터 실내 렌더링 · ' + pc + (ref ? ' — 시트 색상·소재 참고용 (대시보드 트림·스티어링 휠은 트림별로 다릅니다)' : '')
+      : '공식 컨피규레이터 사양 이미지 · ' + pc + ' — 같은 모델 시리즈 공통 이미지, 실제 적용 여부는 트림 표 기준';
+    var old = fc.querySelector('img'); if (old) old.remove();
+    var sw = b.getAttribute('data-psw');
+    if (sw) { var s = document.createElement('img'); s.src = sw; s.alt = ''; s.width = 32; s.height = 32; fc.insertBefore(s, cap); }
+    prev.disabled = i <= 0; next.disabled = i < 0 || i >= group.length - 1;
+    pos.textContent = group.length > 1 ? (i + 1) + ' / ' + group.length : '';
+  }
+  function open(b){
+    opener = b; show(b);
+    if (typeof dlg.showModal === 'function') { if (!dlg.open) dlg.showModal(); } else dlg.setAttribute('open', '');
+    dlg.querySelector('.ph-x').focus();
+  }
+  function close(){ if (typeof dlg.close === 'function' && dlg.open) dlg.close(); else dlg.removeAttribute('open'); }
+  function step(d){ var i = group.indexOf(cur) + d; if (i >= 0 && i < group.length) { show(group[i]); opener = group[i]; } }
+  btns.forEach(function(b){ b.addEventListener('click', function(){ open(b); }); });
+  dlg.querySelector('.ph-x').addEventListener('click', close);
+  prev.addEventListener('click', function(){ step(-1); }); next.addEventListener('click', function(){ step(1); });
+  dlg.addEventListener('click', function(e){ if (e.target === dlg) close(); });   // backdrop
+  dlg.addEventListener('keydown', function(e){
+    if (e.key === 'ArrowLeft') { step(-1); e.preventDefault(); } else if (e.key === 'ArrowRight') { step(1); e.preventDefault(); }
+    else if (e.key === 'Escape' && !dlg.showModal) close();
+  });
+  dlg.addEventListener('close', function(){ if (opener && document.contains(opener)) opener.focus(); });
+  img.addEventListener('error', function(){ if (img.getAttribute('src')) { img.removeAttribute('src'); cap.textContent = '이미지를 불러오지 못했습니다.'; } });
+})();
