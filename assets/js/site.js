@@ -1,3 +1,27 @@
+/* 월 할인 menu label — keeps "<M>월 할인" on the current Asia/Seoul month even before the next rebuild.
+   The build (build/site.py) writes the correct label into the static HTML; this only rolls it over on the 1st (KST). */
+(function(){
+  'use strict';
+  function kstMonth(){
+    try { return parseInt(new Intl.DateTimeFormat('en-US', {timeZone: 'Asia/Seoul', month: 'numeric'}).format(new Date()), 10); }
+    catch (e) { return new Date(Date.now() + 9 * 3600e3).getUTCMonth() + 1; }
+  }
+  function apply(){
+    var m = kstMonth(); if (!(m >= 1 && m <= 12)) return;
+    var re = /\d{1,2}월 할인/g, lab = m + '월 할인';
+    Array.prototype.forEach.call(document.querySelectorAll('[data-month-label]'), function(el){
+      var at = el.getAttribute('data-month-label');
+      if (at) { var v = el.getAttribute(at); if (v != null) el.setAttribute(at, v.replace(re, lab)); }
+      else if (el.tagName === 'TITLE') document.title = document.title.replace(re, lab);
+      else if (!el.children.length) el.textContent = el.textContent.replace(re, lab);
+    });
+  }
+  apply();
+  // tab left open across midnight KST: re-apply shortly after the next KST midnight
+  var now = Date.now(), k = new Date(now + 9 * 3600e3);
+  var msToMidnight = 864e5 - ((k.getUTCHours() * 60 + k.getUTCMinutes()) * 60 + k.getUTCSeconds()) * 1e3 - k.getUTCMilliseconds();
+  setTimeout(apply, msToMidnight + 2000);
+})();
 (function(){
   'use strict';
   var C = window.SITE_CONFIG || {};

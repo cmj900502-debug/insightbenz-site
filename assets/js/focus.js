@@ -1,4 +1,4 @@
-/* 이달의 포커스 할인 — benefit selector: highlights applicable benefit sections. No price calculation. */
+/* 포커스 모델 (focus.html) — benefit selector: highlights applicable benefit sections. No price calculation. */
 (function () {
   var box = document.getElementById('benefit-selector'); if (!box) return;
   var out = document.getElementById('benefit-out');
