@@ -1,31 +1,35 @@
-/* 방문자 배지 — GoatCounter public counter (site total, https://www.goatcounter.com/help/visitor-counter).
-   data-vc = https://insightbenz.goatcounter.com · data-vc-range = today | week | all (set by build/site.py VC_BADGE).
-   Read-only: this file never counts anything (counting is GoatCounter's count.js).
-   The badge stays hidden unless GoatCounter returns a real number ≥ 1 — no placeholder, no fallback number. */
+/* 오늘 방문 badge — every page view today (Asia/Seoul day), refreshes and repeat visits included.
+   Source: Abacus free hit counter (https://abacus.jasoncameron.dev, no signup/token; CORS *).
+   data-vc = API base · data-vc-ns = namespace · key = "hits-YYYYMMDD" in KST → new key (= reset) at 00:00 KST.
+   • normal browsers: GET /hit/<ns>/<key> once per page load → returns the new value, shown at once (1 on the first view)
+   • automated browsers (navigator.webdriver), bot user agents, localhost / 127.* / file: → GET /get/<ns>/<key> (read only, never counts)
+   • any failure / timeout (6 s) / odd value / key not created yet (404 on read) → badge stays hidden, no error thrown. */
 (function(){
   'use strict';
   var els = document.querySelectorAll('.vc[data-vc]');
   if (!els.length || !window.fetch) return;
-  var base = els[0].getAttribute('data-vc'), range = els[0].getAttribute('data-vc-range'), q = '';
-  if (range === 'today') {
-    // GoatCounter only accepts a date (YYYY-MM-DD, read as UTC 00:00) — see README for what this covers
-    var day;
-    try { day = new Intl.DateTimeFormat('en-CA', {timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit'}).format(new Date()); }
-    catch (e) { day = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10); }
-    if (!/^\d{4}-\d\d-\d\d$/.test(day)) return;
-    q = '?start=' + day;
-  } else if (range === 'week') q = '?start=week';
-  else if (range !== 'all') return;
+  var api = els[0].getAttribute('data-vc'), ns = els[0].getAttribute('data-vc-ns');
+  if (els[0].getAttribute('data-vc-range') !== 'today' || !api || !/^[A-Za-z0-9_.-]{3,64}$/.test(ns || '')) return;
+  var day;
+  try {
+    var p = {};
+    new Intl.DateTimeFormat('en-US', {timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit'})
+      .formatToParts(new Date()).forEach(function(x){ p[x.type] = x.value; });
+    day = p.year + p.month + p.day;
+  } catch (e) { day = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10).replace(/-/g, ''); }
+  if (!/^\d{8}$/.test(day)) return;
+  var BOT = /bot|crawl|spider|slurp|bingpreview|facebookexternalhit|embedly|kakaotalk-scrap|yeti|daum|headless|phantom|puppeteer|playwright|selenium|lighthouse|pagespeed|gtmetrix/i;
+  var T = window.__VC_TEST__ || {};   // QA hook only (qa/interact.py sets it via an init script; the counter service is stubbed there)
+  var local = !T.allowLocal && (location.protocol === 'file:' || /^(localhost|127\.\d+\.\d+\.\d+|0\.0\.0\.0|\[::1\]|)$/.test(location.hostname));
+  var readOnly = local || (!T.allowBot && (navigator.webdriver === true || BOT.test(navigator.userAgent || '')));
+  var url = api + (readOnly ? '/get/' : '/hit/') + ns + '/hits-' + day;
   var ctl = window.AbortController ? new AbortController() : null;
   if (ctl) setTimeout(function(){ ctl.abort(); }, 6000);
-  fetch(base + '/counter/TOTAL.json' + q, {credentials: 'omit', signal: ctl ? ctl.signal : undefined})
+  fetch(url, {cache: 'no-store', credentials: 'omit', signal: ctl ? ctl.signal : undefined})
     .then(function(r){ return r.ok ? r.json() : null; })
     .then(function(d){
-      if (!d || (typeof d.count !== 'string' && typeof d.count !== 'number')) return;
-      var s = String(d.count).replace(/[\s,.'\u00a0\u202f\u2009]/g, '');   // GoatCounter formats with a thousands separator
-      if (!/^\d{1,9}$/.test(s)) return;
-      var n = parseInt(s, 10);
-      if (!(n >= 1)) return;
+      var n = d && d.value;
+      if (typeof n !== 'number' || !isFinite(n) || n < 0 || n % 1 || n > 1e9) return;
       var t = n.toLocaleString('ko-KR');
       for (var i = 0; i < els.length; i++) {
         var b = els[i].querySelector('.vc-n');
