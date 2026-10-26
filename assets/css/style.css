@@ -600,9 +600,10 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .field input[type=file]::file-selector-button{font:inherit;font-size:13.5px;font-weight:600;margin-right:12px;padding:6px 12px;border:1px solid var(--line-2);border-radius:var(--r);background:var(--surface);color:var(--head);cursor:pointer}
 .check .req{color:var(--head)}
 
-/* ---------- 오늘 방문자 badge (header, left of 상담 신청; hidden until /api/visitors returns a real count) ---------- */
+/* ---------- 방문자 badge (GoatCounter; build/site.py VC_BADGE). Desktop ≥1180: inside the menu, right after 차민재 팀장 (.vc-d).
+   Mobile/tablet <1180: top row, left of 상담 신청 (.vc-m). Both hidden until assets/js/visitors.js gets a real count. ---------- */
 .sh-act{grid-area:cta;display:flex;align-items:center;gap:10px;min-width:0}
-.vc{display:inline-flex;align-items:center;gap:6px;height:30px;padding:0 11px 0 10px;border:1px solid #3a3934;border-radius:999px;background:#16161a;font-size:12.5px;line-height:1;color:#d6d2c8;white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:.01em}
+.vc{display:inline-flex;align-items:center;gap:6px;height:30px;padding:0 11px 0 10px;border:1px solid #3a3934;border-radius:999px;background:#16161a;font-size:12.5px;line-height:1;color:#d6d2c8;white-space:nowrap;font-variant-numeric:tabular-nums;letter-spacing:.01em;flex:none}
 .vc[hidden]{display:none!important}
 .vc b{color:#fff;font-weight:700;margin-left:1px}
 .vc-c{color:#d6d2c8}
@@ -610,12 +611,16 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .vc-dot::after{content:"";position:absolute;inset:-3px;border-radius:50%;border:1px solid var(--champ);opacity:0;animation:vc-pulse 2.4s ease-out infinite}
 @keyframes vc-pulse{0%{transform:scale(.6);opacity:.7}100%{transform:scale(1.9);opacity:0}}
 @media(prefers-reduced-motion:reduce){.vc-dot::after{animation:none}}
-@media(max-width:520px){.sh-in:has(.vc:not([hidden])) .wordmark span{display:none}.vc{height:28px;padding:0 9px 0 8px;font-size:12px}.sh-act{gap:8px}}
+.vc-d{display:none!important}
+@media(max-width:520px){.sh-in:has(.vc-m:not([hidden])) .wordmark span{display:none}.vc{height:28px;padding:0 9px 0 8px;font-size:12px}.sh-act{gap:8px}}
 @media(max-width:359px){.vc-l2{display:none}}
-@media(min-width:1180px){.vc{height:32px}}
-/* one-row header with the visitor badge: tighten gaps on 1180–1399, compact badge label on 1180–1279 */
-@media(min-width:1180px) and (max-width:1399px){.sh-in{column-gap:20px;padding:0 24px}}
-@media(min-width:1180px) and (max-width:1279px){.sh-in:has(.vc:not([hidden])) .menu a{padding:0 8px}.sh-in:has(.vc:not([hidden])) .menu a::after{left:8px;right:8px}.vc-l2{display:none}}
+@media(min-width:1180px){
+  .vc-m{display:none!important}
+  .vc-d:not([hidden]){display:inline-flex!important;align-self:center;height:30px;margin-left:6px}
+}
+/* one-row header with the badge in the menu: tighten gaps on 1180–1399, compact label ("오늘 N명") on 1180–1279 */
+@media(min-width:1180px) and (max-width:1399px){.sh-in:has(.vc-d:not([hidden])){column-gap:20px;padding:0 24px}.sh-in:has(.vc-d:not([hidden])) .menu a{padding:0 9px}.sh-in:has(.vc-d:not([hidden])) .menu a::after{left:9px;right:9px}}
+@media(min-width:1180px) and (max-width:1279px){.sh-in:has(.vc-d:not([hidden])) .menu a{padding:0 7px}.sh-in:has(.vc-d:not([hidden])) .menu a::after{left:7px;right:7px}.vc-d .vc-l2{display:none}.vc-d:not([hidden]){margin-left:4px;padding:0 9px 0 8px}}
 /* ---------- home hero v4: zoomed-out S-Class, whole car visible (images from build/hero_derive.py) ---------- */
 @media(max-width:899px){
   .home-hero{flex-direction:column;align-items:stretch;min-height:0}
