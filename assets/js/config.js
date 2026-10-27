@@ -23,5 +23,5 @@ window.SITE_CONFIG = {
   photo:      "assets/img/rep/rep.jpg",   // 프로필 사진 경로 예: "assets/img/profile.jpg" (사이트 루트 기준) — 비우면 이니셜 ‘차’ 아바타 표시
   siteUrl:    "https://insightbenz.co.kr/", // 사이트 주소 — canonical·og:url·og:image(assets/img/og-image.jpg)·sitemap.xml·robots.txt 생성
   naverVerification:  "1da62e5718414d47232250f9f36690f2ef79d9ef",   // [네이버 서치어드바이저 content 값] — 채우면 홈 <head> 에 <meta name="naver-site-verification"> 추가
-  googleVerification: ""    // [구글 서치콘솔 content 값] — 채우면 홈 <head> 에 <meta name="google-site-verification"> 추가
+  googleVerification: "f5H9jX_2Ergw_UGPePCcsY1jHUIXUQunru0bVLRC7Zk"    // [구글 서치콘솔 content 값] — 채우면 홈 <head> 에 <meta name="google-site-verification"> 추가
 };
