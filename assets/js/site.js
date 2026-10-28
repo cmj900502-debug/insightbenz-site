@@ -254,3 +254,14 @@
   dlg.addEventListener('close', function(){ if (opener && document.contains(opener)) opener.focus(); });
   img.addEventListener('error', function(){ if (img.getAttribute('src')) { img.removeAttribute('src'); cap.textContent = '이미지를 불러오지 못했습니다.'; } });
 })();
+/* 명함 크게 보기 (advisor.html): JS 없으면 링크로 이미지 열림 */
+(function(){
+  var a = document.querySelector('a[data-bizcard]'); if (!a || typeof HTMLDialogElement !== 'function') return;
+  var d = document.createElement('dialog'); d.className = 'bc-dlg';
+  d.innerHTML = '<img alt="" decoding="async"><button type="button" aria-label="닫기">×</button>';
+  document.body.appendChild(d);
+  var im = d.querySelector('img'); im.alt = (a.querySelector('img') || {}).alt || '';
+  d.querySelector('button').addEventListener('click', function(){ d.close(); });
+  d.addEventListener('click', function(e){ if (e.target === d) d.close(); });
+  a.addEventListener('click', function(e){ e.preventDefault(); im.src = a.getAttribute('href'); d.showModal(); });
+})();
