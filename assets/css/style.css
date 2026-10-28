@@ -873,3 +873,54 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 @media(min-width:1180px) and (max-width:1279px){.sh-in:has(.vc-d:not([hidden])){padding:0 16px;column-gap:14px}.sh-kakao{padding:0 10px}.sh-in:has(.vc-d:not([hidden])) .sh-cta{padding:0 12px}.sh-act{gap:6px}}
 @media(min-width:1400px){.sh-kakao{min-height:44px;padding:0 14px;font-size:15px}.sh-in:has(.vc-d:not([hidden])) .menu{gap:2px}.sh-in:has(.vc-d:not([hidden])){column-gap:20px}}
 @media(max-width:339px){.sh-kakao{padding:0;width:36px;justify-content:center}.sh-kakao span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.sh-kakao .kk-ic{width:18px;height:18px}}
+/* 이달의 신차 — GLC · CLA · GLB electric (build/newcars.py): home #new-cars block + new-cars.html */
+.nc-home{display:grid;gap:28px;align-items:start}
+@media(min-width:900px){.nc-home{grid-template-columns:minmax(260px,320px) 1fr;gap:44px}}
+.nc-hv,.nc-pv{margin:0}
+.nc-vid{position:relative;aspect-ratio:9/16;background:#0b0b0c;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.nc-vid video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;cursor:pointer}
+.nc-hv figcaption,.nc-pv figcaption{font-size:12px;color:var(--muted);margin-top:8px;text-align:center}
+@media(max-width:899px){.nc-hv{max-width:300px;width:100%;margin:0 auto}}
+.nc-pv{max-width:340px;margin:0 auto}
+.nc-list{display:grid;gap:18px}
+.nc-card{display:grid;grid-template-columns:minmax(0,200px) 1fr;gap:18px;padding:0 0 18px;border-bottom:1px solid var(--line)}
+.nc-pic{display:block;aspect-ratio:3/2;overflow:hidden;border-radius:var(--r);background:var(--surface);border:1px solid var(--line)}
+.nc-pic img{width:100%;height:100%;object-fit:cover;max-width:none}
+.nc-body{min-width:0}
+.nc-body .mc-k{margin:0 0 4px}
+.nc-body h3{font-family:var(--serif);font-size:20px;margin:0 0 4px}
+.nc-body h3 a{text-decoration:none}
+.nc-body h3 a:hover{text-decoration:underline;text-decoration-color:var(--accent)}
+.nc-price{margin:0 0 8px}
+.nc-price b{font-size:19px;color:var(--head)}
+.nc-price small{font-size:12.5px;color:var(--muted)}
+.nc-chips{list-style:none;margin:0 0 12px;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.nc-chips li{border:1px solid var(--line-2);border-radius:var(--r);padding:4px 10px;font-size:13px;color:var(--text);background:var(--surface-2)}
+.nc-act{display:flex;flex-wrap:wrap;gap:8px}
+.nc-act .btn{min-height:40px;padding:0 16px;font-size:14px;margin:0}
+.nc-note{font-size:12.5px;color:var(--muted);margin:0}
+.nv-sub{font-family:var(--serif);font-size:19px;margin:46px 0 18px;padding-top:24px;border-top:1px solid var(--line)}
+@media(max-width:640px){.nc-card{grid-template-columns:1fr;gap:12px}.nc-pic{aspect-ratio:16/9}.nc-act .btn{flex:1 1 0}}
+.nc-sec .vx-info .nc-chips{margin:0}
+.nc-trims td{white-space:nowrap;text-align:right;font-weight:600;color:var(--head)}
+.nc-trims th{width:auto}
+.nc-extra{margin:14px 0 0;padding:0 0 0 18px;display:grid;gap:4px;font-size:14px;color:var(--text-2)}
+.nc-jump{margin-top:22px}
+.nc-jump small{font-size:12px}
+.nc-hcta{margin-top:22px}
+@media(max-width:640px){.nc-trims td{white-space:nowrap;padding-left:10px}.nc-trims th{width:auto;padding-right:6px}.nc-hcta .btn{flex:1 1 0}}
+.nc-jump a span{white-space:nowrap}
+@media(max-width:640px){.nc-jump a{flex-direction:column;align-items:flex-start;gap:2px;padding-right:10px}}
+/* 'NEW 신차' menu item — small red NEW tag (white on #b5132b ≈ 6.5:1) */
+.nav-new{display:inline-block;font-family:var(--sans);font-size:10px;font-weight:800;line-height:1;letter-spacing:.04em;color:#fff;background:#b5132b;padding:3px 4px 2px;border-radius:2px;vertical-align:.18em;margin-right:3px}
+.sf-links .nav-new{font-size:9.5px}
+/* 이달의 신차 — 일렉트릭 naming sub-line + per-model press photo gallery (2026-10-28) */
+.nc-en{font-size:12.5px;color:var(--muted);margin:0 0 6px;letter-spacing:.01em}
+.nc-gal{margin:28px 0 6px}
+.nc-gal-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.nc-gal figure{margin:0;min-width:0}
+.nc-gal img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;max-width:none;height:auto;border-radius:var(--r);background:var(--surface);border:1px solid var(--line)}
+.nc-gal figcaption{font-size:12.5px;color:var(--text-2);margin-top:6px}
+.nc-gal-cr{font-size:12px;color:var(--muted);margin:10px 0 0}
+.nc-gal-cr a{color:inherit}
+@media (max-width:760px){.nc-gal-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
