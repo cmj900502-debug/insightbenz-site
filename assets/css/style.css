@@ -971,3 +971,10 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .bc-dlg img{display:block;width:100%;height:auto;border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
 .bc-dlg button{position:absolute;top:8px;right:8px;width:40px;height:40px;border-radius:50%;border:0;background:rgba(0,0,0,.6);color:#fff;font-size:22px;cursor:pointer}
 @media(min-width:900px){.hh-in>.hh-msg{max-width:min(760px,60vw)}.hh-msg{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin-top:16px}.hh-msg .hh-lead{margin:0;flex:none;max-width:none}.hh-msg .hh-nat{margin:0}}
+/* 이달의 신차 — GLC · CLA real showroom photos (차민재 팀장 직접 촬영, 2026-10-28): portrait 3:4 tiles + lightbox (assets/js/gallery.js) */
+.nc-gal-real .nc-gal-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.nc-gal-real .nc-zoom{display:block;position:relative;overflow:hidden;border-radius:var(--r);cursor:zoom-in}
+.nc-gal-real img{aspect-ratio:3/4;object-fit:cover;transition:transform .5s ease}
+@media(hover:hover){.nc-gal-real .nc-zoom:hover img{transform:scale(1.03)}}
+.nc-gal-real .nc-zoom:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:760px){.nc-gal-real .nc-gal-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
