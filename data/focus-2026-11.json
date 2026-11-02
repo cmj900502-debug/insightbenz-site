@@ -9,13 +9,6 @@
  "disclaimer": "할인율은 조건 충족 시 적용되며, 최종 금액은 재고·결제 방식에 따라 달라집니다. 정확한 견적은 차민재 팀장에게 문의해 주세요.",
  "highlights": [
   {
-   "kicker": "E-Class",
-   "title": "E 200 Exclusive",
-   "big": "최대 20%",
-   "sub": "현금 15% + 벤츠 금융 이용 시 5% · 24개월 무이자 할부 대상",
-   "href": "cars/e-class.html"
-  },
-  {
    "kicker": "SUV Coupé · MY27",
    "title": "MY27 GLC 300 4MATIC Coupé",
    "big": "7%",
@@ -50,6 +43,13 @@
    "sub": "현금 14% + 벤츠 금융 이용 시 E 200 Exclusive +4% · AMG Line +3%",
    "href": "cars/e-class.html",
    "promo": true
+  },
+  {
+   "kicker": "E-Class · 26년식 (MY26)",
+   "title": "MY26 E 200 Exclusive (26년식)",
+   "big": "최대 20%",
+   "sub": "현금 15% + 벤츠 금융 이용 시 5% · 24개월 무이자 할부 대상",
+   "href": "cars/e-class.html"
   }
  ],
  "raised": [
@@ -123,13 +123,13 @@
    "monthly": "24개월"
   },
   {
-   "model": "E 200 Exclusive",
+   "model": "MY26 E 200 Exclusive (26년식)",
    "cash": "15%",
    "fin": "+5%",
    "monthly": "24개월"
   },
   {
-   "model": "E 200 AMG Line",
+   "model": "MY26 E 200 AMG Line",
    "cash": "15%",
    "fin": "+4%",
    "monthly": "24개월"
@@ -512,7 +512,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "glb"
+   "slug": "glb",
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -525,7 +526,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "mercedes-amg-glb"
+   "slug": "mercedes-amg-glb",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -590,7 +592,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "c-class"
+   "slug": "c-class",
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -603,7 +606,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "c-class"
+   "slug": "c-class",
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -642,7 +646,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "e-class"
+   "slug": "e-class",
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -655,7 +660,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "e-class"
+   "slug": "e-class",
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -694,7 +700,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "e-class"
+   "slug": "e-class",
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -707,7 +714,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "e-class"
+   "slug": "e-class",
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -772,7 +780,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "mercedes-amg-e-class"
+   "slug": "mercedes-amg-e-class",
+   "nif": "24·36개월"
   },
   {
    "my": "MY27",
@@ -785,7 +794,8 @@
    "conquest": "—",
    "raised": false,
    "note": "2027년식을 2026년식 차량가격으로! 최대 18% 할인 · 벤츠 금융 24개월 무이자 할부 대상",
-   "slug": "e-class"
+   "slug": "e-class",
+   "nif": "24개월"
   },
   {
    "my": "MY27",
@@ -798,7 +808,8 @@
    "conquest": "—",
    "raised": false,
    "note": "2027년식을 2026년식 차량가격으로! 최대 17% 할인 · 벤츠 금융 24개월 무이자 할부 대상",
-   "slug": "e-class"
+   "slug": "e-class",
+   "nif": "24개월"
   },
   {
    "my": "MY27",
@@ -876,7 +887,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "s-class"
+   "slug": "s-class",
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -928,7 +940,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "mercedes-amg-s-class"
+   "slug": "mercedes-amg-s-class",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1409,7 +1422,8 @@
    "conquest": "+1%",
    "raised": false,
    "note": "",
-   "slug": "glc"
+   "slug": "glc",
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -1422,7 +1436,8 @@
    "conquest": "+1%",
    "raised": false,
    "note": "",
-   "slug": "glc"
+   "slug": "glc",
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -1461,7 +1476,8 @@
    "conquest": "+1%",
    "raised": false,
    "note": "",
-   "slug": "glc-coupe"
+   "slug": "glc-coupe",
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -1474,7 +1490,8 @@
    "conquest": "+1%",
    "raised": false,
    "note": "",
-   "slug": "glc-coupe"
+   "slug": "glc-coupe",
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -1565,7 +1582,8 @@
    "conquest": "+1%",
    "raised": true,
    "note": "10월 5% → 11월 7%",
-   "slug": "glc-coupe"
+   "slug": "glc-coupe",
+   "nif": "24개월"
   },
   {
    "my": "MY27",
@@ -1578,7 +1596,8 @@
    "conquest": "+1%",
    "raised": true,
    "note": "10월 5% → 11월 7%",
-   "slug": "glc-coupe"
+   "slug": "glc-coupe",
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -1591,7 +1610,8 @@
    "conquest": "+1%",
    "raised": false,
    "note": "",
-   "slug": "gle"
+   "slug": "gle",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1617,7 +1637,8 @@
    "conquest": "+1%",
    "raised": false,
    "note": "",
-   "slug": "gle"
+   "slug": "gle",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1630,7 +1651,8 @@
    "conquest": "+1%",
    "raised": false,
    "note": "",
-   "slug": "gle"
+   "slug": "gle",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1643,7 +1665,8 @@
    "conquest": "+1%",
    "raised": false,
    "note": "",
-   "slug": "gle-coupe"
+   "slug": "gle-coupe",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1656,7 +1679,8 @@
    "conquest": "+1%",
    "raised": false,
    "note": "",
-   "slug": "gle-coupe"
+   "slug": "gle-coupe",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1669,7 +1693,8 @@
    "conquest": "+1%",
    "raised": false,
    "note": "",
-   "slug": "gle-coupe"
+   "slug": "gle-coupe",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1682,7 +1707,8 @@
    "conquest": "+1%",
    "raised": false,
    "note": "",
-   "slug": "mercedes-amg-gle"
+   "slug": "mercedes-amg-gle",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1695,7 +1721,8 @@
    "conquest": "+1%",
    "raised": false,
    "note": "",
-   "slug": "mercedes-amg-gle-coupe"
+   "slug": "mercedes-amg-gle-coupe",
+   "nif": "24·36개월"
   },
   {
    "my": "MY27",
@@ -1734,7 +1761,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "gls"
+   "slug": "gls",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1760,7 +1788,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "gls"
+   "slug": "gls",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1773,7 +1802,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "mercedes-amg-gls"
+   "slug": "mercedes-amg-gls",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1786,7 +1816,8 @@
    "conquest": "+7%",
    "raised": false,
    "note": "",
-   "slug": "mercedes-maybach-gls"
+   "slug": "mercedes-maybach-gls",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1838,7 +1869,8 @@
    "conquest": "—",
    "raised": false,
    "note": "G 63 스페셜 기프트 대상 (11월)",
-   "slug": "g-class"
+   "slug": "g-class",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1903,7 +1935,8 @@
    "conquest": "—",
    "raised": false,
    "note": "G 63 스페셜 기프트 대상 (11월) · 11월 신규",
-   "slug": "g-class"
+   "slug": "g-class",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1968,7 +2001,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "eqe-suv"
+   "slug": "eqe-suv",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1981,7 +2015,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "eqe"
+   "slug": "eqe",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1994,7 +2029,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "eqe"
+   "slug": "eqe",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -2007,7 +2043,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "eqs-suv"
+   "slug": "eqs-suv",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -2020,7 +2057,8 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "eqs-suv"
+   "slug": "eqs-suv",
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -2278,5 +2316,120 @@
     "MY27 GLC 300 쿠페 AVANTGARDE · AMG Line 7% 지원(11월 상향, 10월 5%) · MY27 GLC 300 은 벤츠 금융 이용 시 1% 추가"
    ]
   ]
+ },
+ "interest_free": {
+  "id": "interest-free",
+  "kicker": "Mercedes-Benz 파이낸셜 무이자 할부 · 11월",
+  "title": "11월 24개월 · 36개월 무이자 할부",
+  "lead": "Mercedes-Benz 파이낸셜 할부로 구매하시면 대상 모델에 한해 이자 없이 나눠 내실 수 있습니다.",
+  "groups": [
+   {
+    "term": "24개월",
+    "label": "24개월 무이자",
+    "items": [
+     [
+      "C-Class",
+      "MY26 C 200 Avantgarde · C 200 AMG Line"
+     ],
+     [
+      "E-Class",
+      "MY26 E 200 Exclusive · E 200 AMG Line · E 300 4MATIC (Exclusive · AMG Line)"
+     ],
+     [
+      "E-Class",
+      "MY27 E 200 Exclusive · E 200 AMG Line"
+     ],
+     [
+      "S-Class",
+      "MY26 S 450 4MATIC (SWB)"
+     ],
+     [
+      "GLC",
+      "MY26 GLC 300 4MATIC Avantgarde · AMG Line (SUV · 쿠페)"
+     ],
+     [
+      "GLC",
+      "MY27 GLC 300 4MATIC 쿠페"
+     ],
+     [
+      "Compact",
+      "MY26 GLB 250 4MATIC"
+     ]
+    ]
+   },
+   {
+    "term": "24·36개월",
+    "label": "24·36개월 무이자",
+    "items": [
+     [
+      "GLE",
+      "MY26 GLE 350 4MATIC · GLE 450 4MATIC (SUV · 쿠페) · GLE 450 d 4MATIC 쿠페"
+     ],
+     [
+      "GLS",
+      "MY26 GLS 450 4MATIC · GLS 580 4MATIC"
+     ],
+     [
+      "Maybach",
+      "MY26 Mercedes-Maybach GLS 600"
+     ],
+     [
+      "AMG",
+      "MY26 Mercedes-AMG GLB 35 4MATIC · E 53 4MATIC+ · S 63 E PERFORMANCE"
+     ],
+     [
+      "AMG",
+      "MY26 Mercedes-AMG GLE 53 4MATIC+ (SUV · 쿠페) · GLS 63 4MATIC+"
+     ],
+     [
+      "AMG",
+      "MY26 · MY27 Mercedes-AMG G 63"
+     ],
+     [
+      "EQ",
+      "MY26 EQE 350+ · EQE 350+ SUV · EQE 500 4MATIC"
+     ],
+     [
+      "EQ",
+      "EQS 450 4MATIC SUV · EQS 580 4MATIC SUV (MY26 · MY27)"
+     ],
+     [
+      "EQ",
+      "MY27 EQS 400"
+     ]
+    ]
+   }
+  ],
+  "notes": [
+   "Mercedes-Benz 파이낸셜 할부 상품 이용 시 적용 · 11월 프로모션 기간 2026.11.1 ~ 11.30",
+   "선수금 조건은 모델별로 다릅니다 — 견적 시 모델별 선수금과 기간을 정확히 안내해 드립니다.",
+   "다른 할인·금융 조건과의 중복 여부와 최종 조건은 상담 시 확인해 주세요."
+  ],
+  "cta": "내 차종 무이자 할부 조건 물어보기"
+ },
+ "feature_e200": {
+  "id": "e200-my27",
+  "badge": "27년식 · MY27",
+  "kicker": "E-Class · 27년식 (MY27) · 11월 1일 ~ 30일",
+  "title": "MY27(27년식) E 200",
+  "headline": "2027년식 E 200을 2026년식 차량가격으로!",
+  "rates": [
+   {
+    "name": "E 200 Exclusive",
+    "big": "최대 18%",
+    "break": "현금 14% + 벤츠 금융 이용 시 4%"
+   },
+   {
+    "name": "E 200 AMG Line",
+    "big": "최대 17%",
+    "break": "현금 14% + 벤츠 금융 이용 시 3%"
+   }
+  ],
+  "points": [
+   "Mercedes-Benz 파이낸셜 24개월 무이자 할부 대상 (MY27 E 200 Exclusive · AMG Line, 선수금 조건은 상담 시 확인)"
+  ],
+  "note": "할인율은 2027년식(MY27) 기준이며, 2026년식(MY26)과 연식별 조건이 다릅니다.",
+  "href": "cars/e-class.html",
+  "stock_q": "E 200"
  }
 }
