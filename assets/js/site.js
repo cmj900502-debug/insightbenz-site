@@ -265,3 +265,12 @@
   d.addEventListener('click', function(e){ if (e.target === d) d.close(); });
   a.addEventListener('click', function(e){ e.preventDefault(); im.src = a.getAttribute('href'); d.showModal(); });
 })();
+/* 홈 무이자 할부 블록 (build/nointerest.py compact): 휴대폰(≤768px)에서 그룹별 앞 3개 차종만 보이고 나머지·유의사항은 "전체 차종 보기"로 펼침. JS 없으면 전부 보임 */
+(function(){
+  var box = document.querySelector('.ni-home'), b = box && box.querySelector('.ni-tgl'); if (!b) return;
+  b.hidden = false; box.classList.add('ni-c');
+  b.addEventListener('click', function(){
+    var open = box.classList.toggle('ni-c') === false; b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (!open) { var r = box.getBoundingClientRect(); if (r.top < 0) box.scrollIntoView({block: 'start'}); }
+  });
+})();

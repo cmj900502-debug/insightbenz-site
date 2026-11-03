@@ -1027,6 +1027,30 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .ni-cond b{font-weight:700}
 .ni-home-band{padding-top:clamp(36px,5vw,56px);padding-bottom:clamp(36px,5vw,56px)}
 .ni-sep{color:var(--muted)}
+.ni-tgl{display:none}
+@media(max-width:768px){
+.ni-home{padding:18px 14px}
+.ni-home .kicker{font-size:11px;margin-bottom:6px}
+.ni-home .ni-title{font-size:22px;margin-bottom:4px}
+.ni-home .ni-lead{font-size:14px;margin-bottom:12px;line-height:1.5}
+.ni-home .ni-cond{margin:0 0 14px;padding:8px 12px;font-size:14px}
+.ni-home .ni-cols{gap:10px}
+.ni-home .ni-col{padding:12px 12px 4px}
+.ni-home .ni-term{margin:0 0 4px;font-size:15px}.ni-home .ni-term b{font-size:22px}
+.ni-home .ni-list li{display:block;padding:6px 0;font-size:13.5px;line-height:1.45}
+.ni-home .ni-cls{display:inline;font-size:11px;margin-right:6px;padding:0}
+.ni-home.ni-c .ni-x,.ni-home.ni-c .ni-notes{display:none}
+.ni-home .ni-tgl:not([hidden]){display:flex;align-items:center;justify-content:center;gap:6px;width:100%;min-height:44px;margin:12px 0 0;border:1px solid var(--champ);border-radius:999px;background:transparent;color:var(--head);font:inherit;font-size:14.5px;font-weight:700;cursor:pointer}
+.ni-home .ni-tgl::after{content:"";width:7px;height:7px;border:solid var(--champ);border-width:0 2px 2px 0;transform:translateY(-2px) rotate(45deg)}
+.ni-home .ni-tgl[aria-expanded="true"]::after{transform:translateY(2px) rotate(-135deg)}
+.ni-home .ni-tgl-c,.ni-home .ni-tgl[aria-expanded="true"] .ni-tgl-o{display:none}
+.ni-home .ni-tgl[aria-expanded="true"] .ni-tgl-c{display:inline}
+.ni-home .ni-notes{font-size:12.5px;margin-top:12px}
+.ni-home .cta-mini{margin-top:12px;padding:10px 0;gap:8px}
+.ni-home .cta-mini p{font-size:14px;width:100%}
+.ni-home .cm-btns{width:100%;flex-wrap:nowrap}.ni-home .cm-btns .btn{flex:1 1 0;min-height:42px;padding:0 10px;justify-content:center;font-size:14px;white-space:nowrap}
+.ni-home .ni-more{font-size:13.5px;line-height:1.6;margin-top:10px}
+}
 .e26-rates{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%}
 .e26-rates li{border:1px solid var(--line-2);border-radius:var(--r);padding:14px 16px;background:var(--surface-2);display:flex;flex-direction:column;gap:2px;text-align:left}
 .e26-rates .e26-rn{font-size:13.5px;font-weight:600;color:var(--text-2)}
