@@ -1023,6 +1023,10 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .ni-band .ni-box{margin:0}
 @media(max-width:640px){.e26-feat{padding:20px 16px}.e26-num{font-size:64px}.ni-box{padding:20px 14px}.ni-col{padding:14px 14px 8px}.ni-list li{grid-template-columns:1fr;gap:0}.ni-term b{font-size:26px}}
 .focus-hero .ni-box{margin:28px 0 0}
+.ni-cond{margin:-6px 0 20px;padding:10px 14px;border-left:3px solid var(--champ);background:rgba(201,180,138,.14);border-radius:0 var(--r) var(--r) 0;font-size:15px;line-height:1.5;color:var(--head)}
+.ni-cond b{font-weight:700}
+.ni-home-band{padding-top:clamp(36px,5vw,56px);padding-bottom:clamp(36px,5vw,56px)}
+.ni-sep{color:var(--muted)}
 .e26-rates{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%}
 .e26-rates li{border:1px solid var(--line-2);border-radius:var(--r);padding:14px 16px;background:var(--surface-2);display:flex;flex-direction:column;gap:2px;text-align:left}
 .e26-rates .e26-rn{font-size:13.5px;font-weight:600;color:var(--text-2)}
