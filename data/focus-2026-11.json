@@ -19,14 +19,14 @@
    "kicker": "SUV Coupé",
    "title": "GLE 450 4MATIC Coupé",
    "big": "최대 19%",
-   "sub": "현금 15% + 벤츠 금융 이용 시 4% · 24/36개월 무이자 할부 대상",
+   "sub": "현금 15% + 벤츠 금융 이용 시 4% · 24개월 무이자 할부 대상 (선수금 최대 65%)",
    "href": "cars/gle-coupe.html"
   },
   {
    "kicker": "Mercedes-AMG",
    "title": "AMG 무이자 할부",
    "big": "24/36개월 무이자",
-   "sub": "GLB 35 · E 53 · S 63 · GLE 53 · GLS 63 · G 63 — 벤츠 금융 할부 이용 시",
+   "sub": "E 53 · S 63 · GLE 53 · GLS 63 · G 63 — 벤츠 금융 할부 · 24개월 선수금 45% / 36개월 선수금 60% (GLB 35 는 24개월)",
    "href": "#amg-maybach"
   },
   {
@@ -251,7 +251,7 @@
  ],
  "finance_notes": [
   "‘벤츠 금융 이용 시 추가 할인’은 메르세데스-벤츠 파이낸셜의 할부·금융리스·운용리스·장기렌트 상품을 이용할 때 모델별로 적용됩니다. MY27 GLC 300 4MATIC 은 +1% 입니다.",
-  "‘무이자 할부’는 벤츠 금융 할부 상품 이용 시 표시된 기간(24개월 또는 24·36개월)에 적용됩니다. 무이자 할부의 선수금 조건은 모델별로 다르니 상담 시 확인해 주세요.",
+  "‘무이자 할부’는 벤츠 금융 할부 상품 이용 시 표시된 기간(24개월 또는 24·36개월)에 적용됩니다. 무이자 할부의 모델별 선수금 조건은 ‘무이자 할부’ 표를 참고해 주세요 (그 외 선수금은 저금리 적용).",
   "EQA · EQB 는 10월의 현금 10% · 금융 추가 4% · 금융 공동 프로그램이 11월에 종료되었습니다.",
   "일반 할부: 신차 교환 보상 3년 · 안심보장할부 · 운용리스: 신차 교환 + 타이어 교환 3년 — 금리와 다른 기간·선수금 조건은 개별 견적으로 안내합니다."
  ],
@@ -332,7 +332,7 @@
    "model": "Mercedes-AMG GLB 35 4MATIC",
    "cells": [
     "9%",
-    "24/36개월"
+    "24개월"
    ]
   },
   {
@@ -527,7 +527,7 @@
    "raised": false,
    "note": "",
    "slug": "mercedes-amg-glb",
-   "nif": "24·36개월"
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -887,8 +887,7 @@
    "conquest": "—",
    "raised": false,
    "note": "",
-   "slug": "s-class",
-   "nif": "24개월"
+   "slug": "s-class"
   },
   {
    "my": "MY26",
@@ -1583,7 +1582,7 @@
    "raised": true,
    "note": "10월 5% → 11월 7%",
    "slug": "glc-coupe",
-   "nif": "24개월"
+   "nif": "24·36개월"
   },
   {
    "my": "MY27",
@@ -1597,7 +1596,7 @@
    "raised": true,
    "note": "10월 5% → 11월 7%",
    "slug": "glc-coupe",
-   "nif": "24개월"
+   "nif": "24·36개월"
   },
   {
    "my": "MY26",
@@ -1638,7 +1637,7 @@
    "raised": false,
    "note": "",
    "slug": "gle",
-   "nif": "24·36개월"
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -1652,7 +1651,7 @@
    "raised": false,
    "note": "",
    "slug": "gle",
-   "nif": "24·36개월"
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -1680,7 +1679,7 @@
    "raised": false,
    "note": "",
    "slug": "gle-coupe",
-   "nif": "24·36개월"
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -1694,7 +1693,7 @@
    "raised": false,
    "note": "",
    "slug": "gle-coupe",
-   "nif": "24·36개월"
+   "nif": "24개월"
   },
   {
    "my": "MY26",
@@ -2229,7 +2228,7 @@
    "현금 할인",
    "무이자 할부"
   ],
-  "note": "무이자 할부의 선수금 조건은 모델별로 다릅니다 · 정확한 조건은 견적 시 확인"
+  "note": "무이자 할부: 24개월 선수금 45% · 36개월 선수금 60% 시 (GLB 35 는 24개월 · 선수금 최대 65% 시) · 정확한 조건은 견적 시 확인"
  },
  "offers": {
   "rows": [
@@ -2320,93 +2319,133 @@
  "interest_free": {
   "id": "interest-free",
   "kicker": "Mercedes-Benz 파이낸셜 무이자 할부 · 11월",
-  "title": "11월 24개월 · 36개월 무이자 할부",
-  "lead": "Mercedes-Benz 파이낸셜 할부로 구매하시면 대상 모델에 한해 이자 없이 나눠 내실 수 있습니다.",
+  "title": "11월 무이자 할부 · 선수금 조건",
+  "lead": "Mercedes-Benz 파이낸셜 할부로 구매하시면 아래 선수금 조건에서 대상 모델을 이자 없이 나눠 내실 수 있습니다. 벤츠 금융 추가 할인도 함께 표기했습니다.",
   "condition": "선수금 최대 시 무이자, 그 외는 저금리 적용",
   "groups": [
    {
     "term": "24개월",
     "label": "24개월 무이자",
+    "conds": [
+     "선수금 최대 65%"
+    ],
+    "extra": "벤츠 금융 추가 할인 4%",
     "items": [
+     [
+      "Compact",
+      "MY26 GLB 250 4MATIC · Mercedes-AMG GLB 35 4MATIC"
+     ],
      [
       "C-Class",
       "MY26 C 200 Avantgarde · C 200 AMG Line"
      ],
      [
       "E-Class",
-      "MY26 E 200 Exclusive · E 200 AMG Line · E 300 4MATIC (Exclusive · AMG Line)"
-     ],
-     [
-      "E-Class",
-      "MY27 E 200 Exclusive · E 200 AMG Line"
-     ],
-     [
-      "S-Class",
-      "MY26 S 450 4MATIC (SWB)"
+      "MY26 E 300 4MATIC (Exclusive · AMG Line)"
      ],
      [
       "GLC",
       "MY26 GLC 300 4MATIC Avantgarde · AMG Line (SUV · 쿠페)"
      ],
      [
-      "GLC",
-      "MY27 GLC 300 4MATIC 쿠페"
+      "GLE",
+      "MY26 GLE 450 4MATIC (SUV · 쿠페, 디젤 GLE 450 d 제외)"
+     ]
+    ]
+   },
+   {
+    "term": "24개월",
+    "label": "E 200 24개월 무이자",
+    "sub": "E 200",
+    "conds": [
+     "선수금 최대 75%"
+    ],
+    "items": [
+     [
+      "MY26",
+      "E 200 Exclusive · AMG Line",
+      [
+       "Exclusive 추가 할인 5%",
+       "AMG Line 추가 할인 4%"
+      ]
      ],
      [
-      "Compact",
-      "MY26 GLB 250 4MATIC"
+      "MY27",
+      "E 200 Exclusive · AMG Line",
+      [
+       "Exclusive 추가 할인 4%",
+       "AMG Line 추가 할인 3%"
+      ]
      ]
     ]
    },
    {
     "term": "24·36개월",
     "label": "24·36개월 무이자",
+    "tag": "신규 추가",
+    "conds": [
+     "24개월 선수금 45%",
+     "36개월 선수금 60%"
+    ],
     "items": [
      [
+      "AMG",
+      "Mercedes-AMG E 53 4MATIC+ · S 63 E PERFORMANCE"
+     ],
+     [
+      "GLC",
+      "MY27 GLC 300 4MATIC 쿠페 (27년식)"
+     ],
+     [
       "GLE",
-      "MY26 GLE 350 4MATIC · GLE 450 4MATIC (SUV · 쿠페) · GLE 450 d 4MATIC 쿠페"
+      "GLE 350 4MATIC · GLE 450 d 4MATIC 쿠페 · Mercedes-AMG GLE 53 4MATIC+ (SUV · 쿠페)"
      ],
      [
       "GLS",
-      "MY26 GLS 450 4MATIC · GLS 580 4MATIC"
+      "GLS 전 모델 (Mercedes-AMG GLS 63 4MATIC+ · Mercedes-Maybach GLS 600 포함)"
      ],
      [
-      "Maybach",
-      "MY26 Mercedes-Maybach GLS 600"
-     ],
-     [
-      "AMG",
-      "MY26 Mercedes-AMG GLB 35 4MATIC · E 53 4MATIC+ · S 63 E PERFORMANCE"
-     ],
-     [
-      "AMG",
-      "MY26 Mercedes-AMG GLE 53 4MATIC+ (SUV · 쿠페) · GLS 63 4MATIC+"
-     ],
-     [
-      "AMG",
-      "MY26 · MY27 Mercedes-AMG G 63"
+      "G-Class",
+      "Mercedes-AMG G 63 (G 450 d 제외)"
      ],
      [
       "EQ",
-      "MY26 EQE 350+ · EQE 350+ SUV · EQE 500 4MATIC"
+      "EQE 350+ · EQE 350+ SUV · EQE 500 4MATIC"
      ],
      [
       "EQ",
-      "EQS 450 4MATIC SUV · EQS 580 4MATIC SUV (MY26 · MY27)"
-     ],
-     [
-      "EQ",
-      "MY27 EQS 400"
+      "EQS 450 4MATIC 세단 · EQS 450 4MATIC SUV · EQS 580 4MATIC SUV"
      ]
     ]
    }
   ],
   "notes": [
    "Mercedes-Benz 파이낸셜 할부 상품 이용 시 적용 · 11월 프로모션 기간 2026.11.1 ~ 11.30",
-   "선수금 조건은 모델별로 다릅니다 — 견적 시 모델별 선수금과 기간을 정확히 안내해 드립니다.",
+   "‘추가 할인’은 벤츠 금융 이용 시 적용되는 할인입니다 (포커스 할인표 ‘금융’ 열).",
+   "표기된 선수금에 못 미치면 저금리가 적용됩니다 — 견적 시 모델별 선수금과 기간을 정확히 안내해 드립니다.",
    "다른 할인·금융 조건과의 중복 여부와 최종 조건은 상담 시 확인해 주세요."
   ],
-  "cta": "내 차종 무이자 할부 조건 물어보기"
+  "cta": "내 차종 무이자 할부 조건 물어보기",
+  "rate_only": {
+   "title": "2027년식 · 벤츠 금융 추가 할인만 (일반 금리)",
+   "items": [
+    [
+     "E-Class",
+     "MY27 E 300 4MATIC",
+     "추가 할인 4%"
+    ],
+    [
+     "GLC",
+     "MY27 GLC 300 4MATIC",
+     "추가 할인 1% (쿠페는 무이자 가능)"
+    ],
+    [
+     "Compact",
+     "MY27 GLA 250 4MATIC",
+     "추가 할인 4%"
+    ]
+   ]
+  }
  },
  "feature_e200": {
   "id": "e200-my27",
