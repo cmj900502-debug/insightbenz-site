@@ -162,7 +162,7 @@
    "model": "S 450 4MATIC (SWB)",
    "cash": "7%",
    "fin": "할부 +4% / 리스·렌트 +6%",
-   "monthly": "24개월"
+   "monthly": "—"
   },
   {
    "model": "GLB 250 4MATIC",
@@ -198,7 +198,7 @@
    "model": "MY27 GLC 300 4MATIC Coupé",
    "cash": "7%",
    "fin": "+1%",
-   "monthly": "24개월"
+   "monthly": "24/36개월"
   },
   {
    "model": "GLE 350 4MATIC",
@@ -210,13 +210,13 @@
    "model": "GLE 450 4MATIC · AMG Line (SUV)",
    "cash": "12%",
    "fin": "+4%",
-   "monthly": "24/36개월"
+   "monthly": "24개월"
   },
   {
    "model": "GLE 450 4MATIC Coupé · AMG Line Coupé",
    "cash": "15%",
    "fin": "+4%",
-   "monthly": "24/36개월"
+   "monthly": "24개월"
   },
   {
    "model": "GLE 450 d 4MATIC Coupé",
