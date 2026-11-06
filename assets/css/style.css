@@ -651,15 +651,6 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 @media (max-width:640px){.nv-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.nv figcaption .small{display:none}.nv figcaption h3{font-size:15px}.nv .mc-k{font-size:11px}}
 
 /* MB Korea official launch news (cars/index.html #new — data/mbk/state.json via build/mbk_sync.py) */
-.mbk-news{margin-top:34px;padding-top:22px;border-top:1px solid var(--line)}
-.mbk-news h3{font-size:17px;margin:0 0 12px}
-.mbk-news ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
-.mbk-news li{display:grid;grid-template-columns:86px 1fr;gap:12px;font-size:15px;line-height:1.5}
-.mbk-news time{color:var(--accent);font-variant-numeric:tabular-nums}
-.mbk-news a{color:inherit;text-decoration:underline;text-decoration-color:var(--line-2);text-underline-offset:3px}
-.mbk-news a:hover{text-decoration-color:currentColor}
-.mbk-news .note{margin:14px 0 0}
-@media(max-width:560px){.mbk-news li{grid-template-columns:1fr;gap:0}}
 
 /* The new V-Class — home feature block (#v-class) + cars/v-class.html (build/vclass.py) */
 .nv-link{display:inline-block;margin-top:6px;font-size:13.5px;font-weight:600;color:var(--accent);text-decoration:none}
