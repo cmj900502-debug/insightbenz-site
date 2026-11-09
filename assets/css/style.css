@@ -1068,3 +1068,7 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .ni-only-l li{display:grid;grid-template-columns:88px 1fr;gap:10px;padding:7px 0;border-top:1px solid var(--line);font-size:14px;line-height:1.5}
 @media(max-width:640px){.ni-only{padding:12px 14px 6px}.ni-only-l li{grid-template-columns:1fr;gap:0}.ni-term .ni-sub{font-size:19px}}
 @media(max-width:768px){.ni-home .ni-chips{margin-bottom:6px}.ni-home .ni-chips li{font-size:12.5px;padding:3px 9px}.ni-home .ni-only-l li{display:block;font-size:13.5px}.ni-home.ni-c .ni-only{display:none}}
+.srow .sws{display:inline-flex;flex:none;margin-top:3px}
+.srow .sws .sw{margin-top:0}
+.srow .sws .sw+.sw{margin-left:-5px}
+.fchip .sw,.srow .sw{box-shadow:inset 3px 3px 4px -2px rgba(255,255,255,.28),inset -2px -2px 4px rgba(0,0,0,.35),0 0 0 2px rgba(255,255,255,.06)}

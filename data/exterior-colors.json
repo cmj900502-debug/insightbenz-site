@@ -1,0 +1,37 @@
+{
+ "_about": "전국 재고 외장 색상 점(swatch) — build/stock_maps.py exterior(). Family = colour word found in the stock file's own 외장 색상 text (Korean or English, longest match first; first colour word wins). 'shades' only darken/lighten within that family when the name itself says so (e.g. 그라파이트 = dark grey). A name with no colour word gets the neutral 'other' grey (never white) and is logged by build/update_stock.py ('WARN exterior colour unknown').",
+ "families": [
+  ["white", "화이트", "#f4f4f2"],
+  ["black", "블랙", "#0d0d0d"],
+  ["grey", "그레이", "#6d7275"],
+  ["silver", "실버", "#aab0b5"],
+  ["blue", "블루", "#2f4f86"],
+  ["red", "레드", "#8e1f2a"],
+  ["green", "그린", "#2f6b52"],
+  ["beige", "베이지·골드", "#c9a978"]
+ ],
+ "other": {"label": "기타", "hex": "#7d7d7d"},
+ "tokens": [
+  ["화이트", "white"], ["white", "white"], ["blanc", "white"],
+  ["블랙", "black"], ["black", "black"], ["noir", "black"],
+  ["그레이", "grey"], ["grey", "grey"], ["gray", "grey"],
+  ["실버", "silver"], ["silver", "silver"],
+  ["블루", "blue"], ["blue", "blue"],
+  ["레드", "red"], ["red", "red"],
+  ["그린", "green"], ["green", "green"], ["민트", "green"], ["mint", "green"],
+  ["베이지", "beige"], ["beige", "beige"], ["골드", "beige"], ["gold", "beige"]
+ ],
+ "shades": [
+  ["그라파이트", "grey", "#45494d", "graphite = dark grey"],
+  ["graphite", "grey", "#45494d", "graphite = dark grey"],
+  ["셀레나이트", "grey", "#5a5f63", "selenite grey (metallic, darker than base)"],
+  ["알파인", "grey", "#8f9594", "alpine grey (solid, lighter grey)"],
+  ["클래식 그레이", "grey", "#868a8b", "classic grey (non-metallic, mid grey)"],
+  ["웜 그레이", "grey", "#7f7a73", "warm grey"],
+  ["이리디움", "silver", "#9ca2a7", "iridium silver (darker silver)"],
+  ["노틱", "blue", "#24385c", "nautic blue = dark blue"],
+  ["소다라이트", "blue", "#26407a", "sodalite blue = deep blue"],
+  ["아쿠아 민트", "green", "#7cc3b0", "aqua mint = light mint green"],
+  ["가넷", "red", "#6e1622", "garnet red = dark red"]
+ ]
+}
