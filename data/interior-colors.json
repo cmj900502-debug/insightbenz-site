@@ -125,6 +125,22 @@
    "models": [
     "Maybach EQS 680 SUV"
    ]
+  },
+  "MANUFAKTUR special upholstery in Exclusive nappa leather MANUFAKTUR ex": {
+   "colors": [
+    "grey"
+   ],
+   "display": "MANUFAKTUR 익스클루시브 나파 가죽, 그레이",
+   "note": "내장 코드 A15 (원문이 잘려 있음) = MANUFAKTUR Exclusive nappa leather, 그레이 시트",
+   "evidence": [
+    "confirmed by 차민재 팀장, 2026-11-09 ('그레이 색상으로 올려')"
+   ],
+   "codes": [
+    "A15"
+   ],
+   "models": [
+    "AMG S 63 E Performance"
+   ]
   }
  }
 }
