@@ -1,7 +1,7 @@
 {
  "date": "2026-11-09",
  "source": "2026-11-09 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-09 22:39 KST",
+ "generated": "2026-11-10 09:24 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,17 +13,17 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 56,
-  "combos": 305,
-  "now_combos": 257,
-  "units": 4704,
-  "now_units": 2737,
+  "models": 57,
+  "combos": 307,
+  "now_combos": 259,
+  "units": 4707,
+  "now_units": 2740,
   "rows_in_file": 5076,
-  "rows_used": 4704,
+  "rows_used": 4707,
   "rows_skipped": {
    "contracted/sold": 207,
    "위탁재고 excluded": 69,
-   "unconfirmed combo excluded": 96
+   "unconfirmed combo excluded": 93
   }
  },
  "chips": {
@@ -35,10 +35,10 @@
   "GLB": 1,
   "GLC": 7,
   "GLE": 5,
-  "GLS": 5,
+  "GLS": 6,
   "CLE": 6,
   "AMG": 18,
-  "Maybach": 6,
+  "Maybach": 7,
   "EQ": 2,
   "G": 1,
   "SL": 3,
@@ -67,7 +67,7 @@
    "key": "silver",
    "label": "실버",
    "hex": "#aab0b5",
-   "n": 14
+   "n": 16
   },
   {
    "key": "blue",
@@ -2373,6 +2373,97 @@
    "now_units": 25
   },
   {
+   "name": "Maybach EQS 680 SUV",
+   "my": "MY26",
+   "classes": [
+    "EQ",
+    "Maybach"
+   ],
+   "tag": "EQ",
+   "combos": [
+    {
+     "ext": "옵시디안 블랙",
+     "int": "마이바흐 익스클루시브 나파 가죽, 마키아토 베이지/브론즈 브라운 펄",
+     "color": "black",
+     "now": 13,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 3
+      }
+     ],
+     "total": 16
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "익스클루시브 나파 가죽, 자바",
+     "color": "black",
+     "now": 11,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 4
+      },
+      {
+       "month": "2026-12",
+       "label": "12월",
+       "n": 1
+      }
+     ],
+     "total": 16
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "익스클루시브 나파 가죽, 자바",
+     "color": "white",
+     "now": 2,
+     "sched": [
+      {
+       "month": "2027-01",
+       "label": "27년 1월",
+       "n": 1
+      }
+     ],
+     "total": 3
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "익스클루시브 나파 가죽, 헬리오스",
+     "color": "black",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "하이테크 실버 / 옵시디안 블랙 투톤",
+     "int": "익스클루시브 나파 가죽, 자바",
+     "color": "silver",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "마이바흐 익스클루시브 나파 가죽, 마키아토 베이지/브론즈 브라운 펄",
+     "color": "white",
+     "now": 0,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 1
+      }
+     ],
+     "total": 1
+    }
+   ],
+   "now_combos": 5,
+   "units": 38,
+   "now_units": 28
+  },
+  {
    "name": "AMG GLE 53 4MATIC+",
    "my": "MY26",
    "classes": [
@@ -2863,89 +2954,6 @@
    ],
    "now_combos": 4,
    "units": 53,
-   "now_units": 27
-  },
-  {
-   "name": "Maybach EQS 680 SUV",
-   "my": "MY26",
-   "classes": [
-    "EQ",
-    "Maybach"
-   ],
-   "tag": "EQ",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "마이바흐 익스클루시브 나파 가죽, 마키아토 베이지/브론즈 브라운 펄",
-     "color": "black",
-     "now": 13,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 3
-      }
-     ],
-     "total": 16
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "익스클루시브 나파 가죽, 자바",
-     "color": "black",
-     "now": 11,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 4
-      },
-      {
-       "month": "2026-12",
-       "label": "12월",
-       "n": 1
-      }
-     ],
-     "total": 16
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "익스클루시브 나파 가죽, 자바",
-     "color": "white",
-     "now": 2,
-     "sched": [
-      {
-       "month": "2027-01",
-       "label": "27년 1월",
-       "n": 1
-      }
-     ],
-     "total": 3
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "익스클루시브 나파 가죽, 헬리오스",
-     "color": "black",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "마이바흐 익스클루시브 나파 가죽, 마키아토 베이지/브론즈 브라운 펄",
-     "color": "white",
-     "now": 0,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      }
-     ],
-     "total": 1
-    }
-   ],
-   "now_combos": 4,
-   "units": 37,
    "now_units": 27
   },
   {
@@ -3775,6 +3783,28 @@
    "now_combos": 1,
    "units": 1,
    "now_units": 1
+  },
+  {
+   "name": "Maybach GLS 600 MANUFAKTUR",
+   "my": "MY26",
+   "classes": [
+    "GLS",
+    "Maybach"
+   ],
+   "tag": "GLS",
+   "combos": [
+    {
+     "ext": "하이 테크 실버 / 노틱 블루 메탈릭 투톤",
+     "int": "익스클루시브 나파 가죽, 블랙",
+     "color": "silver",
+     "now": 2,
+     "sched": [],
+     "total": 2
+    }
+   ],
+   "now_combos": 1,
+   "units": 2,
+   "now_units": 2
   },
   {
    "name": "Maybach S 580 4MATIC",
