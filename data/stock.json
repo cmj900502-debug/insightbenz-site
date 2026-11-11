@@ -1,7 +1,7 @@
 {
  "date": "2026-11-10",
  "source": "2026-11-10 차량 재고현황 -메일용.xlsx",
- "generated": "2026-11-11 10:13 KST",
+ "generated": "2026-11-11 10:52 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -14,14 +14,14 @@
  ],
  "stats": {
   "models": 53,
-  "combos": 287,
-  "now_combos": 236,
-  "units": 4531,
-  "now_units": 2672,
+  "combos": 286,
+  "now_combos": 235,
+  "units": 4528,
+  "now_units": 2669,
   "rows_in_file": 5406,
-  "rows_used": 4670,
+  "rows_used": 4667,
   "rows_skipped": {
-   "unconfirmed combo excluded": 447,
+   "unconfirmed combo excluded": 450,
    "contracted/sold": 211,
    "위탁재고 excluded": 78,
    "owner-excluded models (units)": 172
@@ -56,7 +56,7 @@
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 101
+   "n": 100
   },
   {
    "key": "grey",
@@ -1417,76 +1417,6 @@
    "now_units": 35
   },
   {
-   "name": "AMG G 63",
-   "my": "MY27",
-   "classes": [
-    "G",
-    "AMG"
-   ],
-   "tag": "G",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "나파 가죽, 트러플 브라운/블랙",
-     "color": "black",
-     "now": 5,
-     "sched": [],
-     "total": 5
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "나파 가죽, 마키아토 베이지/블랙",
-     "color": "black",
-     "now": 4,
-     "sched": [],
-     "total": 4
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "나파 가죽, 블랙",
-     "color": "black",
-     "now": 3,
-     "sched": [],
-     "total": 3
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "나파 가죽, 트러플 브라운/블랙",
-     "color": "white",
-     "now": 2,
-     "sched": [],
-     "total": 2
-    },
-    {
-     "ext": "모하비 실버",
-     "int": "나파 가죽, 마키아토 베이지/블랙",
-     "color": "silver",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "셀레나이트 그레이",
-     "int": "나파 가죽, 트러플 브라운/블랙",
-     "color": "grey",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "이리디움 실버",
-     "int": "나파 가죽, 블랙",
-     "color": "silver",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    }
-   ],
-   "now_combos": 7,
-   "units": 17,
-   "now_units": 17
-  },
-  {
    "name": "GLC 300 4MATIC",
    "my": "MY27",
    "classes": [
@@ -1827,6 +1757,68 @@
    "now_combos": 6,
    "units": 126,
    "now_units": 63
+  },
+  {
+   "name": "AMG G 63",
+   "my": "MY27",
+   "classes": [
+    "G",
+    "AMG"
+   ],
+   "tag": "G",
+   "combos": [
+    {
+     "ext": "옵시디안 블랙",
+     "int": "나파 가죽, 트러플 브라운/블랙",
+     "color": "black",
+     "now": 5,
+     "sched": [],
+     "total": 5
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "나파 가죽, 마키아토 베이지/블랙",
+     "color": "black",
+     "now": 4,
+     "sched": [],
+     "total": 4
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "나파 가죽, 트러플 브라운/블랙",
+     "color": "white",
+     "now": 2,
+     "sched": [],
+     "total": 2
+    },
+    {
+     "ext": "모하비 실버",
+     "int": "나파 가죽, 마키아토 베이지/블랙",
+     "color": "silver",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "셀레나이트 그레이",
+     "int": "나파 가죽, 트러플 브라운/블랙",
+     "color": "grey",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "이리디움 실버",
+     "int": "나파 가죽, 블랙",
+     "color": "silver",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    }
+   ],
+   "now_combos": 6,
+   "units": 14,
+   "now_units": 14
   },
   {
    "name": "AMG GLB 35 4MATIC",
@@ -3579,7 +3571,7 @@
    "tag": "EQ",
    "combos": [
     {
-     "ext": "MANUFAKTUR 알파일 그레이 솔리드",
+     "ext": "MANUFAKTUR 알파인 그레이 솔리드",
      "int": "가죽, 네바 그레이/발라오 브라운",
      "color": "grey",
      "now": 0,
