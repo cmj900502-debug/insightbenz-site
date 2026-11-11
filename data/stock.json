@@ -1,7 +1,7 @@
 {
  "date": "2026-11-10",
  "source": "2026-11-10 차량 재고현황 -메일용.xlsx",
- "generated": "2026-11-11 12:54 KST",
+ "generated": "2026-11-11 15:59 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,15 +13,15 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 57,
-  "combos": 302,
-  "now_combos": 234,
-  "units": 4596,
-  "now_units": 2668,
+  "models": 53,
+  "combos": 284,
+  "now_combos": 231,
+  "units": 4516,
+  "now_units": 2663,
   "rows_in_file": 5406,
-  "rows_used": 4665,
+  "rows_used": 4660,
   "rows_skipped": {
-   "unconfirmed combo excluded": 452,
+   "unconfirmed combo excluded": 457,
    "contracted/sold": 211,
    "위탁재고 excluded": 78,
    "owner-excluded models (units)": 172
@@ -38,37 +38,37 @@
   "GLE": 5,
   "GLS": 6,
   "CLE": 7,
-  "AMG": 17,
+  "AMG": 16,
   "Maybach": 7,
-  "EQ": 5,
+  "EQ": 2,
   "G": 1,
   "SL": 3,
-  "GT": 3
+  "GT": 2
  },
  "colors": [
   {
    "key": "white",
    "label": "화이트",
    "hex": "#f4f4f2",
-   "n": 105
+   "n": 100
   },
   {
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 109
+   "n": 99
   },
   {
    "key": "grey",
    "label": "그레이",
    "hex": "#6d7275",
-   "n": 65
+   "n": 63
   },
   {
    "key": "silver",
    "label": "실버",
    "hex": "#aab0b5",
-   "n": 13
+   "n": 12
   },
   {
    "key": "blue",
@@ -691,106 +691,6 @@
    "now_units": 481
   },
   {
-   "name": "AMG E 53 HYBRID 4MATIC+",
-   "my": "MY26",
-   "classes": [
-    "E",
-    "AMG"
-   ],
-   "tag": "E",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "AMG 투톤 나파 가죽, 통카 브라운/블랙",
-     "color": "black",
-     "now": 11,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      }
-     ],
-     "total": 12
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "AMG 나파 가죽, 블랙",
-     "color": "black",
-     "now": 10,
-     "sched": [],
-     "total": 10
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "AMG 투톤 나파 가죽, 통카 브라운/블랙",
-     "color": "white",
-     "now": 7,
-     "sched": [],
-     "total": 7
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "AMG 투톤 나파 가죽, 실버 펄/블랙",
-     "color": "black",
-     "now": 3,
-     "sched": [],
-     "total": 3
-    },
-    {
-     "ext": "MANUFAKTUR 알파인 그레이",
-     "int": "AMG 나파 가죽, 블랙",
-     "color": "grey",
-     "now": 2,
-     "sched": [],
-     "total": 2
-    },
-    {
-     "ext": "그라파이트 그레이",
-     "int": "AMG 투톤 나파 가죽, 통카 브라운/블랙",
-     "color": "grey",
-     "now": 2,
-     "sched": [],
-     "total": 2
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "AMG 나파 가죽, 블랙",
-     "color": "white",
-     "now": 2,
-     "sched": [],
-     "total": 2
-    },
-    {
-     "ext": "그라파이트 그레이",
-     "int": "AMG 나파 가죽, 블랙",
-     "color": "grey",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "그라파이트 그레이",
-     "int": "AMG 투톤 나파 가죽, 실버 펄/블랙",
-     "color": "grey",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "하이 테크 실버",
-     "int": "AMG 나파 가죽, 블랙",
-     "color": "silver",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    }
-   ],
-   "now_combos": 10,
-   "units": 41,
-   "now_units": 40
-  },
-  {
    "name": "E 200 AMG Line",
    "my": "MY27",
    "classes": [
@@ -1111,6 +1011,98 @@
    "now_combos": 9,
    "units": 594,
    "now_units": 400
+  },
+  {
+   "name": "AMG E 53 HYBRID 4MATIC+",
+   "my": "MY26",
+   "classes": [
+    "E",
+    "AMG"
+   ],
+   "tag": "E",
+   "combos": [
+    {
+     "ext": "옵시디안 블랙",
+     "int": "AMG 투톤 나파 가죽, 통카 브라운/블랙",
+     "color": "black",
+     "now": 11,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 1
+      }
+     ],
+     "total": 12
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "AMG 나파 가죽, 블랙",
+     "color": "black",
+     "now": 10,
+     "sched": [],
+     "total": 10
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "AMG 투톤 나파 가죽, 통카 브라운/블랙",
+     "color": "white",
+     "now": 7,
+     "sched": [],
+     "total": 7
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "AMG 투톤 나파 가죽, 실버 펄/블랙",
+     "color": "black",
+     "now": 3,
+     "sched": [],
+     "total": 3
+    },
+    {
+     "ext": "그라파이트 그레이",
+     "int": "AMG 투톤 나파 가죽, 통카 브라운/블랙",
+     "color": "grey",
+     "now": 2,
+     "sched": [],
+     "total": 2
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "AMG 나파 가죽, 블랙",
+     "color": "white",
+     "now": 2,
+     "sched": [],
+     "total": 2
+    },
+    {
+     "ext": "그라파이트 그레이",
+     "int": "AMG 나파 가죽, 블랙",
+     "color": "grey",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "그라파이트 그레이",
+     "int": "AMG 투톤 나파 가죽, 실버 펄/블랙",
+     "color": "grey",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "AMG 나파 가죽, 블랙",
+     "color": "silver",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    }
+   ],
+   "now_combos": 9,
+   "units": 39,
+   "now_units": 38
   },
   {
    "name": "AMG GLE 53 4MATIC+ Coupé",
@@ -2449,71 +2441,6 @@
    "now_units": 92
   },
   {
-   "name": "EQS 580 4MATIC SUV",
-   "my": "MY26",
-   "classes": [
-    "EQ"
-   ],
-   "tag": "EQ",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "나파 가죽, 블랙/발라오 브라운",
-     "color": "black",
-     "now": 12,
-     "sched": [],
-     "total": 12
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "나파 가죽, 블랙/발라오 브라운",
-     "color": "white",
-     "now": 8,
-     "sched": [
-      {
-       "month": "2027-01",
-       "label": "27년 1월",
-       "n": 1
-      }
-     ],
-     "total": 9
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "나파 가죽, 마키아토 베이지/스페이스 그레이",
-     "color": "black",
-     "now": 2,
-     "sched": [],
-     "total": 2
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "나파 가죽, 블랙/스페이스 그레이",
-     "color": "black",
-     "now": 2,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      }
-     ],
-     "total": 3
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "나파 가죽, 블랙/스페이스 그레이",
-     "color": "white",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    }
-   ],
-   "now_combos": 5,
-   "units": 27,
-   "now_units": 25
-  },
-  {
    "name": "GLS 450 4MATIC AMG Line",
    "my": "MY26",
    "classes": [
@@ -2914,6 +2841,63 @@
    "now_combos": 4,
    "units": 53,
    "now_units": 48
+  },
+  {
+   "name": "EQS 580 4MATIC SUV",
+   "my": "MY26",
+   "classes": [
+    "EQ"
+   ],
+   "tag": "EQ",
+   "combos": [
+    {
+     "ext": "옵시디안 블랙",
+     "int": "나파 가죽, 블랙/발라오 브라운",
+     "color": "black",
+     "now": 12,
+     "sched": [],
+     "total": 12
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "나파 가죽, 블랙/발라오 브라운",
+     "color": "white",
+     "now": 8,
+     "sched": [
+      {
+       "month": "2027-01",
+       "label": "27년 1월",
+       "n": 1
+      }
+     ],
+     "total": 9
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "나파 가죽, 블랙/스페이스 그레이",
+     "color": "black",
+     "now": 2,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 1
+      }
+     ],
+     "total": 3
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "나파 가죽, 블랙/스페이스 그레이",
+     "color": "white",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    }
+   ],
+   "now_combos": 4,
+   "units": 25,
+   "now_units": 23
   },
   {
    "name": "GLA 250 4MATIC",
@@ -3367,28 +3351,6 @@
    "now_units": 79
   },
   {
-   "name": "AMG GT 43",
-   "my": "MY26",
-   "classes": [
-    "GT",
-    "AMG"
-   ],
-   "tag": "GT",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "나파 가죽, 레드 페퍼/블랙",
-     "color": "black",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    }
-   ],
-   "now_combos": 1,
-   "units": 1,
-   "now_units": 1
-  },
-  {
    "name": "AMG S 63 E Performance",
    "my": "MY25",
    "classes": [
@@ -3539,131 +3501,6 @@
    "now_combos": 1,
    "units": 1,
    "now_units": 1
-  },
-  {
-   "name": "EQS 450 4MATIC SUV",
-   "my": "MY27",
-   "classes": [
-    "EQ"
-   ],
-   "tag": "EQ",
-   "combos": [
-    {
-     "ext": "MANUFAKTUR 알파인 그레이 솔리드",
-     "int": "가죽, 네바 그레이/발라오 브라운",
-     "color": "grey",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 1
-      }
-     ],
-     "total": 1
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "가죽, 네바 그레이/발라오 브라운",
-     "color": "black",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 7
-      }
-     ],
-     "total": 7
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "가죽, 마키아토 베이지/스페이스 그레이",
-     "color": "black",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 12
-      }
-     ],
-     "total": 12
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "가죽, 블랙/스페이스 그레이",
-     "color": "black",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 5
-      }
-     ],
-     "total": 5
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "가죽, 네바 그레이/발라오 브라운",
-     "color": "white",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 5
-      }
-     ],
-     "total": 5
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "가죽, 마키아토 베이지/스페이스 그레이",
-     "color": "white",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 1
-      }
-     ],
-     "total": 1
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "가죽, 블랙/스페이스 그레이",
-     "color": "white",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 1
-      }
-     ],
-     "total": 1
-    },
-    {
-     "ext": "하이테크 실버",
-     "int": "가죽, 블랙/스페이스 그레이",
-     "color": "silver",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 1
-      }
-     ],
-     "total": 1
-    }
-   ],
-   "now_combos": 0,
-   "units": 33,
-   "now_units": 0
   },
   {
    "name": "AMG A 45 S 4MATIC+",
@@ -4072,130 +3909,6 @@
    ],
    "now_combos": 0,
    "units": 12,
-   "now_units": 0
-  },
-  {
-   "name": "EQS 400",
-   "my": "MY27",
-   "classes": [
-    "EQ"
-   ],
-   "tag": "EQ",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "가죽, 네바 그레이/발라오 브라운",
-     "color": "black",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 8
-      }
-     ],
-     "total": 8
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "가죽, 블랙/스페이스 그레이",
-     "color": "black",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 22
-      }
-     ],
-     "total": 22
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "가죽, 네바 그레이/발라오 브라운",
-     "color": "white",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 3
-      }
-     ],
-     "total": 3
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "가죽, 블랙/스페이스 그레이",
-     "color": "white",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 3
-      }
-     ],
-     "total": 3
-    }
-   ],
-   "now_combos": 0,
-   "units": 36,
-   "now_units": 0
-  },
-  {
-   "name": "EQS 580 4MATIC SUV",
-   "my": "MY27",
-   "classes": [
-    "EQ"
-   ],
-   "tag": "EQ",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "나파 가죽, 마키아토 베이지/스페이스 그레이",
-     "color": "black",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 3
-      }
-     ],
-     "total": 3
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "나파 가죽, 블랙/발라오 브라운",
-     "color": "black",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 2
-      }
-     ],
-     "total": 2
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "나파 가죽, 블랙/스페이스 그레이",
-     "color": "black",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 1
-      }
-     ],
-     "total": 1
-    }
-   ],
-   "now_combos": 0,
-   "units": 6,
    "now_units": 0
   },
   {
