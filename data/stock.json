@@ -1,7 +1,7 @@
 {
  "date": "2026-11-11",
  "source": "2026-11-11 차량 재고현황_메일용.xlsx",
- "generated": "2026-11-11 19:55 KST",
+ "generated": "2026-11-11 21:35 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,15 +13,15 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 55,
-  "combos": 288,
-  "now_combos": 232,
-  "units": 4438,
-  "now_units": 2610,
+  "models": 54,
+  "combos": 287,
+  "now_combos": 231,
+  "units": 4434,
+  "now_units": 2607,
   "rows_in_file": 5011,
-  "rows_used": 4597,
+  "rows_used": 4593,
   "rows_skipped": {
-   "unconfirmed combo excluded": 107,
+   "unconfirmed combo excluded": 111,
    "contracted/sold": 216,
    "위탁재고 excluded": 91,
    "owner-excluded models (units)": 187
@@ -30,7 +30,7 @@
  "chips": {
   "A": 1,
   "C": 1,
-  "E": 11,
+  "E": 10,
   "S": 4,
   "GLA": 1,
   "GLB": 1,
@@ -50,7 +50,7 @@
    "key": "white",
    "label": "화이트",
    "hex": "#f4f4f2",
-   "n": 102
+   "n": 101
   },
   {
    "key": "black",
@@ -3440,33 +3440,6 @@
    "now_combos": 1,
    "units": 1,
    "now_units": 1
-  },
-  {
-   "name": "E 200 AMG Line",
-   "my": "MY26",
-   "classes": [
-    "E"
-   ],
-   "tag": "E",
-   "combos": [
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 가죽, 통카 브라운/블랙",
-     "color": "white",
-     "now": 3,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      }
-     ],
-     "total": 4
-    }
-   ],
-   "now_combos": 1,
-   "units": 4,
-   "now_units": 3
   },
   {
    "name": "E 200 EXCLUSIVE",
