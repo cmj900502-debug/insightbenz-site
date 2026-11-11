@@ -1,7 +1,7 @@
 {
  "date": "2026-11-10",
  "source": "2026-11-10 차량 재고현황 -메일용.xlsx",
- "generated": "2026-11-11 10:07 KST",
+ "generated": "2026-11-11 10:13 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,10 +13,10 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 52,
-  "combos": 279,
+  "models": 53,
+  "combos": 287,
   "now_combos": 236,
-  "units": 4498,
+  "units": 4531,
   "now_units": 2672,
   "rows_in_file": 5406,
   "rows_used": 4670,
@@ -40,7 +40,7 @@
   "CLE": 6,
   "AMG": 17,
   "Maybach": 7,
-  "EQ": 2,
+  "EQ": 3,
   "G": 1,
   "SL": 3,
   "GT": 3
@@ -50,25 +50,25 @@
    "key": "white",
    "label": "화이트",
    "hex": "#f4f4f2",
-   "n": 97
+   "n": 100
   },
   {
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 98
+   "n": 101
   },
   {
    "key": "grey",
    "label": "그레이",
    "hex": "#6d7275",
-   "n": 63
+   "n": 64
   },
   {
    "key": "silver",
    "label": "실버",
    "hex": "#aab0b5",
-   "n": 12
+   "n": 13
   },
   {
    "key": "blue",
@@ -3569,6 +3569,131 @@
    "now_combos": 1,
    "units": 1,
    "now_units": 1
+  },
+  {
+   "name": "EQS 450 4MATIC SUV",
+   "my": "MY27",
+   "classes": [
+    "EQ"
+   ],
+   "tag": "EQ",
+   "combos": [
+    {
+     "ext": "MANUFAKTUR 알파일 그레이 솔리드",
+     "int": "가죽, 네바 그레이/발라오 브라운",
+     "color": "grey",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 네바 그레이/발라오 브라운",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 7
+      }
+     ],
+     "total": 7
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 마키아토 베이지/스페이스 그레이",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 12
+      }
+     ],
+     "total": 12
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 블랙/스페이스 그레이",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 5
+      }
+     ],
+     "total": 5
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 네바 그레이/발라오 브라운",
+     "color": "white",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 5
+      }
+     ],
+     "total": 5
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 마키아토 베이지/스페이스 그레이",
+     "color": "white",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 블랙/스페이스 그레이",
+     "color": "white",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
+    },
+    {
+     "ext": "하이테크 실버",
+     "int": "가죽, 블랙/스페이스 그레이",
+     "color": "silver",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
+    }
+   ],
+   "now_combos": 0,
+   "units": 33,
+   "now_units": 0
   },
   {
    "name": "AMG A 45 S 4MATIC+",
