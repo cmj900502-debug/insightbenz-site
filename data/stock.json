@@ -1,7 +1,7 @@
 {
  "date": "2026-11-10",
  "source": "2026-11-10 차량 재고현황 -메일용.xlsx",
- "generated": "2026-11-11 10:52 KST",
+ "generated": "2026-11-11 11:25 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,10 +13,10 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 53,
-  "combos": 286,
+  "models": 56,
+  "combos": 300,
   "now_combos": 235,
-  "units": 4528,
+  "units": 4562,
   "now_units": 2669,
   "rows_in_file": 5406,
   "rows_used": 4667,
@@ -37,10 +37,10 @@
   "GLC": 7,
   "GLE": 5,
   "GLS": 6,
-  "CLE": 6,
+  "CLE": 7,
   "AMG": 17,
   "Maybach": 7,
-  "EQ": 3,
+  "EQ": 4,
   "G": 1,
   "SL": 3,
   "GT": 3
@@ -50,19 +50,19 @@
    "key": "white",
    "label": "화이트",
    "hex": "#f4f4f2",
-   "n": 100
+   "n": 104
   },
   {
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 100
+   "n": 107
   },
   {
    "key": "grey",
    "label": "그레이",
    "hex": "#6d7275",
-   "n": 64
+   "n": 66
   },
   {
    "key": "silver",
@@ -86,7 +86,7 @@
    "key": "green",
    "label": "그린",
    "hex": "#2f6b52",
-   "n": 0
+   "n": 1
   },
   {
    "key": "beige",
@@ -3800,6 +3800,117 @@
    "now_units": 0
   },
   {
+   "name": "CLE 450 4MATIC Cabriolet AMG Line",
+   "my": "MY27",
+   "classes": [
+    "CLE"
+   ],
+   "tag": "CLE",
+   "combos": [
+    {
+     "ext": "MANUFAKTUR 알파인 그레이",
+     "int": "가죽, 파워 레드/블랙",
+     "color": "grey",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
+    },
+    {
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "가죽, 파워 레드/블랙",
+     "color": "grey",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 파워 레드/블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 3
+      }
+     ],
+     "total": 3
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 2
+      }
+     ],
+     "total": 2
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 통카 브라운/블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 2
+      }
+     ],
+     "total": 2
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 파워 레드/블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 6
+      }
+     ],
+     "total": 6
+    }
+   ],
+   "now_combos": 0,
+   "units": 16,
+   "now_units": 0
+  },
+  {
    "name": "GLC 300 4MATIC Coupé AMG Line",
    "my": "MY27",
    "classes": [
@@ -3914,6 +4025,130 @@
    ],
    "now_combos": 0,
    "units": 221,
+   "now_units": 0
+  },
+  {
+   "name": "CLA 220 Base",
+   "my": "MY27",
+   "classes": [
+    "CLA"
+   ],
+   "tag": "CLA",
+   "combos": [
+    {
+     "ext": "아쿠아 민트",
+     "int": "ARTICO 아티코 가죽, 블랙/블랙",
+     "color": "green",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 3
+      }
+     ],
+     "total": 3
+    },
+    {
+     "ext": "제트 블랙",
+     "int": "ARTICO 가죽, 아이보리 베이지/블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
+    },
+    {
+     "ext": "제트 블랙",
+     "int": "ARTICO 아티코 가죽, 블랙/블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 5
+      }
+     ],
+     "total": 5
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "ARTICO 가죽, 아이보리 베이지/블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 3
+      }
+     ],
+     "total": 3
+    }
+   ],
+   "now_combos": 0,
+   "units": 12,
+   "now_units": 0
+  },
+  {
+   "name": "EQS 580 4MATIC SUV",
+   "my": "MY27",
+   "classes": [
+    "EQ"
+   ],
+   "tag": "EQ",
+   "combos": [
+    {
+     "ext": "옵시디안 블랙",
+     "int": "나파 가죽, 마키아토 베이지/스페이스 그레이",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 3
+      }
+     ],
+     "total": 3
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "나파 가죽, 블랙/발라오 브라운",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 2
+      }
+     ],
+     "total": 2
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "나파 가죽, 블랙/스페이스 그레이",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
+    }
+   ],
+   "now_combos": 0,
+   "units": 6,
    "now_units": 0
   },
   {

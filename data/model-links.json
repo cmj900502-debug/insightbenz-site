@@ -146,6 +146,10 @@
       "slug": "gla"
     },
     {
+      "match": "^CLA 220",
+      "slug": "cla-c178"
+    },
+    {
       "match": "^CLA ",
       "slug": "cla"
     },
