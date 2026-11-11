@@ -1,5 +1,5 @@
 {
-  "_about": "전국 재고 모델명 → 카탈로그 링크 (build/stock_maps.py). First matching rule wins (regex on the stock 모델명). 'slug' = this site's own page cars/<slug>.html; 'url' = external official page (must return 200; opens in a new tab). Unmatched models are shown without a link and logged by build/update_stock.py ('WARN model link missing'). 'trims' = manual trim overrides {\"<stock 모델명>|<MY>\": \"<trim name on our page>|<MY>\"} — otherwise build/stock_maps.py match_trim() picks the exact trim (#t-<year>-<trim> anchor on cars/<slug>.html opens that trim's 옵션·제원 panel); approximate/missing matches are logged as WARN. 'colors' = manual exterior overrides {\"<stock 외장 컬러명>\": \"<option code, e.g. 149U>\"} — otherwise match_color() links each 색상 조합 row to the same-named 외장 컬러 on the trim (#<trim>-c<code>, highlighted on arrival); unmatched rows link to the trim and are logged as WARN stock colour unmatched.",
+  "_about": "전국 재고 모델명 → 카탈로그 링크 (build/stock_maps.py). First matching rule wins (regex on the stock 모델명). 'slug' = this site's own page cars/<slug>.html; 'url' = external official page (must return 200; opens in a new tab). Unmatched models are shown without a link and logged by build/update_stock.py ('WARN model link missing'). 'nolink': true = this model has no car page on purpose (do not invent a page or point it at a related body, e.g. EQS 400 sedan must not link to EQS SUV); stock rows render as plain text, update_stock does not warn, and qa/interact.py allows only these models to have no trim-anchor link. 'trims' = manual trim overrides {\"<stock 모델명>|<MY>\": \"<trim name on our page>|<MY>\"} — otherwise build/stock_maps.py match_trim() picks the exact trim (#t-<year>-<trim> anchor on cars/<slug>.html opens that trim's 옵션·제원 panel); approximate/missing matches are logged as WARN. 'colors' = manual exterior overrides {\"<stock 외장 컬러명>\": \"<option code, e.g. 149U>\"} — otherwise match_color() links each 색상 조합 row to the same-named 외장 컬러 on the trim (#<trim>-c<code>, highlighted on arrival); unmatched rows link to the trim and are logged as WARN stock colour unmatched.",
   "rules": [
     {
       "match": "^Maybach EQS",
@@ -88,6 +88,11 @@
     {
       "match": "^G ",
       "slug": "g-class"
+    },
+    {
+      "match": "^EQS 400",
+      "nolink": true,
+      "note": "EQS sedan catalog page was removed in the MB Korea lineup sync. Owner 2026-11-11: publish stock as plain text, no colour/trim link, never link to eqs-suv."
     },
     {
       "match": "^EQS .*SUV",

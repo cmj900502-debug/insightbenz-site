@@ -1,7 +1,7 @@
 {
  "date": "2026-11-10",
  "source": "2026-11-10 차량 재고현황 -메일용.xlsx",
- "generated": "2026-11-11 11:25 KST",
+ "generated": "2026-11-11 11:31 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,10 +13,10 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 56,
-  "combos": 300,
+  "models": 57,
+  "combos": 304,
   "now_combos": 235,
-  "units": 4562,
+  "units": 4598,
   "now_units": 2669,
   "rows_in_file": 5406,
   "rows_used": 4667,
@@ -40,7 +40,7 @@
   "CLE": 7,
   "AMG": 17,
   "Maybach": 7,
-  "EQ": 4,
+  "EQ": 5,
   "G": 1,
   "SL": 3,
   "GT": 3
@@ -50,13 +50,13 @@
    "key": "white",
    "label": "화이트",
    "hex": "#f4f4f2",
-   "n": 104
+   "n": 106
   },
   {
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 107
+   "n": 109
   },
   {
    "key": "grey",
@@ -4094,6 +4094,75 @@
    ],
    "now_combos": 0,
    "units": 12,
+   "now_units": 0
+  },
+  {
+   "name": "EQS 400",
+   "my": "MY27",
+   "classes": [
+    "EQ"
+   ],
+   "tag": "EQ",
+   "combos": [
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 네바 그레이/발라오 브라운",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 8
+      }
+     ],
+     "total": 8
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 블랙/스페이스 그레이",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 22
+      }
+     ],
+     "total": 22
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 네바 그레이/발라오 브라운",
+     "color": "white",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 3
+      }
+     ],
+     "total": 3
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 블랙/스페이스 그레이",
+     "color": "white",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 3
+      }
+     ],
+     "total": 3
+    }
+   ],
+   "now_combos": 0,
+   "units": 36,
    "now_units": 0
   },
   {
