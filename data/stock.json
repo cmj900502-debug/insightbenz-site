@@ -1,7 +1,7 @@
 {
  "date": "2026-11-11",
  "source": "2026-11-11 차량 재고현황_메일용.xlsx",
- "generated": "2026-11-11 19:46 KST",
+ "generated": "2026-11-11 19:55 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,15 +13,15 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 53,
-  "combos": 280,
-  "now_combos": 224,
-  "units": 4403,
-  "now_units": 2575,
+  "models": 55,
+  "combos": 288,
+  "now_combos": 232,
+  "units": 4438,
+  "now_units": 2610,
   "rows_in_file": 5011,
-  "rows_used": 4562,
+  "rows_used": 4597,
   "rows_skipped": {
-   "unconfirmed combo excluded": 142,
+   "unconfirmed combo excluded": 107,
    "contracted/sold": 216,
    "위탁재고 excluded": 91,
    "owner-excluded models (units)": 187
@@ -31,7 +31,7 @@
   "A": 1,
   "C": 1,
   "E": 11,
-  "S": 3,
+  "S": 4,
   "GLA": 1,
   "GLB": 1,
   "GLC": 7,
@@ -39,10 +39,10 @@
   "GLS": 5,
   "CLE": 7,
   "AMG": 18,
-  "Maybach": 4,
+  "Maybach": 6,
   "EQ": 2,
   "G": 1,
-  "SL": 2,
+  "SL": 3,
   "GT": 4
  },
  "colors": [
@@ -50,37 +50,37 @@
    "key": "white",
    "label": "화이트",
    "hex": "#f4f4f2",
-   "n": 101
+   "n": 102
   },
   {
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 99
+   "n": 100
   },
   {
    "key": "grey",
    "label": "그레이",
    "hex": "#6d7275",
-   "n": 62
+   "n": 63
   },
   {
    "key": "silver",
    "label": "실버",
    "hex": "#aab0b5",
-   "n": 11
+   "n": 12
   },
   {
    "key": "blue",
    "label": "블루",
    "hex": "#2f4f86",
-   "n": 5
+   "n": 8
   },
   {
    "key": "red",
    "label": "레드",
    "hex": "#8e1f2a",
-   "n": 0
+   "n": 1
   },
   {
    "key": "green",
@@ -199,11 +199,43 @@
      "now": 2,
      "sched": [],
      "total": 2
+    },
+    {
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "가죽, 통카 브라운",
+     "color": "grey",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "노틱 블루",
+     "int": "가죽, 마키아토 베이지/블랙",
+     "color": "blue",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "노틱 블루",
+     "int": "가죽, 블랙",
+     "color": "blue",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "가죽, 블랙",
+     "color": "silver",
+     "now": 1,
+     "sched": [],
+     "total": 1
     }
    ],
-   "now_combos": 12,
-   "units": 81,
-   "now_units": 81
+   "now_combos": 16,
+   "units": 85,
+   "now_units": 85
   },
   {
    "name": "CLE 200 Coupé AMG Line",
@@ -2962,6 +2994,44 @@
    "now_units": 52
   },
   {
+   "name": "Maybach SL 680 Monogram Series",
+   "my": "MY26",
+   "classes": [
+    "SL",
+    "Maybach"
+   ],
+   "tag": "SL",
+   "combos": [
+    {
+     "ext": "MANUFAKTUR 오팔라이트 화이트 마그노",
+     "int": "MANUFAKTUR 익스클루시브 나파 가죽, 크리스탈 화이트",
+     "color": "white",
+     "now": 19,
+     "sched": [],
+     "total": 19
+    },
+    {
+     "ext": "MANUFAKTUR 가넷 레드 메탈릭",
+     "int": "MANUFAKTUR 익스클루시브 나파 가죽, 크리스탈 화이트",
+     "color": "red",
+     "now": 7,
+     "sched": [],
+     "total": 7
+    },
+    {
+     "ext": "MANUFAKTUR 익스클루시브 코트 다 쥐르 블루 메탈릭",
+     "int": "MANUFAKTUR 익스클루시브 나파 가죽, 크리스탈 화이트",
+     "color": "blue",
+     "now": 4,
+     "sched": [],
+     "total": 4
+    }
+   ],
+   "now_combos": 3,
+   "units": 30,
+   "now_units": 30
+  },
+  {
    "name": "GLA 250 4MATIC",
    "my": "MY27",
    "classes": [
@@ -3432,6 +3502,28 @@
      "ext": "MANUFAKTUR 그라파이트 그레이",
      "int": "MANUFAKTUR 익스클루시브 나파 가죽, 트러플 브라운/블랙",
      "color": "grey",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    }
+   ],
+   "now_combos": 1,
+   "units": 1,
+   "now_units": 1
+  },
+  {
+   "name": "Maybach S 680 4MATIC",
+   "my": "MY26",
+   "classes": [
+    "S",
+    "Maybach"
+   ],
+   "tag": "S",
+   "combos": [
+    {
+     "ext": "옵시디안 블랙",
+     "int": "익스클루시브 나파 가죽, 자바",
+     "color": "black",
      "now": 1,
      "sched": [],
      "total": 1
