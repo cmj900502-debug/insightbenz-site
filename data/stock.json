@@ -1,7 +1,7 @@
 {
  "date": "2026-11-11",
  "source": "2026-11-11 차량 재고현황_메일용.xlsx",
- "generated": "2026-11-12 12:48 KST",
+ "generated": "2026-11-12 15:28 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,18 +13,18 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 55,
-  "combos": 288,
-  "now_combos": 231,
-  "units": 4435,
-  "now_units": 2608,
+  "models": 54,
+  "combos": 284,
+  "now_combos": 227,
+  "units": 4430,
+  "now_units": 2603,
   "rows_in_file": 5011,
-  "rows_used": 4591,
+  "rows_used": 4585,
   "rows_skipped": {
-   "unconfirmed combo excluded": 113,
+   "unconfirmed combo excluded": 119,
    "contracted/sold": 216,
    "위탁재고 excluded": 91,
-   "owner-excluded models (units)": 186
+   "owner-excluded models (units)": 185
   }
  },
  "chips": {
@@ -36,10 +36,10 @@
   "GLB": 1,
   "GLC": 7,
   "GLE": 5,
-  "GLS": 6,
+  "GLS": 5,
   "CLE": 7,
   "AMG": 17,
-  "Maybach": 7,
+  "Maybach": 6,
   "EQ": 3,
   "G": 1,
   "SL": 3,
@@ -50,25 +50,25 @@
    "key": "white",
    "label": "화이트",
    "hex": "#f4f4f2",
-   "n": 103
+   "n": 102
   },
   {
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 100
+   "n": 99
   },
   {
    "key": "grey",
    "label": "그레이",
    "hex": "#6d7275",
-   "n": 62
+   "n": 61
   },
   {
    "key": "silver",
    "label": "실버",
    "hex": "#aab0b5",
-   "n": 13
+   "n": 12
   },
   {
    "key": "blue",
@@ -1927,67 +1927,6 @@
    "now_units": 12
   },
   {
-   "name": "CLE 450 4MATIC Coupé AMG Line",
-   "my": "MY27",
-   "classes": [
-    "CLE"
-   ],
-   "tag": "CLE",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "가죽, 파워 레드/블랙",
-     "color": "black",
-     "now": 5,
-     "sched": [],
-     "total": 5
-    },
-    {
-     "ext": "그라파이트 그레이 메탈릭",
-     "int": "가죽, 통카 브라운/블랙",
-     "color": "grey",
-     "now": 2,
-     "sched": [],
-     "total": 2
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "가죽, 블랙",
-     "color": "black",
-     "now": 2,
-     "sched": [],
-     "total": 2
-    },
-    {
-     "ext": "MANUFAKTUR 알파인 그레이",
-     "int": "가죽, 통카 브라운/블랙",
-     "color": "grey",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "가죽, 마키아토 베이지/블랙",
-     "color": "white",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "가죽, 블랙",
-     "color": "white",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    }
-   ],
-   "now_combos": 6,
-   "units": 12,
-   "now_units": 12
-  },
-  {
    "name": "E 200 EXCLUSIVE",
    "my": "MY27",
    "classes": [
@@ -2421,143 +2360,36 @@
    "now_units": 91
   },
   {
-   "name": "EQS 580 4MATIC SUV",
-   "my": "MY26",
+   "name": "CLE 450 4MATIC Coupé AMG Line",
+   "my": "MY27",
    "classes": [
-    "EQ"
+    "CLE"
    ],
-   "tag": "EQ",
+   "tag": "CLE",
    "combos": [
     {
      "ext": "옵시디안 블랙",
-     "int": "나파 가죽, 블랙/발라오 브라운",
+     "int": "가죽, 파워 레드/블랙",
      "color": "black",
-     "now": 12,
+     "now": 5,
      "sched": [],
-     "total": 12
+     "total": 5
     },
     {
-     "ext": "폴라 화이트",
-     "int": "나파 가죽, 블랙/발라오 브라운",
-     "color": "white",
-     "now": 8,
-     "sched": [
-      {
-       "month": "2027-01",
-       "label": "27년 1월",
-       "n": 1
-      }
-     ],
-     "total": 9
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "가죽, 통카 브라운/블랙",
+     "color": "grey",
+     "now": 2,
+     "sched": [],
+     "total": 2
     },
     {
      "ext": "옵시디안 블랙",
-     "int": "나파 가죽, 블랙/스페이스 그레이",
+     "int": "가죽, 블랙",
      "color": "black",
      "now": 2,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      }
-     ],
-     "total": 3
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "나파 가죽, 마키아토 베이지/스페이스 그레이",
-     "color": "black",
-     "now": 1,
      "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "나파 가죽, 블랙/스페이스 그레이",
-     "color": "white",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    }
-   ],
-   "now_combos": 5,
-   "units": 26,
-   "now_units": 24
-  },
-  {
-   "name": "GLS 450 4MATIC AMG Line",
-   "my": "MY26",
-   "classes": [
-    "GLS"
-   ],
-   "tag": "GLS",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "가죽, 블랙",
-     "color": "black",
-     "now": 31,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 79
-      },
-      {
-       "month": "2026-12",
-       "label": "12월",
-       "n": 7
-      },
-      {
-       "month": "2027-02",
-       "label": "27년 2월",
-       "n": 1
-      }
-     ],
-     "total": 118
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "가죽, 바히아 브라운/블랙",
-     "color": "black",
-     "now": 18,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 8
-      }
-     ],
-     "total": 26
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "가죽, 바히아 브라운/블랙",
-     "color": "white",
-     "now": 8,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 4
-      }
-     ],
-     "total": 12
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "가죽, 블랙",
-     "color": "white",
-     "now": 6,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      }
-     ],
-     "total": 7
+     "total": 2
     },
     {
      "ext": "폴라 화이트",
@@ -2566,11 +2398,19 @@
      "now": 1,
      "sched": [],
      "total": 1
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 블랙",
+     "color": "white",
+     "now": 1,
+     "sched": [],
+     "total": 1
     }
    ],
    "now_combos": 5,
-   "units": 164,
-   "now_units": 64
+   "units": 11,
+   "now_units": 11
   },
   {
    "name": "AMG CLE 53 4MATIC+ Cabriolet",
@@ -2886,6 +2726,142 @@
    "now_combos": 4,
    "units": 54,
    "now_units": 49
+  },
+  {
+   "name": "EQS 580 4MATIC SUV",
+   "my": "MY26",
+   "classes": [
+    "EQ"
+   ],
+   "tag": "EQ",
+   "combos": [
+    {
+     "ext": "옵시디안 블랙",
+     "int": "나파 가죽, 블랙/발라오 브라운",
+     "color": "black",
+     "now": 12,
+     "sched": [],
+     "total": 12
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "나파 가죽, 블랙/발라오 브라운",
+     "color": "white",
+     "now": 8,
+     "sched": [
+      {
+       "month": "2027-01",
+       "label": "27년 1월",
+       "n": 1
+      }
+     ],
+     "total": 9
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "나파 가죽, 블랙/스페이스 그레이",
+     "color": "black",
+     "now": 2,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 1
+      }
+     ],
+     "total": 3
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "나파 가죽, 블랙/스페이스 그레이",
+     "color": "white",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    }
+   ],
+   "now_combos": 4,
+   "units": 25,
+   "now_units": 23
+  },
+  {
+   "name": "GLS 450 4MATIC AMG Line",
+   "my": "MY26",
+   "classes": [
+    "GLS"
+   ],
+   "tag": "GLS",
+   "combos": [
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 블랙",
+     "color": "black",
+     "now": 31,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 79
+      },
+      {
+       "month": "2026-12",
+       "label": "12월",
+       "n": 7
+      },
+      {
+       "month": "2027-02",
+       "label": "27년 2월",
+       "n": 1
+      }
+     ],
+     "total": 118
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 바히아 브라운/블랙",
+     "color": "black",
+     "now": 18,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 8
+      }
+     ],
+     "total": 26
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 바히아 브라운/블랙",
+     "color": "white",
+     "now": 8,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 4
+      }
+     ],
+     "total": 12
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 블랙",
+     "color": "white",
+     "now": 6,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 1
+      }
+     ],
+     "total": 7
+    }
+   ],
+   "now_combos": 4,
+   "units": 163,
+   "now_units": 63
   },
   {
    "name": "E 220 d 4MATIC EXCLUSIVE",
@@ -3453,28 +3429,6 @@
    "now_combos": 1,
    "units": 17,
    "now_units": 17
-  },
-  {
-   "name": "Maybach GLS 600 MANUFAKTUR",
-   "my": "MY26",
-   "classes": [
-    "GLS",
-    "Maybach"
-   ],
-   "tag": "GLS",
-   "combos": [
-    {
-     "ext": "하이 테크 실버 / 노틱 블루 메탈릭 투톤",
-     "int": "익스클루시브 나파 가죽, 블랙",
-     "color": "silver",
-     "now": 2,
-     "sched": [],
-     "total": 2
-    }
-   ],
-   "now_combos": 1,
-   "units": 2,
-   "now_units": 2
   },
   {
    "name": "Maybach S 580 4MATIC",
