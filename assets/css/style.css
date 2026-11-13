@@ -412,11 +412,11 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .chk input{width:18px;height:18px;accent-color:var(--champ)}
 .stock-list-sec{padding-top:20px!important}
 .h-sm{font-size:19px;font-family:var(--serif)}
-.sgrid{display:grid;gap:18px;grid-template-columns:1fr}
+.sgrid{display:grid;gap:20px;grid-template-columns:1fr}
 @media(min-width:720px){.sgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(min-width:1080px){.sgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
-.scard{border-top:2px solid var(--line-2);background:transparent;align-self:start}
-.scard-head{display:flex;justify-content:space-between;gap:10px;padding:16px 0 12px;border-bottom:1px solid var(--line)}
+.scard{border:2px solid var(--champ);background:var(--surface-2);border-radius:8px;padding:14px 14px 8px;align-self:start}
+.scard-head{display:flex;justify-content:space-between;gap:10px;padding:2px 0 12px;border-bottom:1px solid var(--line)}
 .scard-head h3{font-family:var(--serif);font-size:18px;line-height:1.35;margin:0}
 .stags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
 .stag{font-size:10.5px;font-weight:600;letter-spacing:.06em;padding:1px 6px;border:1px solid var(--line-2);border-radius:2px;color:var(--text-2)}
