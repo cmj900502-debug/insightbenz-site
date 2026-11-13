@@ -1,7 +1,7 @@
 {
  "date": "2026-11-12",
  "source": "2026-11-12 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-13 12:47 KST",
+ "generated": "2026-11-13 23:09 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,10 +13,10 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 52,
-  "combos": 277,
+  "models": 51,
+  "combos": 276,
   "now_combos": 261,
-  "units": 4289,
+  "units": 4288,
   "now_units": 3927,
   "rows_in_file": 4836,
   "rows_used": 4438,
@@ -41,7 +41,7 @@
   "CLE": 7,
   "AMG": 17,
   "Maybach": 6,
-  "EQ": 3,
+  "EQ": 2,
   "G": 1,
   "SL": 3,
   "GT": 3
@@ -57,7 +57,7 @@
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 97
+   "n": 96
   },
   {
    "key": "grey",
@@ -3612,33 +3612,6 @@
    ],
    "now_combos": 0,
    "units": 7,
-   "now_units": 0
-  },
-  {
-   "name": "EQS 400 Saloon",
-   "my": "MY27",
-   "classes": [
-    "EQ"
-   ],
-   "tag": "EQ",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "가죽, 블랙/스페이스 그레이",
-     "color": "black",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 1
-      }
-     ],
-     "total": 1
-    }
-   ],
-   "now_combos": 0,
-   "units": 1,
    "now_units": 0
   }
  ]
