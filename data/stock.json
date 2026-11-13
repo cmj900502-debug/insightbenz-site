@@ -1,7 +1,7 @@
 {
  "date": "2026-11-12",
  "source": "2026-11-12 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-13 09:56 KST",
+ "generated": "2026-11-13 12:47 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,17 +13,17 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 53,
-  "combos": 278,
-  "now_combos": 262,
-  "units": 4299,
-  "now_units": 3937,
+  "models": 52,
+  "combos": 277,
+  "now_combos": 261,
+  "units": 4289,
+  "now_units": 3927,
   "rows_in_file": 4836,
-  "rows_used": 4448,
+  "rows_used": 4438,
   "rows_skipped": {
    "contracted/sold": 208,
    "위탁재고 excluded": 105,
-   "unconfirmed combo excluded": 75,
+   "unconfirmed combo excluded": 85,
    "owner-excluded models (units)": 166
   }
  },
@@ -31,7 +31,7 @@
   "A": 1,
   "C": 1,
   "CLA": 1,
-  "E": 10,
+  "E": 9,
   "S": 4,
   "GLA": 1,
   "GLB": 1,
@@ -51,7 +51,7 @@
    "key": "white",
    "label": "화이트",
    "hex": "#f4f4f2",
-   "n": 100
+   "n": 99
   },
   {
    "key": "black",
@@ -3389,27 +3389,6 @@
    "now_combos": 1,
    "units": 1,
    "now_units": 1
-  },
-  {
-   "name": "E 200 EXCLUSIVE",
-   "my": "MY26",
-   "classes": [
-    "E"
-   ],
-   "tag": "E",
-   "combos": [
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 가죽, 블랙",
-     "color": "white",
-     "now": 10,
-     "sched": [],
-     "total": 10
-    }
-   ],
-   "now_combos": 1,
-   "units": 10,
-   "now_units": 10
   },
   {
    "name": "Maybach S 580 4MATIC",
