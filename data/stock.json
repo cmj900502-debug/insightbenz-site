@@ -1,7 +1,7 @@
 {
  "date": "2026-11-16",
  "source": "2026-11-16 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-16 16:32 KST",
+ "generated": "2026-11-16 19:22 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,10 +13,10 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 52,
-  "combos": 273,
+  "models": 53,
+  "combos": 274,
   "now_combos": 254,
-  "units": 3916,
+  "units": 3917,
   "now_units": 3589,
   "rows_in_file": 4806,
   "rows_used": 4227,
@@ -41,8 +41,8 @@
   "CLE": 7,
   "AMG": 17,
   "Maybach": 5,
-  "EQ": 2,
-  "G": 1,
+  "EQ": 3,
+  "G": 2,
   "SL": 3,
   "GT": 4
  },
@@ -63,7 +63,7 @@
    "key": "grey",
    "label": "그레이",
    "hex": "#6d7275",
-   "n": 61
+   "n": 62
   },
   {
    "key": "silver",
@@ -3583,6 +3583,34 @@
    ],
    "now_combos": 0,
    "units": 7,
+   "now_units": 0
+  },
+  {
+   "name": "G 580 with EQ Technology MANUFAKTUR",
+   "my": "MY27",
+   "classes": [
+    "G",
+    "EQ"
+   ],
+   "tag": "G",
+   "combos": [
+    {
+     "ext": "MANUFAKTUR 클래식 그레이 논-메탈릭",
+     "int": "MANUFAKTUR 나파 가죽, 뱅갈 레드/블랙",
+     "color": "grey",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
+    }
+   ],
+   "now_combos": 0,
+   "units": 1,
    "now_units": 0
   }
  ]
