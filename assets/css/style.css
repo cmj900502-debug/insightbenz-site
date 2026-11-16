@@ -678,6 +678,7 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .vx-dates dt{font-size:12px;letter-spacing:.12em;color:var(--accent);font-weight:600}
 .vx-dates dd{margin:2px 0 0;font-weight:600;color:var(--head);font-size:15.5px}
 .vx-h{font-size:13px;letter-spacing:.06em;font-weight:700;color:var(--head);margin:0 0 10px}
+.vx-promo{margin-top:18px}.vx-promo .vx-pn{margin:12px 0 8px;line-height:1.7}.vx-promo .vx-more{margin-left:0}
 .vx-ben ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
 .vx-ben li{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;padding:10px 14px;border-left:3px solid var(--accent);background:var(--surface)}
 .vx-ben li b{color:var(--head);font-weight:600}
