@@ -1,7 +1,7 @@
 {
  "date": "2026-11-16",
  "source": "2026-11-16 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-16 19:22 KST",
+ "generated": "2026-11-17 09:22 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,17 +13,17 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 53,
-  "combos": 274,
-  "now_combos": 254,
-  "units": 3917,
-  "now_units": 3589,
+  "models": 52,
+  "combos": 273,
+  "now_combos": 253,
+  "units": 3916,
+  "now_units": 3588,
   "rows_in_file": 4806,
-  "rows_used": 4227,
+  "rows_used": 4226,
   "rows_skipped": {
    "contracted/sold": 214,
    "위탁재고 excluded": 103,
-   "unconfirmed combo excluded": 262,
+   "unconfirmed combo excluded": 263,
    "owner-excluded models (units)": 327
   }
  },
@@ -34,7 +34,7 @@
   "E": 10,
   "S": 2,
   "GLA": 1,
-  "GLB": 2,
+  "GLB": 1,
   "GLC": 7,
   "GLE": 5,
   "GLS": 5,
@@ -57,7 +57,7 @@
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 91
+   "n": 90
   },
   {
    "key": "grey",
@@ -3353,27 +3353,6 @@
      "ext": "폴라 화이트",
      "int": "아티코 가죽, 블랙",
      "color": "white",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    }
-   ],
-   "now_combos": 1,
-   "units": 1,
-   "now_units": 1
-  },
-  {
-   "name": "GLB 250 4MATIC",
-   "my": "MY26",
-   "classes": [
-    "GLB"
-   ],
-   "tag": "GLB",
-   "combos": [
-    {
-     "ext": "나이트 블랙",
-     "int": "아티코 가죽 / 마이크로컷 마이크로파이버 바이아 브라운 / 블랙",
-     "color": "black",
      "now": 1,
      "sched": [],
      "total": 1
