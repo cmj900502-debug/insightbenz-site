@@ -1,7 +1,7 @@
 {
  "date": "2026-11-17",
  "source": "2026-11-17 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-17 19:07 KST",
+ "generated": "2026-11-17 22:25 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,15 +13,15 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 50,
-  "combos": 267,
+  "models": 52,
+  "combos": 325,
   "now_combos": 247,
-  "units": 3804,
+  "units": 3879,
   "now_units": 3484,
   "rows_in_file": 4701,
-  "rows_used": 4105,
+  "rows_used": 4106,
   "rows_skipped": {
-   "unconfirmed combo excluded": 271,
+   "unconfirmed combo excluded": 270,
    "contracted/sold": 224,
    "위탁재고 excluded": 101,
    "owner-excluded models (units)": 317
@@ -31,7 +31,7 @@
   "A": 1,
   "C": 1,
   "CLA": 1,
-  "E": 9,
+  "E": 11,
   "S": 2,
   "GLA": 1,
   "GLB": 1,
@@ -51,31 +51,31 @@
    "key": "white",
    "label": "화이트",
    "hex": "#f4f4f2",
-   "n": 98
+   "n": 104
   },
   {
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 88
+   "n": 96
   },
   {
    "key": "grey",
    "label": "그레이",
    "hex": "#6d7275",
-   "n": 60
+   "n": 75
   },
   {
    "key": "silver",
    "label": "실버",
    "hex": "#aab0b5",
-   "n": 14
+   "n": 27
   },
   {
    "key": "blue",
    "label": "블루",
    "hex": "#2f4f86",
-   "n": 5
+   "n": 15
   },
   {
    "key": "red",
@@ -94,6 +94,12 @@
    "label": "베이지·골드",
    "hex": "#c9a978",
    "n": 0
+  },
+  {
+   "key": "brown",
+   "label": "브라운",
+   "hex": "#5c3a24",
+   "n": 6
   }
  ],
  "models": [
@@ -224,6 +230,60 @@
      "now": 1,
      "sched": [],
      "total": 1
+    },
+    {
+     "ext": "노틱 블루",
+     "int": "가죽, 마키아토 베이지/블랙",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "노틱 블루",
+     "int": "가죽, 통카 브라운",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "베르데 실버",
+     "int": "가죽, 통카 브라운",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "벨벳 브라운",
+     "int": "가죽, 마키아토 베이지/블랙",
+     "color": "brown",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "벨벳 브라운",
+     "int": "가죽, 블랙",
+     "color": "brown",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "벨벳 브라운",
+     "int": "가죽, 통카 브라운",
+     "color": "brown",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
     }
    ],
    "now_combos": 15,
@@ -353,6 +413,87 @@
      "now": 8,
      "sched": [],
      "total": 8
+    },
+    {
+     "ext": "그라파이트 그레이",
+     "int": "가죽, 통카 브라운",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "노틱 블루",
+     "int": "가죽, 마키아토 베이지/블랙",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "노틱 블루",
+     "int": "가죽, 통카 브라운",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "베르데 실버",
+     "int": "가죽, 마키아토 베이지/블랙",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "베르데 실버",
+     "int": "가죽, 블랙",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "벨벳 브라운",
+     "int": "가죽, 마키아토 베이지/블랙",
+     "color": "brown",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "벨벳 브라운",
+     "int": "가죽, 통카 브라운",
+     "color": "brown",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "가죽, 블랙",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "가죽, 통카 브라운",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
     }
    ],
    "now_combos": 13,
@@ -812,6 +953,181 @@
    "now_units": 107
   },
   {
+   "name": "E 300 4MATIC EXCLUSIVE",
+   "my": "MY27",
+   "classes": [
+    "E"
+   ],
+   "tag": "E",
+   "combos": [
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 통카 브라운",
+     "color": "black",
+     "now": 175,
+     "sched": [],
+     "total": 175
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 통카 브라운",
+     "color": "white",
+     "now": 170,
+     "sched": [],
+     "total": 170
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Leather macchiato beige / black",
+     "color": "black",
+     "now": 47,
+     "sched": [],
+     "total": 47
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "Leather macchiato beige / black",
+     "color": "white",
+     "now": 45,
+     "sched": [],
+     "total": 45
+    },
+    {
+     "ext": "그라파이트 그레이",
+     "int": "가죽, 통카 브라운",
+     "color": "grey",
+     "now": 43,
+     "sched": [],
+     "total": 43
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 블랙",
+     "color": "white",
+     "now": 32,
+     "sched": [],
+     "total": 32
+    },
+    {
+     "ext": "그라파이트 그레이",
+     "int": "가죽, 블랙",
+     "color": "grey",
+     "now": 9,
+     "sched": [],
+     "total": 9
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 블랙",
+     "color": "black",
+     "now": 7,
+     "sched": [],
+     "total": 7
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이",
+     "int": "가죽, 통카 브라운",
+     "color": "grey",
+     "now": 2,
+     "sched": [],
+     "total": 2
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이",
+     "int": "Leather macchiato beige / black",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이",
+     "int": "가죽, 블랙",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "그라파이트 그레이",
+     "int": "Leather macchiato beige / black",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "노틱 블루",
+     "int": "Leather macchiato beige / black",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "노틱 블루",
+     "int": "가죽, 통카 브라운",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "베르데 실버",
+     "int": "가죽, 통카 브라운",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "벨벳 브라운",
+     "int": "가죽, 블랙",
+     "color": "brown",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "Leather macchiato beige / black",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "가죽, 블랙",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "가죽, 통카 브라운",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    }
+   ],
+   "now_combos": 9,
+   "units": 530,
+   "now_units": 530
+  },
+  {
    "name": "AMG GLE 53 4MATIC+ Coupé",
    "my": "MY26",
    "classes": [
@@ -902,91 +1218,6 @@
    "now_combos": 9,
    "units": 77,
    "now_units": 76
-  },
-  {
-   "name": "E 300 4MATIC EXCLUSIVE",
-   "my": "MY27",
-   "classes": [
-    "E"
-   ],
-   "tag": "E",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "가죽, 통카 브라운",
-     "color": "black",
-     "now": 175,
-     "sched": [],
-     "total": 175
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "가죽, 통카 브라운",
-     "color": "white",
-     "now": 170,
-     "sched": [],
-     "total": 170
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "Leather macchiato beige / black",
-     "color": "black",
-     "now": 47,
-     "sched": [],
-     "total": 47
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "Leather macchiato beige / black",
-     "color": "white",
-     "now": 45,
-     "sched": [],
-     "total": 45
-    },
-    {
-     "ext": "그라파이트 그레이",
-     "int": "가죽, 통카 브라운",
-     "color": "grey",
-     "now": 43,
-     "sched": [],
-     "total": 43
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "가죽, 블랙",
-     "color": "white",
-     "now": 32,
-     "sched": [],
-     "total": 32
-    },
-    {
-     "ext": "그라파이트 그레이",
-     "int": "가죽, 블랙",
-     "color": "grey",
-     "now": 9,
-     "sched": [],
-     "total": 9
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "가죽, 블랙",
-     "color": "black",
-     "now": 7,
-     "sched": [],
-     "total": 7
-    },
-    {
-     "ext": "MANUFAKTUR 알파인 그레이",
-     "int": "가죽, 통카 브라운",
-     "color": "grey",
-     "now": 2,
-     "sched": [],
-     "total": 2
-    }
-   ],
-   "now_combos": 9,
-   "units": 530,
-   "now_units": 530
   },
   {
    "name": "CLE 200 Cabriolet AMG Line",
@@ -2382,6 +2613,141 @@
    "now_units": 44
   },
   {
+   "name": "E 450 4MATIC EXCLUSIVE",
+   "my": "MY27",
+   "classes": [
+    "E"
+   ],
+   "tag": "E",
+   "combos": [
+    {
+     "ext": "폴라 화이트",
+     "int": "Nappa leather hazelnut brown / espresso brown",
+     "color": "white",
+     "now": 31,
+     "sched": [],
+     "total": 31
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "나파 가죽, 네바 그레이/블랙",
+     "color": "white",
+     "now": 15,
+     "sched": [],
+     "total": 15
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이 솔리드",
+     "int": "Nappa leather hazelnut brown / espresso brown",
+     "color": "grey",
+     "now": 3,
+     "sched": [],
+     "total": 3
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "leather black",
+     "color": "white",
+     "now": 3,
+     "sched": [],
+     "total": 3
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이 솔리드",
+     "int": "leather black",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이 솔리드",
+     "int": "나파 가죽, 네바 그레이/블랙",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "Nappa leather hazelnut brown / espresso brown",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "나파 가죽, 네바 그레이/블랙",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "노틱 블루",
+     "int": "나파 가죽, 네바 그레이/블랙",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "베르데 실버",
+     "int": "Nappa leather hazelnut brown / espresso brown",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Nappa leather hazelnut brown / espresso brown",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "leather black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "나파 가죽, 네바 그레이/블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "Nappa leather hazelnut brown / espresso brown",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    }
+   ],
+   "now_combos": 4,
+   "units": 52,
+   "now_units": 52
+  },
+  {
    "name": "AMG G 63",
    "my": "MY27",
    "classes": [
@@ -2654,51 +3020,6 @@
    "now_combos": 4,
    "units": 12,
    "now_units": 9
-  },
-  {
-   "name": "E 450 4MATIC EXCLUSIVE",
-   "my": "MY27",
-   "classes": [
-    "E"
-   ],
-   "tag": "E",
-   "combos": [
-    {
-     "ext": "폴라 화이트",
-     "int": "Nappa leather hazelnut brown / espresso brown",
-     "color": "white",
-     "now": 31,
-     "sched": [],
-     "total": 31
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "나파 가죽, 네바 그레이/블랙",
-     "color": "white",
-     "now": 15,
-     "sched": [],
-     "total": 15
-    },
-    {
-     "ext": "MANUFAKTUR 알파인 그레이 솔리드",
-     "int": "Nappa leather hazelnut brown / espresso brown",
-     "color": "grey",
-     "now": 3,
-     "sched": [],
-     "total": 3
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "leather black",
-     "color": "white",
-     "now": 3,
-     "sched": [],
-     "total": 3
-    }
-   ],
-   "now_combos": 4,
-   "units": 52,
-   "now_units": 52
   },
   {
    "name": "GLS 450 4MATIC AMG Line",
@@ -3307,6 +3628,173 @@
    "now_units": 1
   },
   {
+   "name": "E 350 e 4MATIC EXCLUSIVE",
+   "my": "MY27",
+   "classes": [
+    "E"
+   ],
+   "tag": "E",
+   "combos": [
+    {
+     "ext": "MANUFAKTUR 알파인 그레이",
+     "int": "가죽, 마키아토 베이지",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이",
+     "int": "가죽, 블랙",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이",
+     "int": "가죽, 통카 브라운",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "가죽, 마키아토 베이지",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "가죽, 블랙",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "가죽, 통카 브라운",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "노틱 블루",
+     "int": "가죽, 마키아토 베이지",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "노틱 블루",
+     "int": "가죽, 블랙",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "노틱 블루",
+     "int": "가죽, 통카 브라운",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "베르데 실버",
+     "int": "가죽, 통카 브라운",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 마키아토 베이지",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 통카 브라운",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 마키아토 베이지",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 통카 브라운",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "가죽, 마키아토 베이지",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    }
+   ],
+   "model_units": 74,
+   "now_combos": 0,
+   "units": 74,
+   "now_units": 0
+  },
+  {
    "name": "CLE 450 4MATIC Cabriolet AMG Line",
    "my": "MY27",
    "classes": [
@@ -3401,6 +3889,78 @@
    ],
    "now_combos": 0,
    "units": 15,
+   "now_units": 0
+  },
+  {
+   "name": "E 220 d 4MATIC AVANTGARDE",
+   "my": "MY27",
+   "classes": [
+    "E"
+   ],
+   "tag": "E",
+   "combos": [
+    {
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "아티코 가죽, 블랙",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 가죽, 마키아토 베이지/블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 가죽, 마키아토 베이지/블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 가죽, 블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 가죽, 통카 브라운/블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 가죽, 통카 브라운/블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "2026-12",
+       "label": "12월",
+       "n": 1
+      }
+     ],
+     "total": 1
+    }
+   ],
+   "now_combos": 0,
+   "units": 1,
    "now_units": 0
   },
   {

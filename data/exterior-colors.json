@@ -8,7 +8,8 @@
   ["blue", "블루", "#2f4f86"],
   ["red", "레드", "#8e1f2a"],
   ["green", "그린", "#2f6b52"],
-  ["beige", "베이지·골드", "#c9a978"]
+  ["beige", "베이지·골드", "#c9a978"],
+  ["brown", "브라운", "#5c3a24"]
  ],
  "other": {"label": "기타", "hex": "#7d7d7d"},
  "tokens": [
@@ -19,7 +20,8 @@
   ["블루", "blue"], ["blue", "blue"],
   ["레드", "red"], ["red", "red"],
   ["그린", "green"], ["green", "green"], ["민트", "green"], ["mint", "green"],
-  ["베이지", "beige"], ["beige", "beige"], ["골드", "beige"], ["gold", "beige"]
+  ["베이지", "beige"], ["beige", "beige"], ["골드", "beige"], ["gold", "beige"],
+  ["브라운", "brown"], ["brown", "brown"]
  ],
  "shades": [
   ["그라파이트", "grey", "#45494d", "graphite = dark grey"],
@@ -32,6 +34,7 @@
   ["노틱", "blue", "#24385c", "nautic blue = dark blue"],
   ["소다라이트", "blue", "#26407a", "sodalite blue = deep blue"],
   ["아쿠아 민트", "green", "#7cc3b0", "aqua mint = light mint green"],
-  ["가넷", "red", "#6e1622", "garnet red = dark red"]
+  ["가넷", "red", "#6e1622", "garnet red = dark red"],
+  ["벨벳", "brown", "#4a3020", "Velvet Brown 771U — STS 2026-11-17 21:00 외장 색상 벨벳 브라운"]
  ]
 }
