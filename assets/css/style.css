@@ -661,6 +661,8 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .vx-grid{display:grid;gap:28px;align-items:start}
 .vx-grid2{display:grid;gap:28px 48px;margin-top:34px;padding-top:28px;border-top:1px solid var(--line)}
 @media(min-width:900px){.vx-grid{grid-template-columns:1.35fr 1fr;gap:48px;align-items:stretch}.vx-grid2{grid-template-columns:1fr 1fr}}
+/* V-Class home: aspect-ratio + stretch made the photo wider than its column and overlap the price panel */
+@media(min-width:900px){#v-class .vx-grid{align-items:start}#v-class .vx-vis{width:100%;max-width:100%;min-width:0}}
 .vx-vis{margin:0;position:relative;border-radius:var(--r);overflow:hidden;background:var(--surface);aspect-ratio:5/3}
 .vx-vis img{width:100%;height:100%;object-fit:cover;max-width:none}
 .vx-vis figcaption{position:absolute;right:10px;bottom:8px;font-size:11.5px;color:#fff;background:rgba(14,14,16,.62);padding:3px 8px;border-radius:var(--r)}
