@@ -467,6 +467,7 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .hh-in{padding-top:64px;padding-bottom:36px;width:100%}
 .home-hero h1{font-size:clamp(32px,7.4vw,68px);line-height:1.16;color:#fff;max-width:15em;text-shadow:0 2px 24px rgba(0,0,0,.35)}
 .home-hero h1 em{color:#e3d2ad}
+.home-hero h1 .nobr,.nobr{white-space:nowrap}
 .home-hero .lead{margin:18px 0 0;color:#ece9e2;max-width:36em}
 .hh-id{display:flex;align-items:center;gap:16px;margin-bottom:22px}
 .hh-ava{flex:none;width:88px;height:88px;border-radius:50%;border:2px solid var(--champ);background:linear-gradient(160deg,#2a2a30,#141416);display:grid;place-items:center;overflow:hidden}
