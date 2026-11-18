@@ -1,7 +1,7 @@
 {
  "date": "2026-11-17",
  "source": "2026-11-17 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-18 09:19 KST",
+ "generated": "2026-11-18 13:32 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,15 +13,15 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 53,
-  "combos": 356,
-  "now_combos": 247,
-  "units": 3905,
-  "now_units": 3484,
+  "models": 57,
+  "combos": 423,
+  "now_combos": 245,
+  "units": 5161,
+  "now_units": 3482,
   "rows_in_file": 4701,
-  "rows_used": 4106,
+  "rows_used": 4104,
   "rows_skipped": {
-   "unconfirmed combo excluded": 270,
+   "unconfirmed combo excluded": 272,
    "contracted/sold": 224,
    "위탁재고 excluded": 101,
    "owner-excluded models (units)": 317
@@ -36,14 +36,14 @@
   "GLA": 1,
   "GLB": 1,
   "GLC": 8,
-  "GLE": 5,
-  "GLS": 5,
+  "GLE": 6,
+  "GLS": 9,
   "CLE": 7,
-  "AMG": 16,
+  "AMG": 15,
   "Maybach": 5,
   "EQ": 3,
   "G": 2,
-  "SL": 3,
+  "SL": 2,
   "GT": 3
  },
  "colors": [
@@ -51,31 +51,31 @@
    "key": "white",
    "label": "화이트",
    "hex": "#f4f4f2",
-   "n": 107
+   "n": 123
   },
   {
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 99
+   "n": 113
   },
   {
    "key": "grey",
    "label": "그레이",
    "hex": "#6d7275",
-   "n": 93
+   "n": 92
   },
   {
    "key": "silver",
    "label": "실버",
    "hex": "#aab0b5",
-   "n": 34
+   "n": 49
   },
   {
    "key": "blue",
    "label": "블루",
    "hex": "#2f4f86",
-   "n": 15
+   "n": 27
   },
   {
    "key": "red",
@@ -87,7 +87,7 @@
    "key": "green",
    "label": "그린",
    "hex": "#2f6b52",
-   "n": 1
+   "n": 13
   },
   {
    "key": "beige",
@@ -99,7 +99,7 @@
    "key": "brown",
    "label": "브라운",
    "hex": "#5c3a24",
-   "n": 6
+   "n": 5
   }
  ],
  "models": [
@@ -462,15 +462,6 @@
     {
      "ext": "벨벳 브라운",
      "int": "가죽, 마키아토 베이지/블랙",
-     "color": "brown",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "벨벳 브라운",
-     "int": "가죽, 통카 브라운",
      "color": "brown",
      "now": 0,
      "sched": [],
@@ -879,116 +870,6 @@
    "now_units": 35
   },
   {
-   "name": "E 200 AMG Line",
-   "my": "MY27",
-   "classes": [
-    "E"
-   ],
-   "tag": "E",
-   "combos": [
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 가죽, 통카 브라운/블랙",
-     "color": "white",
-     "now": 42,
-     "sched": [
-      {
-       "month": "2026-12",
-       "label": "12월",
-       "n": 3
-      },
-      {
-       "month": "2027-01",
-       "label": "27년 1월",
-       "n": 2
-      }
-     ],
-     "total": 47
-    },
-    {
-     "ext": "그라파이트 그레이 메탈릭",
-     "int": "아티코 가죽, 통카 브라운/블랙",
-     "color": "grey",
-     "now": 22,
-     "sched": [],
-     "total": 22
-    },
-    {
-     "ext": "MANUFAKTUR 알파인 그레이",
-     "int": "아티코 가죽, 통카 브라운/블랙",
-     "color": "grey",
-     "now": 15,
-     "sched": [],
-     "total": 15
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "ARTICO man-made leather beige",
-     "color": "white",
-     "now": 6,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      }
-     ],
-     "total": 7
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "ARTICO man-made leather beige",
-     "color": "black",
-     "now": 5,
-     "sched": [],
-     "total": 5
-    },
-    {
-     "ext": "MANUFAKTUR 알파인 그레이",
-     "int": "ARTICO man-made leather beige",
-     "color": "grey",
-     "now": 4,
-     "sched": [],
-     "total": 4
-    },
-    {
-     "ext": "그라파이트 그레이 메탈릭",
-     "int": "ARTICO man-made leather beige",
-     "color": "grey",
-     "now": 4,
-     "sched": [],
-     "total": 4
-    },
-    {
-     "ext": "노틱 블루",
-     "int": "아티코 가죽, 통카 브라운/블랙",
-     "color": "blue",
-     "now": 4,
-     "sched": [],
-     "total": 4
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "아티코 가죽, 블랙",
-     "color": "black",
-     "now": 4,
-     "sched": [],
-     "total": 4
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "아티코 가죽, 통카 브라운/블랙",
-     "color": "black",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    }
-   ],
-   "now_combos": 10,
-   "units": 113,
-   "now_units": 107
-  },
-  {
    "name": "E 300 4MATIC EXCLUSIVE",
    "my": "MY27",
    "classes": [
@@ -1080,15 +961,6 @@
     {
      "ext": "MANUFAKTUR 알파인 그레이",
      "int": "가죽, 블랙",
-     "color": "grey",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "그라파이트 그레이",
-     "int": "Leather macchiato beige / black",
      "color": "grey",
      "now": 0,
      "sched": [],
@@ -1254,6 +1126,108 @@
    "now_combos": 9,
    "units": 77,
    "now_units": 76
+  },
+  {
+   "name": "E 200 AMG Line",
+   "my": "MY27",
+   "classes": [
+    "E"
+   ],
+   "tag": "E",
+   "combos": [
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 가죽, 통카 브라운/블랙",
+     "color": "white",
+     "now": 42,
+     "sched": [
+      {
+       "month": "2026-12",
+       "label": "12월",
+       "n": 3
+      },
+      {
+       "month": "2027-01",
+       "label": "27년 1월",
+       "n": 2
+      }
+     ],
+     "total": 47
+    },
+    {
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "아티코 가죽, 통카 브라운/블랙",
+     "color": "grey",
+     "now": 22,
+     "sched": [],
+     "total": 22
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이",
+     "int": "아티코 가죽, 통카 브라운/블랙",
+     "color": "grey",
+     "now": 15,
+     "sched": [],
+     "total": 15
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "ARTICO man-made leather beige",
+     "color": "white",
+     "now": 6,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 1
+      }
+     ],
+     "total": 7
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "ARTICO man-made leather beige",
+     "color": "black",
+     "now": 5,
+     "sched": [],
+     "total": 5
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이",
+     "int": "ARTICO man-made leather beige",
+     "color": "grey",
+     "now": 4,
+     "sched": [],
+     "total": 4
+    },
+    {
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "ARTICO man-made leather beige",
+     "color": "grey",
+     "now": 4,
+     "sched": [],
+     "total": 4
+    },
+    {
+     "ext": "노틱 블루",
+     "int": "아티코 가죽, 통카 브라운/블랙",
+     "color": "blue",
+     "now": 4,
+     "sched": [],
+     "total": 4
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 가죽, 블랙",
+     "color": "black",
+     "now": 4,
+     "sched": [],
+     "total": 4
+    }
+   ],
+   "now_combos": 9,
+   "units": 112,
+   "now_units": 106
   },
   {
    "name": "CLE 200 Cabriolet AMG Line",
@@ -3752,28 +3726,6 @@
    "now_units": 9
   },
   {
-   "name": "AMG SL 63 4MATIC+",
-   "my": "MY26",
-   "classes": [
-    "SL",
-    "AMG"
-   ],
-   "tag": "SL",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "나파 가죽, 레드 페퍼/블랙",
-     "color": "black",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    }
-   ],
-   "now_combos": 1,
-   "units": 1,
-   "now_units": 1
-  },
-  {
    "name": "CLE 450 4MATIC Cabriolet",
    "my": "MY26",
    "classes": [
@@ -3981,6 +3933,715 @@
    "model_units": 74,
    "now_combos": 0,
    "units": 74,
+   "now_units": 0
+  },
+  {
+   "name": "GLE 450 4MATIC Coupé",
+   "my": "MY27",
+   "classes": [
+    "GLE"
+   ],
+   "tag": "GLE",
+   "combos": [
+    {
+     "ext": "dark petrol non-metallic",
+     "int": "나파 가죽, 블랙",
+     "color": "green",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "dark petrol non-metallic",
+     "int": "나파 가죽, 비치브라운 / 블랙",
+     "color": "green",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "dark petrol non-metallic",
+     "int": "나파 가죽, 투톤 화이트/블랙",
+     "color": "green",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "소다라이트 블루",
+     "int": "나파 가죽, 비치브라운 / 블랙",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "소다라이트 블루",
+     "int": "나파 가죽, 투톤 화이트/블랙",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "나파 가죽, 블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "나파 가죽, 비치브라운 / 블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "나파 가죽, 투톤 클래식 레드/블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "나파 가죽, 투톤 화이트/블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "나파 가죽, 블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "나파 가죽, 비치브라운 / 블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "나파 가죽, 투톤 클래식 레드/블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "나파 가죽, 투톤 화이트/블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "나파 가죽, 블랙",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "나파 가죽, 비치브라운 / 블랙",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "나파 가죽, 투톤 클래식 레드/블랙",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "나파 가죽, 투톤 화이트/블랙",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    }
+   ],
+   "model_units": 630,
+   "now_combos": 0,
+   "units": 630,
+   "now_units": 0
+  },
+  {
+   "name": "GLS 450 4MATIC AMG Line 6-seater",
+   "my": "MY27",
+   "classes": [
+    "GLS"
+   ],
+   "tag": "GLS",
+   "combos": [
+    {
+     "ext": "dark petrol non-metallic",
+     "int": "Leather beech brown / black",
+     "color": "green",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "dark petrol non-metallic",
+     "int": "Leather black",
+     "color": "green",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "dark petrol non-metallic",
+     "int": "Leather macchiato beige / black",
+     "color": "green",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "소다라이트 블루",
+     "int": "Leather beech brown / black",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "소다라이트 블루",
+     "int": "Leather black",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "소다라이트 블루",
+     "int": "Leather macchiato beige / black",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Leather beech brown / black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Leather black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Leather macchiato beige / black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "Leather beech brown / black",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "Leather black",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "Leather macchiato beige / black",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "Leather beech brown / black",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "Leather black",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "Leather macchiato beige / black",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    }
+   ],
+   "model_units": 103,
+   "now_combos": 0,
+   "units": 103,
+   "now_units": 0
+  },
+  {
+   "name": "GLS 450 4MATIC AMG Line",
+   "my": "MY27",
+   "classes": [
+    "GLS"
+   ],
+   "tag": "GLS",
+   "combos": [
+    {
+     "ext": "dark petrol non-metallic",
+     "int": "Leather beech brown / black",
+     "color": "green",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "dark petrol non-metallic",
+     "int": "Leather black",
+     "color": "green",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "dark petrol non-metallic",
+     "int": "Leather macchiato beige / black",
+     "color": "green",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "소다라이트 블루",
+     "int": "Leather beech brown / black",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "소다라이트 블루",
+     "int": "Leather macchiato beige / black",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Leather beech brown / black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Leather black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Leather macchiato beige / black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "Leather beech brown / black",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "Leather black",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "Leather macchiato beige / black",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "Leather beech brown / black",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "Leather black",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "Leather macchiato beige / black",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    }
+   ],
+   "model_units": 324,
+   "now_combos": 0,
+   "units": 324,
+   "now_units": 0
+  },
+  {
+   "name": "GLS 450 4MATIC 6-seater",
+   "my": "MY27",
+   "classes": [
+    "GLS"
+   ],
+   "tag": "GLS",
+   "combos": [
+    {
+     "ext": "dark petrol non-metallic",
+     "int": "Leather beech brown / black",
+     "color": "green",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "소다라이트 블루",
+     "int": "Leather beech brown / black",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "소다라이트 블루",
+     "int": "Leather black",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "소다라이트 블루",
+     "int": "Leather macchiato beige / black",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Leather beech brown / black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Leather black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Leather macchiato beige / black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "Leather beech brown / black",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "Leather black",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "Leather macchiato beige / black",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "Leather beech brown / black",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "Leather black",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "Leather macchiato beige / black",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    }
+   ],
+   "model_units": 67,
+   "now_combos": 0,
+   "units": 67,
+   "now_units": 0
+  },
+  {
+   "name": "GLS 450 4MATIC",
+   "my": "MY27",
+   "classes": [
+    "GLS"
+   ],
+   "tag": "GLS",
+   "combos": [
+    {
+     "ext": "dark petrol non-metallic",
+     "int": "Leather beech brown / black",
+     "color": "green",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "dark petrol non-metallic",
+     "int": "Leather macchiato beige / black",
+     "color": "green",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "소다라이트 블루",
+     "int": "Leather beech brown / black",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "소다라이트 블루",
+     "int": "Leather macchiato beige / black",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Leather beech brown / black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Leather black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Leather macchiato beige / black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "Leather beech brown / black",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "Leather black",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "Leather macchiato beige / black",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "Leather beech brown / black",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "Leather black",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    }
+   ],
+   "model_units": 134,
+   "now_combos": 0,
+   "units": 134,
    "now_units": 0
   },
   {

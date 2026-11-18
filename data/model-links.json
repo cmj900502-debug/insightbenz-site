@@ -183,6 +183,14 @@
       "slug": "v-class"
     }
   ],
-  "trims": {"Maybach EQS 680 SUV|MY27": "Mercedes-Maybach EQS 680|MY27", "GLC 300 4MATIC Coupé AMG Line AIRMATIC®|MY27": "GLC 300 4MATIC Coupe AMG Line|MY27"},
+  "trims": {
+    "Maybach EQS 680 SUV|MY27": "Mercedes-Maybach EQS 680|MY27",
+    "GLC 300 4MATIC Coupé AMG Line AIRMATIC®|MY27": "GLC 300 4MATIC Coupe AMG Line|MY27",
+    "GLE 450 4MATIC Coupé|MY27": "page",
+    "GLS 450 4MATIC|MY27": "page",
+    "GLS 450 4MATIC 6-seater|MY27": "page",
+    "GLS 450 4MATIC AMG Line|MY27": "page",
+    "GLS 450 4MATIC AMG Line 6-seater|MY27": "page"
+  },
   "colors": {}
 }
