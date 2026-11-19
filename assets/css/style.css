@@ -1138,3 +1138,14 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
   .glx-hb-price{font-size:13.5px}
   .glx-hb-cta{grid-column:1/-1;justify-self:stretch;text-align:center}
 }
+
+/* ---------- GLE 상세 실차 사진 그리드 (4:5, 차 전체가 보이게, 라이트박스) ---------- */
+.glx-gal{margin-top:28px;padding-top:22px;border-top:1px solid var(--line)}
+.glx-gal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.glx-gal figure{margin:0;min-width:0}
+.glx-gal .nc-zoom{display:block;border-radius:var(--r);cursor:zoom-in}
+.glx-gal .nc-zoom:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.glx-gal img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:contain;object-position:center;background:#0b0b0d;border-radius:var(--r);border:1px solid var(--line)}
+.glx-gal figcaption{font-size:12.5px;color:var(--text-2);margin-top:6px}
+.glx-gal-cr{font-size:11.5px;line-height:1.55;color:var(--muted);margin:10px 0 0}
+@media(max-width:760px){.glx-gal-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
