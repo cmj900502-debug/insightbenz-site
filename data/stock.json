@@ -1,7 +1,7 @@
 {
  "date": "2026-11-18",
  "source": "2026-11-18 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-19 12:30 KST",
+ "generated": "2026-11-19 17:32 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,10 +13,10 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 52,
-  "combos": 276,
+  "models": 51,
+  "combos": 272,
   "now_combos": 246,
-  "units": 4568,
+  "units": 4520,
   "now_units": 3413,
   "rows_in_file": 5801,
   "rows_used": 5091,
@@ -37,7 +37,7 @@
   "GLB": 1,
   "GLC": 7,
   "GLE": 6,
-  "GLS": 6,
+  "GLS": 5,
   "CLE": 7,
   "AMG": 16,
   "Maybach": 5,
@@ -57,7 +57,7 @@
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 90
+   "n": 88
   },
   {
    "key": "grey",
@@ -75,7 +75,7 @@
    "key": "blue",
    "label": "블루",
    "hex": "#2f4f86",
-   "n": 6
+   "n": 5
   },
   {
    "key": "red",
@@ -87,7 +87,7 @@
    "key": "green",
    "label": "그린",
    "hex": "#2f6b52",
-   "n": 3
+   "n": 2
   },
   {
    "key": "beige",
@@ -990,15 +990,6 @@
       }
      ],
      "total": 5
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "아티코 가죽, 통카 브라운/블랙",
-     "color": "black",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
     },
     {
      "ext": "폴라 화이트",
@@ -3718,92 +3709,6 @@
    "now_units": 1
   },
   {
-   "name": "GLE 450 4MATIC AMG Line",
-   "my": "MY27",
-   "classes": [
-    "GLE"
-   ],
-   "tag": "GLE",
-   "combos": [
-    {
-     "ext": "dark petrol non-metallic",
-     "int": "leather black/sahara beige",
-     "color": "green",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "dark petrol non-metallic",
-     "int": "leather saddle brown / black",
-     "color": "green",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "Leather black",
-     "color": "black",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "leather black/sahara beige",
-     "color": "black",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "leather saddle brown / black",
-     "color": "black",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "Leather black",
-     "color": "white",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "leather black/sahara beige",
-     "color": "white",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "leather saddle brown / black",
-     "color": "white",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    }
-   ],
-   "model_units": 110,
-   "now_combos": 0,
-   "units": 110,
-   "now_units": 0
-  },
-  {
    "name": "CLE 450 4MATIC Cabriolet AMG Line",
    "my": "MY27",
    "classes": [
@@ -3901,6 +3806,74 @@
    "now_units": 0
   },
   {
+   "name": "GLE 450 4MATIC AMG Line",
+   "my": "MY27",
+   "classes": [
+    "GLE"
+   ],
+   "tag": "GLE",
+   "combos": [
+    {
+     "ext": "dark petrol non-metallic",
+     "int": "Leather beech brown / black",
+     "color": "green",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "Leather black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "leather black/sahara beige",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "Leather black",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "leather black/sahara beige",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "leather saddle brown / black",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    }
+   ],
+   "model_units": 62,
+   "now_combos": 0,
+   "units": 62,
+   "now_units": 0
+  },
+  {
    "name": "CLA 220 AMG Line",
    "my": "MY27",
    "classes": [
@@ -3953,28 +3926,6 @@
    ],
    "now_combos": 0,
    "units": 1,
-   "now_units": 0
-  },
-  {
-   "name": "GLS 450 4MATIC",
-   "my": "MY27",
-   "classes": [
-    "GLS"
-   ],
-   "tag": "GLS",
-   "combos": [
-    {
-     "ext": "소다라이트 블루",
-     "int": "Leather beech brown / black",
-     "color": "blue",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    }
-   ],
-   "now_combos": 0,
-   "units": 0,
    "now_units": 0
   },
   {
