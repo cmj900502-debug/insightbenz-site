@@ -1,7 +1,7 @@
 {
  "date": "2026-11-19",
  "source": "2026-11-19 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-20 12:33 KST",
+ "generated": "2026-11-20 15:25 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -14,7 +14,7 @@
  ],
  "stats": {
   "models": 52,
-  "combos": 282,
+  "combos": 276,
   "now_combos": 250,
   "units": 3772,
   "now_units": 3479,
@@ -62,19 +62,19 @@
    "key": "grey",
    "label": "그레이",
    "hex": "#6d7275",
-   "n": 60
+   "n": 61
   },
   {
    "key": "silver",
    "label": "실버",
    "hex": "#aab0b5",
-   "n": 16
+   "n": 13
   },
   {
    "key": "blue",
    "label": "블루",
    "hex": "#2f4f86",
-   "n": 8
+   "n": 5
   },
   {
    "key": "red",
@@ -86,7 +86,7 @@
    "key": "green",
    "label": "그린",
    "hex": "#2f6b52",
-   "n": 3
+   "n": 2
   },
   {
    "key": "beige",
@@ -587,6 +587,15 @@
      "now": 1,
      "sched": [],
      "total": 1
+    },
+    {
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "아티코 가죽, 마키아토 베이지/블랙",
+     "color": "grey",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
     },
     {
      "ext": "옵시디안 블랙",
@@ -3235,72 +3244,9 @@
    "tag": "GLE",
    "combos": [
     {
-     "ext": "dark petrol non-metallic",
-     "int": "leather black/sahara beige",
-     "color": "green",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "소달라이트 블루",
-     "int": "Leather black",
-     "color": "blue",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "소달라이트 블루",
-     "int": "leather black/sahara beige",
-     "color": "blue",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "소달라이트 블루",
-     "int": "leather saddle brown / black",
-     "color": "blue",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
      "ext": "옵시디안 블랙",
      "int": "leather saddle brown / black",
      "color": "black",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "하이 테크 실버",
-     "int": "Leather black",
-     "color": "silver",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "하이 테크 실버",
-     "int": "leather black/sahara beige",
-     "color": "silver",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "하이 테크 실버",
-     "int": "leather saddle brown / black",
-     "color": "silver",
      "now": 0,
      "sched": [],
      "total": 0,
