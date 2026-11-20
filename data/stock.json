@@ -1,7 +1,7 @@
 {
  "date": "2026-11-19",
  "source": "2026-11-19 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-20 09:18 KST",
+ "generated": "2026-11-20 09:25 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -14,14 +14,14 @@
  ],
  "stats": {
   "models": 52,
-  "combos": 281,
-  "now_combos": 249,
-  "units": 3772,
-  "now_units": 3478,
+  "combos": 282,
+  "now_combos": 250,
+  "units": 3773,
+  "now_units": 3479,
   "rows_in_file": 4604,
-  "rows_used": 4220,
+  "rows_used": 4221,
   "rows_skipped": {
-   "unconfirmed combo excluded": 77,
+   "unconfirmed combo excluded": 76,
    "위탁재고 excluded": 108,
    "contracted/sold": 199,
    "owner-excluded models (units)": 464
@@ -57,7 +57,7 @@
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 90
+   "n": 91
   },
   {
    "key": "grey",
@@ -491,6 +491,142 @@
    "now_units": 80
   },
   {
+   "name": "E 200 AMG Line",
+   "my": "MY27",
+   "classes": [
+    "E"
+   ],
+   "tag": "E",
+   "combos": [
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 가죽, 통카 브라운/블랙",
+     "color": "white",
+     "now": 29,
+     "sched": [
+      {
+       "month": "2026-12",
+       "label": "12월",
+       "n": 3
+      },
+      {
+       "month": "2027-01",
+       "label": "27년 1월",
+       "n": 2
+      }
+     ],
+     "total": 34
+    },
+    {
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "아티코 가죽, 통카 브라운/블랙",
+     "color": "grey",
+     "now": 22,
+     "sched": [],
+     "total": 22
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이",
+     "int": "아티코 가죽, 통카 브라운/블랙",
+     "color": "grey",
+     "now": 14,
+     "sched": [],
+     "total": 14
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "ARTICO man-made leather beige",
+     "color": "black",
+     "now": 5,
+     "sched": [],
+     "total": 5
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이",
+     "int": "ARTICO man-made leather beige",
+     "color": "grey",
+     "now": 4,
+     "sched": [],
+     "total": 4
+    },
+    {
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "ARTICO man-made leather beige",
+     "color": "grey",
+     "now": 4,
+     "sched": [],
+     "total": 4
+    },
+    {
+     "ext": "노틱 블루",
+     "int": "아티코 가죽, 통카 브라운/블랙",
+     "color": "blue",
+     "now": 3,
+     "sched": [],
+     "total": 3
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 가죽, 블랙",
+     "color": "black",
+     "now": 3,
+     "sched": [],
+     "total": 3
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 가죽, 통카 브라운/블랙",
+     "color": "black",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 가죽, 블랙",
+     "color": "white",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 가죽, 마키아토 베이지/블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 가죽, 마키아토 베이지/블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "ARTICO man-made leather beige",
+     "color": "white",
+     "now": 0,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 1
+      }
+     ],
+     "total": 1
+    }
+   ],
+   "now_combos": 10,
+   "units": 92,
+   "now_units": 86
+  },
+  {
    "name": "AMG E 53 HYBRID 4MATIC+",
    "my": "MY26",
    "classes": [
@@ -682,134 +818,6 @@
    "now_combos": 10,
    "units": 105,
    "now_units": 105
-  },
-  {
-   "name": "E 200 AMG Line",
-   "my": "MY27",
-   "classes": [
-    "E"
-   ],
-   "tag": "E",
-   "combos": [
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 가죽, 통카 브라운/블랙",
-     "color": "white",
-     "now": 29,
-     "sched": [
-      {
-       "month": "2026-12",
-       "label": "12월",
-       "n": 3
-      },
-      {
-       "month": "2027-01",
-       "label": "27년 1월",
-       "n": 2
-      }
-     ],
-     "total": 34
-    },
-    {
-     "ext": "그라파이트 그레이 메탈릭",
-     "int": "아티코 가죽, 통카 브라운/블랙",
-     "color": "grey",
-     "now": 22,
-     "sched": [],
-     "total": 22
-    },
-    {
-     "ext": "MANUFAKTUR 알파인 그레이",
-     "int": "아티코 가죽, 통카 브라운/블랙",
-     "color": "grey",
-     "now": 14,
-     "sched": [],
-     "total": 14
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "ARTICO man-made leather beige",
-     "color": "black",
-     "now": 5,
-     "sched": [],
-     "total": 5
-    },
-    {
-     "ext": "MANUFAKTUR 알파인 그레이",
-     "int": "ARTICO man-made leather beige",
-     "color": "grey",
-     "now": 4,
-     "sched": [],
-     "total": 4
-    },
-    {
-     "ext": "그라파이트 그레이 메탈릭",
-     "int": "ARTICO man-made leather beige",
-     "color": "grey",
-     "now": 4,
-     "sched": [],
-     "total": 4
-    },
-    {
-     "ext": "노틱 블루",
-     "int": "아티코 가죽, 통카 브라운/블랙",
-     "color": "blue",
-     "now": 3,
-     "sched": [],
-     "total": 3
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "아티코 가죽, 블랙",
-     "color": "black",
-     "now": 3,
-     "sched": [],
-     "total": 3
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 가죽, 블랙",
-     "color": "white",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "아티코 가죽, 마키아토 베이지/블랙",
-     "color": "black",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 가죽, 마키아토 베이지/블랙",
-     "color": "white",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "ARTICO man-made leather beige",
-     "color": "white",
-     "now": 0,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      }
-     ],
-     "total": 1
-    }
-   ],
-   "now_combos": 9,
-   "units": 91,
-   "now_units": 85
   },
   {
    "name": "AMG GLE 53 4MATIC+ Coupé",
