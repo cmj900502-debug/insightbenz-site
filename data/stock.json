@@ -1,7 +1,7 @@
 {
- "date": "2026-11-18",
- "source": "2026-11-18 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-19 12:30 KST",
+ "date": "2026-11-19",
+ "source": "2026-11-19 차량 재고현황-메일용.xlsx",
+ "generated": "2026-11-20 09:18 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -14,17 +14,17 @@
  ],
  "stats": {
   "models": 52,
-  "combos": 276,
-  "now_combos": 246,
-  "units": 4568,
-  "now_units": 3413,
-  "rows_in_file": 5801,
-  "rows_used": 5091,
+  "combos": 281,
+  "now_combos": 249,
+  "units": 3772,
+  "now_units": 3478,
+  "rows_in_file": 4604,
+  "rows_used": 4220,
   "rows_skipped": {
-   "unconfirmed combo excluded": 328,
-   "위탁재고 excluded": 92,
-   "contracted/sold": 290,
-   "owner-excluded models (units)": 649
+   "unconfirmed combo excluded": 77,
+   "위탁재고 excluded": 108,
+   "contracted/sold": 199,
+   "owner-excluded models (units)": 464
   }
  },
  "chips": {
@@ -51,7 +51,7 @@
    "key": "white",
    "label": "화이트",
    "hex": "#f4f4f2",
-   "n": 102
+   "n": 103
   },
   {
    "key": "black",
@@ -63,19 +63,19 @@
    "key": "grey",
    "label": "그레이",
    "hex": "#6d7275",
-   "n": 62
+   "n": 60
   },
   {
    "key": "silver",
    "label": "실버",
    "hex": "#aab0b5",
-   "n": 12
+   "n": 16
   },
   {
    "key": "blue",
    "label": "블루",
    "hex": "#2f4f86",
-   "n": 6
+   "n": 8
   },
   {
    "key": "red",
@@ -115,14 +115,8 @@
      "ext": "폴라 화이트",
      "int": "가죽, 통카 브라운",
      "color": "white",
-     "now": 27,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
+     "now": 28,
+     "sched": [],
      "total": 28
     },
     {
@@ -130,42 +124,24 @@
      "int": "가죽, 마키아토 베이지/블랙",
      "color": "black",
      "now": 10,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 11
+     "sched": [],
+     "total": 10
     },
     {
      "ext": "옵시디안 블랙",
      "int": "가죽, 통카 브라운",
      "color": "black",
      "now": 8,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 16
-      }
-     ],
-     "total": 24
+     "sched": [],
+     "total": 8
     },
     {
      "ext": "폴라 화이트",
      "int": "가죽, 마키아토 베이지/블랙",
      "color": "white",
      "now": 8,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 9
+     "sched": [],
+     "total": 8
     },
     {
      "ext": "폴라 화이트",
@@ -184,26 +160,20 @@
      "total": 4
     },
     {
+     "ext": "MANUFAKTUR 알파인 그레이 솔리드",
+     "int": "가죽, 통카 브라운",
+     "color": "grey",
+     "now": 3,
+     "sched": [],
+     "total": 3
+    },
+    {
      "ext": "하이 테크 실버",
      "int": "가죽, 마키아토 베이지/블랙",
      "color": "silver",
      "now": 3,
      "sched": [],
      "total": 3
-    },
-    {
-     "ext": "MANUFAKTUR 알파인 그레이 솔리드",
-     "int": "가죽, 통카 브라운",
-     "color": "grey",
-     "now": 3,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 4
     },
     {
      "ext": "MANUFAKTUR 알파인 그레이 솔리드",
@@ -220,6 +190,14 @@
      "now": 2,
      "sched": [],
      "total": 2
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이 솔리드",
+     "int": "가죽, 마키아토 베이지/블랙",
+     "color": "grey",
+     "now": 1,
+     "sched": [],
+     "total": 1
     },
     {
      "ext": "그라파이트 그레이 메탈릭",
@@ -246,37 +224,17 @@
      "total": 1
     },
     {
-     "ext": "MANUFAKTUR 알파인 그레이 솔리드",
-     "int": "가죽, 마키아토 베이지/블랙",
-     "color": "grey",
-     "now": 1,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 2
-    },
-    {
      "ext": "하이 테크 실버",
      "int": "가죽, 블랙",
      "color": "silver",
      "now": 1,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 2
+     "sched": [],
+     "total": 1
     }
    ],
    "now_combos": 15,
-   "units": 101,
-   "now_units": 79
+   "units": 80,
+   "now_units": 80
   },
   {
    "name": "E 300 4MATIC AMG Line",
@@ -296,75 +254,47 @@
        "month": "2026-12",
        "label": "12월",
        "n": 1
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 5
       }
      ],
-     "total": 185
+     "total": 180
     },
     {
      "ext": "옵시디안 블랙",
      "int": "가죽, 블랙",
      "color": "black",
      "now": 117,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 3
-      }
-     ],
-     "total": 120
+     "sched": [],
+     "total": 117
     },
     {
      "ext": "폴라 화이트",
      "int": "가죽, 마키아토 베이지/블랙",
      "color": "white",
-     "now": 77,
+     "now": 76,
      "sched": [
       {
        "month": "2026-12",
        "label": "12월",
        "n": 1
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 39
       }
      ],
-     "total": 117
+     "total": 77
     },
     {
      "ext": "옵시디안 블랙",
      "int": "가죽, 통카 브라운",
      "color": "black",
-     "now": 56,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 26
-      }
-     ],
-     "total": 82
+     "now": 55,
+     "sched": [],
+     "total": 55
     },
     {
      "ext": "옵시디안 블랙",
      "int": "가죽, 마키아토 베이지/블랙",
      "color": "black",
      "now": 41,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 13
-      }
-     ],
-     "total": 54
+     "sched": [],
+     "total": 41
     },
     {
      "ext": "그라파이트 그레이",
@@ -387,94 +317,53 @@
      "int": "가죽, 마키아토 베이지/블랙",
      "color": "silver",
      "now": 18,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 2
-      }
-     ],
-     "total": 20
+     "sched": [],
+     "total": 18
     },
     {
      "ext": "MANUFAKTUR 알파인 그레이",
      "int": "가죽, 마키아토 베이지/블랙",
      "color": "grey",
      "now": 16,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 3
-      }
-     ],
-     "total": 19
+     "sched": [],
+     "total": 16
     },
     {
      "ext": "MANUFAKTUR 알파인 그레이",
      "int": "가죽, 통카 브라운",
      "color": "grey",
-     "now": 14,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 6
-      }
-     ],
-     "total": 21
+     "now": 15,
+     "sched": [],
+     "total": 15
     },
     {
      "ext": "폴라 화이트",
      "int": "가죽, 통카 브라운",
      "color": "white",
-     "now": 13,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 93
-      }
-     ],
-     "total": 106
+     "now": 15,
+     "sched": [],
+     "total": 15
     },
     {
      "ext": "그라파이트 그레이",
      "int": "가죽, 마키아토 베이지/블랙",
      "color": "grey",
      "now": 10,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 11
+     "sched": [],
+     "total": 10
     },
     {
      "ext": "노틱 블루",
      "int": "가죽, 블랙",
      "color": "blue",
      "now": 8,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 2
-      }
-     ],
-     "total": 10
+     "sched": [],
+     "total": 8
     }
    ],
    "now_combos": 13,
-   "units": 811,
-   "now_units": 615
+   "units": 618,
+   "now_units": 616
   },
   {
    "name": "GLC 300 4MATIC AMG Line AIRMATIC®",
@@ -485,118 +374,70 @@
    "tag": "GLC",
    "combos": [
     {
-     "ext": "옵시디안 블랙",
+     "ext": "폴라 화이트",
      "int": "아티코 투톤 인조 가죽, 시에나 브라운/블랙",
-     "color": "black",
-     "now": 15,
+     "color": "white",
+     "now": 20,
      "sched": [
       {
        "month": "2026-11",
        "label": "11월",
        "n": 4
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 21
       }
      ],
-     "total": 40
+     "total": 24
     },
     {
-     "ext": "폴라 화이트",
+     "ext": "옵시디안 블랙",
      "int": "아티코 투톤 인조 가죽, 시에나 브라운/블랙",
-     "color": "white",
-     "now": 12,
+     "color": "black",
+     "now": 17,
      "sched": [
       {
        "month": "2026-11",
        "label": "11월",
-       "n": 13
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 25
-      }
-     ],
-     "total": 50
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 인조 가죽, 네바 그레이/블랙",
-     "color": "white",
-     "now": 10,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 3
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 6
+       "n": 2
       }
      ],
      "total": 19
     },
     {
-     "ext": "옵시디안 블랙",
+     "ext": "폴라 화이트",
      "int": "아티코 인조 가죽, 네바 그레이/블랙",
-     "color": "black",
-     "now": 5,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 2
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 7
-      }
-     ],
-     "total": 14
+     "color": "white",
+     "now": 13,
+     "sched": [],
+     "total": 13
     },
     {
      "ext": "그라파이트 그레이 메탈릭",
      "int": "아티코 투톤 인조 가죽, 시에나 브라운/블랙",
      "color": "grey",
-     "now": 4,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 5
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 4
-      }
-     ],
-     "total": 13
+     "now": 9,
+     "sched": [],
+     "total": 9
     },
     {
      "ext": "옵시디안 블랙",
      "int": "아티코 인조 가죽, 블랙",
      "color": "black",
-     "now": 4,
+     "now": 6,
+     "sched": [],
+     "total": 6
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 인조 가죽, 네바 그레이/블랙",
+     "color": "black",
+     "now": 6,
      "sched": [
       {
        "month": "2026-11",
        "label": "11월",
-       "n": 2
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 4
+       "n": 1
       }
      ],
-     "total": 10
+     "total": 7
     },
     {
      "ext": "그라파이트 그레이 메탈릭",
@@ -611,52 +452,24 @@
      "int": "아티코 인조 가죽, 블랙",
      "color": "grey",
      "now": 2,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 3
+     "sched": [],
+     "total": 2
     },
     {
      "ext": "하이 테크 실버",
      "int": "아티코 인조 가죽, 블랙",
      "color": "silver",
-     "now": 1,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 2
-      }
-     ],
-     "total": 4
+     "now": 2,
+     "sched": [],
+     "total": 2
     },
     {
      "ext": "하이 테크 실버",
      "int": "아티코 투톤 인조 가죽, 시에나 브라운/블랙",
      "color": "silver",
-     "now": 1,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 3
+     "now": 2,
+     "sched": [],
+     "total": 2
     },
     {
      "ext": "폴라 화이트",
@@ -667,15 +480,15 @@
       {
        "month": "2027-03",
        "label": "27년 3월",
-       "n": 3
+       "n": 1
       }
      ],
-     "total": 4
+     "total": 2
     }
    ],
    "now_combos": 11,
-   "units": 162,
-   "now_units": 57
+   "units": 88,
+   "now_units": 80
   },
   {
    "name": "AMG E 53 HYBRID 4MATIC+",
@@ -712,9 +525,9 @@
      "ext": "폴라 화이트",
      "int": "AMG 투톤 나파 가죽, 통카 브라운/블랙",
      "color": "white",
-     "now": 5,
+     "now": 6,
      "sched": [],
-     "total": 5
+     "total": 6
     },
     {
      "ext": "옵시디안 블랙",
@@ -774,8 +587,8 @@
     }
    ],
    "now_combos": 10,
-   "units": 36,
-   "now_units": 35
+   "units": 37,
+   "now_units": 36
   },
   {
    "name": "CLE 200 Coupé AMG Line",
@@ -787,7 +600,7 @@
    "combos": [
     {
      "ext": "폴라 화이트",
-     "int": "아티코 가죽, 통카 브라운/블랙",
+     "int": "아티코 가죽, 마키아토 베이지/블랙",
      "color": "white",
      "now": 28,
      "sched": [],
@@ -795,59 +608,35 @@
     },
     {
      "ext": "폴라 화이트",
-     "int": "아티코 가죽, 마키아토 베이지/블랙",
+     "int": "아티코 가죽, 통카 브라운/블랙",
      "color": "white",
      "now": 28,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 3
-      }
-     ],
-     "total": 31
+     "sched": [],
+     "total": 28
     },
     {
      "ext": "옵시디안 블랙",
      "int": "아티코 가죽, 통카 브라운/블랙",
      "color": "black",
      "now": 21,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 22
+     "sched": [],
+     "total": 21
     },
     {
      "ext": "옵시디안 블랙",
      "int": "아티코 가죽, 마키아토 베이지/블랙",
      "color": "black",
      "now": 10,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 11
+     "sched": [],
+     "total": 10
     },
     {
      "ext": "폴라 화이트",
      "int": "아티코 가죽, 블랙",
      "color": "white",
      "now": 7,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 2
-      }
-     ],
-     "total": 9
+     "sched": [],
+     "total": 7
     },
     {
      "ext": "옵시디안 블랙",
@@ -891,7 +680,7 @@
     }
    ],
    "now_combos": 10,
-   "units": 112,
+   "units": 105,
    "now_units": 105
   },
   {
@@ -906,7 +695,7 @@
      "ext": "폴라 화이트",
      "int": "아티코 가죽, 통카 브라운/블랙",
      "color": "white",
-     "now": 37,
+     "now": 29,
      "sched": [
       {
        "month": "2026-12",
@@ -919,7 +708,7 @@
        "n": 2
       }
      ],
-     "total": 42
+     "total": 34
     },
     {
      "ext": "그라파이트 그레이 메탈릭",
@@ -933,17 +722,9 @@
      "ext": "MANUFAKTUR 알파인 그레이",
      "int": "아티코 가죽, 통카 브라운/블랙",
      "color": "grey",
-     "now": 15,
+     "now": 14,
      "sched": [],
-     "total": 15
-    },
-    {
-     "ext": "노틱 블루",
-     "int": "아티코 가죽, 통카 브라운/블랙",
-     "color": "blue",
-     "now": 5,
-     "sched": [],
-     "total": 5
+     "total": 14
     },
     {
      "ext": "옵시디안 블랙",
@@ -970,18 +751,52 @@
      "total": 4
     },
     {
+     "ext": "노틱 블루",
+     "int": "아티코 가죽, 통카 브라운/블랙",
+     "color": "blue",
+     "now": 3,
+     "sched": [],
+     "total": 3
+    },
+    {
      "ext": "옵시디안 블랙",
      "int": "아티코 가죽, 블랙",
      "color": "black",
-     "now": 4,
+     "now": 3,
      "sched": [],
-     "total": 4
+     "total": 3
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 가죽, 블랙",
+     "color": "white",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 가죽, 마키아토 베이지/블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 가죽, 마키아토 베이지/블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
     },
     {
      "ext": "폴라 화이트",
      "int": "ARTICO man-made leather beige",
      "color": "white",
-     "now": 4,
+     "now": 0,
      "sched": [
       {
        "month": "2026-11",
@@ -989,30 +804,12 @@
        "n": 1
       }
      ],
-     "total": 5
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "아티코 가죽, 통카 브라운/블랙",
-     "color": "black",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 가죽, 블랙",
-     "color": "white",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
+     "total": 1
     }
    ],
    "now_combos": 9,
-   "units": 106,
-   "now_units": 100
+   "units": 91,
+   "now_units": 85
   },
   {
    "name": "AMG GLE 53 4MATIC+ Coupé",
@@ -1118,132 +915,78 @@
      "ext": "옵시디안 블랙",
      "int": "가죽, 통카 브라운",
      "color": "black",
-     "now": 175,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 34
-      }
-     ],
-     "total": 209
+     "now": 174,
+     "sched": [],
+     "total": 174
     },
     {
      "ext": "폴라 화이트",
      "int": "가죽, 통카 브라운",
      "color": "white",
-     "now": 166,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 55
-      }
-     ],
-     "total": 221
+     "now": 167,
+     "sched": [],
+     "total": 167
     },
     {
      "ext": "옵시디안 블랙",
      "int": "Leather macchiato beige / black",
      "color": "black",
-     "now": 46,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 18
-      }
-     ],
-     "total": 64
+     "now": 45,
+     "sched": [],
+     "total": 45
     },
     {
      "ext": "폴라 화이트",
      "int": "Leather macchiato beige / black",
      "color": "white",
      "now": 45,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 21
-      }
-     ],
-     "total": 66
+     "sched": [],
+     "total": 45
     },
     {
      "ext": "그라파이트 그레이",
      "int": "가죽, 통카 브라운",
      "color": "grey",
-     "now": 40,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 15
-      }
-     ],
-     "total": 55
+     "now": 42,
+     "sched": [],
+     "total": 42
     },
     {
      "ext": "폴라 화이트",
      "int": "가죽, 블랙",
      "color": "white",
      "now": 31,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 6
-      }
-     ],
-     "total": 37
+     "sched": [],
+     "total": 31
     },
     {
      "ext": "그라파이트 그레이",
      "int": "가죽, 블랙",
      "color": "grey",
      "now": 9,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 4
-      }
-     ],
-     "total": 13
+     "sched": [],
+     "total": 9
     },
     {
      "ext": "옵시디안 블랙",
      "int": "가죽, 블랙",
      "color": "black",
      "now": 6,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 25
-      }
-     ],
-     "total": 31
+     "sched": [],
+     "total": 6
     },
     {
      "ext": "MANUFAKTUR 알파인 그레이",
      "int": "가죽, 통카 브라운",
      "color": "grey",
      "now": 2,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 2
-      }
-     ],
-     "total": 4
+     "sched": [],
+     "total": 2
     }
    ],
    "now_combos": 9,
-   "units": 700,
-   "now_units": 520
+   "units": 521,
+   "now_units": 521
   },
   {
    "name": "CLE 200 Cabriolet AMG Line",
@@ -1257,15 +1000,9 @@
      "ext": "폴라 화이트",
      "int": "아티코 가죽, 마키아토 베이지/블랙",
      "color": "white",
-     "now": 60,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 3
-      }
-     ],
-     "total": 63
+     "now": 61,
+     "sched": [],
+     "total": 61
     },
     {
      "ext": "폴라 화이트",
@@ -1280,28 +1017,16 @@
      "int": "아티코 가죽, 마키아토 베이지/블랙",
      "color": "black",
      "now": 9,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 2
-      }
-     ],
-     "total": 11
+     "sched": [],
+     "total": 9
     },
     {
      "ext": "폴라 화이트",
      "int": "아티코 가죽, 통카 브라운/블랙",
      "color": "white",
      "now": 8,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 9
+     "sched": [],
+     "total": 8
     },
     {
      "ext": "그라파이트 그레이 메탈릭",
@@ -1332,33 +1057,13 @@
      "int": "아티코 가죽, 블랙",
      "color": "white",
      "now": 3,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 4
-    },
-    {
-     "ext": "MANUFAKTUR 알파인 그레이",
-     "int": "아티코 가죽, 마키아토 베이지/블랙",
-     "color": "grey",
-     "now": 0,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 1
+     "sched": [],
+     "total": 3
     }
    ],
    "now_combos": 8,
-   "units": 118,
-   "now_units": 110
+   "units": 111,
+   "now_units": 111
   },
   {
    "name": "GLC 300 4MATIC AVANTGARDE",
@@ -1372,63 +1077,78 @@
      "ext": "폴라 화이트",
      "int": "아티코 인조 가죽, 시에나 브라운/블랙",
      "color": "white",
-     "now": 20,
+     "now": 35,
      "sched": [
       {
        "month": "2026-11",
        "label": "11월",
-       "n": 18
+       "n": 4
       },
       {
        "month": "2026-12",
        "label": "12월",
        "n": 1
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 52
       }
      ],
-     "total": 91
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
-     "color": "black",
-     "now": 7,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 7
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 30
-      }
-     ],
-     "total": 44
+     "total": 40
     },
     {
      "ext": "폴라 화이트",
      "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
      "color": "white",
-     "now": 5,
+     "now": 13,
      "sched": [
       {
        "month": "2026-11",
        "label": "11월",
-       "n": 11
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 26
+       "n": 3
       }
      ],
-     "total": 42
+     "total": 16
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
+     "color": "black",
+     "now": 12,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 2
+      }
+     ],
+     "total": 14
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 인조 가죽, 블랙",
+     "color": "white",
+     "now": 8,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 1
+      }
+     ],
+     "total": 9
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
+     "color": "black",
+     "now": 4,
+     "sched": [],
+     "total": 4
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
+     "color": "silver",
+     "now": 4,
+     "sched": [],
+     "total": 4
     },
     {
      "ext": "그라파이트 그레이 메탈릭",
@@ -1440,90 +1160,22 @@
        "month": "2026-12",
        "label": "12월",
        "n": 1
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 7
       }
      ],
-     "total": 12
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 인조 가죽, 블랙",
-     "color": "white",
-     "now": 3,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 6
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 18
-      }
-     ],
-     "total": 27
-    },
-    {
-     "ext": "하이 테크 실버",
-     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
-     "color": "silver",
-     "now": 3,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 4
-      }
-     ],
-     "total": 8
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
-     "color": "black",
-     "now": 2,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 2
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 12
-      }
-     ],
-     "total": 16
+     "total": 5
     },
     {
      "ext": "MANUFAKTUR 알파인 그레이 솔리드",
      "int": "아티코 인조 가죽, 시에나 브라운/블랙",
      "color": "grey",
      "now": 1,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 2
+     "sched": [],
+     "total": 1
     }
    ],
    "now_combos": 8,
-   "units": 242,
-   "now_units": 45
+   "units": 93,
+   "now_units": 81
   },
   {
    "name": "AMG A 45 S 4MATIC+",
@@ -1608,6 +1260,76 @@
    "now_units": 56
   },
   {
+   "name": "AMG CLE 53 4MATIC+ Cabriolet",
+   "my": "MY27",
+   "classes": [
+    "CLE",
+    "AMG"
+   ],
+   "tag": "CLE",
+   "combos": [
+    {
+     "ext": "옵시디안 블랙",
+     "int": "AMG 나파 가죽, 투톤 파워 레드/ 블랙",
+     "color": "black",
+     "now": 34,
+     "sched": [],
+     "total": 34
+    },
+    {
+     "ext": "MANUFAKTUR 오팔라이트 화이트",
+     "int": "AMG 나파 가죽, 투톤 파워 레드/ 블랙",
+     "color": "white",
+     "now": 8,
+     "sched": [],
+     "total": 8
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "AMG 나파 가죽, 블랙",
+     "color": "black",
+     "now": 3,
+     "sched": [],
+     "total": 3
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이",
+     "int": "AMG 나파 가죽, 블랙",
+     "color": "grey",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "MANUFAKTUR 오팔라이트 화이트",
+     "int": "AMG 가죽 블랙",
+     "color": "white",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "MANUFAKTUR 오팔라이트 화이트",
+     "int": "AMG 나파 가죽, 블랙",
+     "color": "white",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "AMG 가죽 블랙",
+     "color": "black",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    }
+   ],
+   "now_combos": 7,
+   "units": 49,
+   "now_units": 49
+  },
+  {
    "name": "C 200 AMG Line Special Edition",
    "my": "MY26",
    "classes": [
@@ -1619,42 +1341,58 @@
      "ext": "폴라 화이트",
      "int": "아티코 인조 가죽, 시에나 브라운/블랙",
      "color": "white",
-     "now": 41,
+     "now": 40,
      "sched": [
       {
        "month": "2026-11",
        "label": "11월",
-       "n": 2
+       "n": 3
+      },
+      {
+       "month": "2027-03",
+       "label": "27년 3월",
+       "n": 13
       }
      ],
-     "total": 43
+     "total": 56
     },
     {
      "ext": "폴라 화이트",
      "int": "아티코 인조 가죽, 네바 그레이/블랙",
      "color": "white",
-     "now": 12,
+     "now": 13,
      "sched": [
       {
        "month": "2026-11",
        "label": "11월",
-       "n": 1
+       "n": 4
       },
       {
        "month": "2026-12",
        "label": "12월",
-       "n": 5
+       "n": 1
+      },
+      {
+       "month": "2027-03",
+       "label": "27년 3월",
+       "n": 25
       }
      ],
-     "total": 18
+     "total": 43
     },
     {
      "ext": "옵시디안 블랙",
      "int": "아티코 인조 가죽, 블랙",
      "color": "black",
      "now": 11,
-     "sched": [],
-     "total": 11
+     "sched": [
+      {
+       "month": "2027-03",
+       "label": "27년 3월",
+       "n": 13
+      }
+     ],
+     "total": 24
     },
     {
      "ext": "폴라 화이트",
@@ -1668,12 +1406,12 @@
        "n": 1
       },
       {
-       "month": "2026-12",
-       "label": "12월",
-       "n": 1
+       "month": "2027-03",
+       "label": "27년 3월",
+       "n": 16
       }
      ],
-     "total": 7
+     "total": 22
     },
     {
      "ext": "옵시디안 블랙",
@@ -1684,15 +1422,15 @@
       {
        "month": "2026-11",
        "label": "11월",
-       "n": 1
+       "n": 2
       },
       {
-       "month": "2026-12",
-       "label": "12월",
-       "n": 1
+       "month": "2027-03",
+       "label": "27년 3월",
+       "n": 15
       }
      ],
-     "total": 6
+     "total": 21
     },
     {
      "ext": "그라파이트 그레이 메탈릭",
@@ -1718,7 +1456,7 @@
     }
    ],
    "now_combos": 7,
-   "units": 88,
+   "units": 169,
    "now_units": 75
   },
   {
@@ -1749,9 +1487,9 @@
      "ext": "폴라 화이트",
      "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
      "color": "white",
-     "now": 9,
+     "now": 8,
      "sched": [],
-     "total": 9
+     "total": 8
     },
     {
      "ext": "폴라 화이트",
@@ -1765,9 +1503,9 @@
      "ext": "옵시디안 블랙",
      "int": "아티코 인조 가죽, 바히아 브라운/블랙",
      "color": "black",
-     "now": 6,
+     "now": 5,
      "sched": [],
-     "total": 6
+     "total": 5
     },
     {
      "ext": "셀레나이트 그레이",
@@ -1787,8 +1525,8 @@
     }
    ],
    "now_combos": 7,
-   "units": 109,
-   "now_units": 109
+   "units": 107,
+   "now_units": 107
   },
   {
    "name": "GLS 580 4MATIC AMG Line",
@@ -1803,8 +1541,14 @@
      "int": "나파 가죽, 블랙",
      "color": "grey",
      "now": 49,
-     "sched": [],
-     "total": 49
+     "sched": [
+      {
+       "month": "2026-12",
+       "label": "12월",
+       "n": 1
+      }
+     ],
+     "total": 50
     },
     {
      "ext": "옵시디안 블랙",
@@ -1856,139 +1600,8 @@
     }
    ],
    "now_combos": 7,
-   "units": 80,
+   "units": 81,
    "now_units": 80
-  },
-  {
-   "name": "GLC 300 4MATIC",
-   "my": "MY27",
-   "classes": [
-    "GLC"
-   ],
-   "tag": "GLC",
-   "combos": [
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
-     "color": "white",
-     "now": 51,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 12
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 43
-      }
-     ],
-     "total": 106
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
-     "color": "white",
-     "now": 9,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 10
-      }
-     ],
-     "total": 20
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
-     "color": "black",
-     "now": 5,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 11
-      }
-     ],
-     "total": 17
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 인조 가죽, 블랙",
-     "color": "white",
-     "now": 4,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 13
-      }
-     ],
-     "total": 17
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
-     "color": "black",
-     "now": 2,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 3
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 25
-      }
-     ],
-     "total": 30
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "아티코 인조 가죽, 블랙",
-     "color": "black",
-     "now": 2,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 9
-      }
-     ],
-     "total": 11
-    },
-    {
-     "ext": "그라파이트 그레이 메탈릭",
-     "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
-     "color": "grey",
-     "now": 0,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 2
-      }
-     ],
-     "total": 2
-    }
-   ],
-   "now_combos": 6,
-   "units": 203,
-   "now_units": 73
   },
   {
    "name": "AMG GLB 35 4MATIC",
@@ -2017,14 +1630,8 @@
      "ext": "코스모스 블랙",
      "int": "아티코 가죽 / 마이크로컷 마이크로파이버 바이아 브라운 / 블랙",
      "color": "black",
-     "now": 3,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      }
-     ],
+     "now": 4,
+     "sched": [],
      "total": 4
     },
     {
@@ -2062,7 +1669,7 @@
    ],
    "now_combos": 6,
    "units": 18,
-   "now_units": 14
+   "now_units": 15
   },
   {
    "name": "GLA 250 4MATIC",
@@ -2126,6 +1733,79 @@
    "now_units": 36
   },
   {
+   "name": "GLC 300 4MATIC",
+   "my": "MY27",
+   "classes": [
+    "GLC"
+   ],
+   "tag": "GLC",
+   "combos": [
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
+     "color": "white",
+     "now": 58,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 5
+      }
+     ],
+     "total": 63
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
+     "color": "white",
+     "now": 7,
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 1
+      }
+     ],
+     "total": 8
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
+     "color": "black",
+     "now": 6,
+     "sched": [],
+     "total": 6
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 인조 가죽, 블랙",
+     "color": "white",
+     "now": 4,
+     "sched": [],
+     "total": 4
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
+     "color": "black",
+     "now": 3,
+     "sched": [],
+     "total": 3
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 인조 가죽, 블랙",
+     "color": "black",
+     "now": 2,
+     "sched": [],
+     "total": 2
+    }
+   ],
+   "now_combos": 6,
+   "units": 86,
+   "now_units": 80
+  },
+  {
    "name": "GLC 300 4MATIC Coupé AMG Line",
    "my": "MY27",
    "classes": [
@@ -2156,12 +1836,12 @@
      "ext": "폴라 화이트",
      "int": "아티코 투톤 인조 가죽, 시에나 브라운/블랙",
      "color": "white",
-     "now": 61,
+     "now": 59,
      "sched": [
       {
        "month": "2026-11",
        "label": "11월",
-       "n": 2
+       "n": 3
       },
       {
        "month": "2026-12",
@@ -2171,10 +1851,10 @@
       {
        "month": "2027-02",
        "label": "27년 2월",
-       "n": 2
+       "n": 1
       }
      ],
-     "total": 66
+     "total": 64
     },
     {
      "ext": "폴라 화이트",
@@ -2210,8 +1890,8 @@
     }
    ],
    "now_combos": 6,
-   "units": 200,
-   "now_units": 193
+   "units": 198,
+   "now_units": 191
   },
   {
    "name": "GLC 300 4MATIC Coupé AVANTGARDE",
@@ -2225,7 +1905,7 @@
      "ext": "폴라 화이트",
      "int": "아티코 인조 가죽, 시에나 브라운/블랙",
      "color": "white",
-     "now": 42,
+     "now": 37,
      "sched": [
       {
        "month": "2026-12",
@@ -2236,70 +1916,41 @@
        "month": "2027-02",
        "label": "27년 2월",
        "n": 1
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 20
       }
      ],
-     "total": 64
+     "total": 39
     },
     {
      "ext": "폴라 화이트",
      "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
      "color": "white",
-     "now": 22,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 4
-      }
-     ],
-     "total": 26
+     "now": 21,
+     "sched": [],
+     "total": 21
     },
     {
      "ext": "옵시디안 블랙",
      "int": "아티코 인조 가죽, 시에나 브라운/블랙",
      "color": "black",
      "now": 15,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 17
-      }
-     ],
-     "total": 32
+     "sched": [],
+     "total": 15
     },
     {
      "ext": "폴라 화이트",
      "int": "아티코 인조 가죽, 블랙",
      "color": "white",
      "now": 13,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 5
-      }
-     ],
-     "total": 18
+     "sched": [],
+     "total": 13
     },
     {
      "ext": "옵시디안 블랙",
      "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
      "color": "black",
      "now": 2,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 4
-      }
-     ],
-     "total": 6
+     "sched": [],
+     "total": 2
     },
     {
      "ext": "옵시디안 블랙",
@@ -2311,107 +1962,8 @@
     }
    ],
    "now_combos": 6,
-   "units": 147,
-   "now_units": 95
-  },
-  {
-   "name": "AMG CLE 53 4MATIC+ Cabriolet",
-   "my": "MY27",
-   "classes": [
-    "CLE",
-    "AMG"
-   ],
-   "tag": "CLE",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "AMG 나파 가죽, 투톤 파워 레드/ 블랙",
-     "color": "black",
-     "now": 29,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 5
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 35
-    },
-    {
-     "ext": "MANUFAKTUR 오팔라이트 화이트",
-     "int": "AMG 나파 가죽, 투톤 파워 레드/ 블랙",
-     "color": "white",
-     "now": 7,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      }
-     ],
-     "total": 8
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "AMG 나파 가죽, 블랙",
-     "color": "black",
-     "now": 3,
-     "sched": [],
-     "total": 3
-    },
-    {
-     "ext": "MANUFAKTUR 알파인 그레이",
-     "int": "AMG 나파 가죽, 블랙",
-     "color": "grey",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "MANUFAKTUR 오팔라이트 화이트",
-     "int": "AMG 나파 가죽, 블랙",
-     "color": "white",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "MANUFAKTUR 오팔라이트 화이트",
-     "int": "AMG 가죽 블랙",
-     "color": "white",
-     "now": 0,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      }
-     ],
-     "total": 1
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "AMG 가죽 블랙",
-     "color": "black",
-     "now": 0,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      }
-     ],
-     "total": 1
-    }
-   ],
-   "now_combos": 5,
-   "units": 50,
-   "now_units": 41
+   "units": 91,
+   "now_units": 89
   },
   {
    "name": "Maybach EQS 680 SUV",
@@ -2422,6 +1974,25 @@
    ],
    "tag": "EQ",
    "combos": [
+    {
+     "ext": "옵시디안 블랙",
+     "int": "익스클루시브 나파 가죽, 자바",
+     "color": "black",
+     "now": 12,
+     "sched": [
+      {
+       "month": "2026-12",
+       "label": "12월",
+       "n": 2
+      },
+      {
+       "month": "2027-02",
+       "label": "27년 2월",
+       "n": 1
+      }
+     ],
+     "total": 15
+    },
     {
      "ext": "옵시디안 블랙",
      "int": "마이바흐 익스클루시브 나파 가죽, 마키아토 베이지/브론즈 브라운 펄",
@@ -2442,28 +2013,31 @@
      "total": 17
     },
     {
-     "ext": "옵시디안 블랙",
+     "ext": "폴라 화이트",
      "int": "익스클루시브 나파 가죽, 자바",
-     "color": "black",
-     "now": 9,
+     "color": "white",
+     "now": 2,
      "sched": [
       {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 4
-      },
-      {
-       "month": "2026-12",
-       "label": "12월",
-       "n": 2
+       "month": "2027-01",
+       "label": "27년 1월",
+       "n": 1
       }
      ],
-     "total": 15
+     "total": 3
     },
     {
      "ext": "옵시디안 블랙",
      "int": "익스클루시브 나파 가죽, 헬리오스",
      "color": "black",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "마이바흐 익스클루시브 나파 가죽, 마키아토 베이지/브론즈 브라운 펄",
+     "color": "white",
      "now": 1,
      "sched": [],
      "total": 1
@@ -2475,39 +2049,11 @@
      "now": 1,
      "sched": [],
      "total": 1
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "익스클루시브 나파 가죽, 자바",
-     "color": "white",
-     "now": 1,
-     "sched": [
-      {
-       "month": "2027-01",
-       "label": "27년 1월",
-       "n": 1
-      }
-     ],
-     "total": 2
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "마이바흐 익스클루시브 나파 가죽, 마키아토 베이지/브론즈 브라운 펄",
-     "color": "white",
-     "now": 0,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      }
-     ],
-     "total": 1
     }
    ],
-   "now_combos": 5,
-   "units": 37,
-   "now_units": 23
+   "now_combos": 6,
+   "units": 38,
+   "now_units": 28
   },
   {
    "name": "AMG CLE 53 4MATIC+ Coupé",
@@ -2520,7 +2066,7 @@
    "combos": [
     {
      "ext": "옵시디안 블랙",
-     "int": "AMG 나파 가죽, 투톤 파워 레드/ 블랙",
+     "int": "AMG 나파 가죽, 블랙",
      "color": "black",
      "now": 13,
      "sched": [],
@@ -2528,17 +2074,11 @@
     },
     {
      "ext": "옵시디안 블랙",
-     "int": "AMG 나파 가죽, 블랙",
+     "int": "AMG 나파 가죽, 투톤 파워 레드/ 블랙",
      "color": "black",
      "now": 13,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 14
+     "sched": [],
+     "total": 13
     },
     {
      "ext": "옵시디안 블랙",
@@ -2553,14 +2093,8 @@
      "int": "AMG 나파 가죽, 블랙",
      "color": "white",
      "now": 2,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 3
+     "sched": [],
+     "total": 2
     },
     {
      "ext": "MANUFAKTUR 알파인 그레이",
@@ -2572,7 +2106,7 @@
     }
    ],
    "now_combos": 5,
-   "units": 35,
+   "units": 33,
    "now_units": 33
   },
   {
@@ -2754,26 +2288,21 @@
      "ext": "폴라 화이트",
      "int": "아티코 가죽, 통카 브라운",
      "color": "white",
-     "now": 105,
+     "now": 100,
      "sched": [
       {
        "month": "2026-11",
        "label": "11월",
        "n": 1
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
       }
      ],
-     "total": 107
+     "total": 101
     },
     {
      "ext": "옵시디안 블랙",
      "int": "아티코 가죽, 통카 브라운",
      "color": "black",
-     "now": 35,
+     "now": 31,
      "sched": [
       {
        "month": "2026-12",
@@ -2784,20 +2313,15 @@
        "month": "2027-01",
        "label": "27년 1월",
        "n": 1
-      },
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
       }
      ],
-     "total": 39
+     "total": 34
     },
     {
      "ext": "폴라 화이트",
      "int": "아티코 가죽, 마키아토 베이지",
      "color": "white",
-     "now": 9,
+     "now": 8,
      "sched": [
       {
        "month": "2026-12",
@@ -2810,34 +2334,28 @@
        "n": 1
       }
      ],
-     "total": 11
+     "total": 10
     },
     {
      "ext": "그라파이트 그레이 메탈릭",
      "int": "아티코 가죽, 블랙",
      "color": "grey",
-     "now": 5,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 6
+     "now": 4,
+     "sched": [],
+     "total": 4
     },
     {
      "ext": "폴라 화이트",
      "int": "아티코 가죽, 블랙",
      "color": "white",
-     "now": 2,
+     "now": 1,
      "sched": [],
-     "total": 2
+     "total": 1
     }
    ],
    "now_combos": 5,
-   "units": 165,
-   "now_units": 156
+   "units": 150,
+   "now_units": 144
   },
   {
    "name": "GLS 450 4MATIC AMG Line",
@@ -2854,9 +2372,14 @@
      "now": 103,
      "sched": [
       {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 1
+      },
+      {
        "month": "2026-12",
        "label": "12월",
-       "n": 11
+       "n": 10
       },
       {
        "month": "2027-02",
@@ -2873,9 +2396,14 @@
      "now": 17,
      "sched": [
       {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 1
+      },
+      {
        "month": "2026-12",
        "label": "12월",
-       "n": 3
+       "n": 2
       },
       {
        "month": "2027-02",
@@ -2897,9 +2425,9 @@
      "ext": "폴라 화이트",
      "int": "가죽, 바히아 브라운/블랙",
      "color": "white",
-     "now": 3,
+     "now": 4,
      "sched": [],
-     "total": 3
+     "total": 4
     },
     {
      "ext": "폴라 화이트",
@@ -2911,8 +2439,8 @@
     }
    ],
    "now_combos": 5,
-   "units": 147,
-   "now_units": 131
+   "units": 148,
+   "now_units": 132
   },
   {
    "name": "Maybach GLS 600",
@@ -2941,9 +2469,9 @@
      "ext": "옵시디안 블랙",
      "int": "익스클루시브 나파 가죽, 블랙",
      "color": "black",
-     "now": 12,
+     "now": 13,
      "sched": [],
-     "total": 12
+     "total": 13
     },
     {
      "ext": "MANUFAKTUR 오팔라이트 화이트 브라이트",
@@ -2957,7 +2485,7 @@
      "ext": "MANUFAKTUR 오팔라이트 화이트 브라이트",
      "int": "익스클루시브 나파 가죽, 자바",
      "color": "white",
-     "now": 5,
+     "now": 4,
      "sched": [
       {
        "month": "2026-12",
@@ -2965,7 +2493,7 @@
        "n": 1
       }
      ],
-     "total": 6
+     "total": 5
     },
     {
      "ext": "셀레나이트 그레이",
@@ -2993,28 +2521,16 @@
      "ext": "옵시디안 블랙",
      "int": "나파 가죽, 레드 페퍼/블랙",
      "color": "black",
-     "now": 4,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 2
-      }
-     ],
+     "now": 6,
+     "sched": [],
      "total": 6
     },
     {
      "ext": "옵시디안 블랙",
      "int": "나파 가죽, 블랙",
      "color": "black",
-     "now": 3,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      }
-     ],
+     "now": 4,
+     "sched": [],
      "total": 4
     },
     {
@@ -3036,7 +2552,7 @@
    ],
    "now_combos": 4,
    "units": 13,
-   "now_units": 10
+   "now_units": 13
   },
   {
    "name": "E 450 4MATIC EXCLUSIVE",
@@ -3050,9 +2566,9 @@
      "ext": "폴라 화이트",
      "int": "Nappa leather hazelnut brown / espresso brown",
      "color": "white",
-     "now": 30,
+     "now": 31,
      "sched": [],
-     "total": 30
+     "total": 31
     },
     {
      "ext": "폴라 화이트",
@@ -3075,19 +2591,13 @@
      "int": "Nappa leather hazelnut brown / espresso brown",
      "color": "grey",
      "now": 2,
-     "sched": [
-      {
-       "month": "2027-03",
-       "label": "27년 3월",
-       "n": 1
-      }
-     ],
-     "total": 3
+     "sched": [],
+     "total": 2
     }
    ],
    "now_combos": 4,
    "units": 50,
-   "now_units": 49
+   "now_units": 50
   },
   {
    "name": "AMG G 63",
@@ -3102,9 +2612,9 @@
      "ext": "옵시디안 블랙",
      "int": "나파 가죽, 트러플 브라운/블랙",
      "color": "black",
-     "now": 3,
+     "now": 2,
      "sched": [],
-     "total": 3
+     "total": 2
     },
     {
      "ext": "셀레나이트 그레이",
@@ -3192,8 +2702,8 @@
     }
    ],
    "now_combos": 3,
-   "units": 11,
-   "now_units": 5
+   "units": 10,
+   "now_units": 4
   },
   {
    "name": "EQS 580 4MATIC SUV",
@@ -3235,13 +2745,8 @@
      "ext": "옵시디안 블랙",
      "int": "나파 가죽, 블랙/스페이스 그레이",
      "color": "black",
-     "now": 1,
+     "now": 2,
      "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 1
-      },
       {
        "month": "2026-12",
        "label": "12월",
@@ -3267,7 +2772,7 @@
    ],
    "now_combos": 3,
    "units": 22,
-   "now_units": 15
+   "now_units": 16
   },
   {
    "name": "AMG GLS 63 4MATIC+",
@@ -3368,12 +2873,12 @@
      "ext": "옵시디안 블랙",
      "int": "black ARTICO man-made leather",
      "color": "black",
-     "now": 70,
+     "now": 73,
      "sched": [
       {
        "month": "2026-11",
        "label": "11월",
-       "n": 5
+       "n": 2
       }
      ],
      "total": 75
@@ -3382,9 +2887,9 @@
      "ext": "폴라 화이트",
      "int": "black ARTICO man-made leather",
      "color": "white",
-     "now": 65,
+     "now": 64,
      "sched": [],
-     "total": 65
+     "total": 64
     },
     {
      "ext": "셀레나이트 그레이",
@@ -3396,8 +2901,8 @@
     }
    ],
    "now_combos": 3,
-   "units": 142,
-   "now_units": 137
+   "units": 141,
+   "now_units": 139
   },
   {
    "name": "Maybach SL 680 Monogram Series",
@@ -3509,9 +3014,9 @@
      "ext": "폴라 화이트",
      "int": "가죽, 통카 브라운",
      "color": "white",
-     "now": 32,
+     "now": 33,
      "sched": [],
-     "total": 32
+     "total": 33
     },
     {
      "ext": "폴라 화이트",
@@ -3523,8 +3028,8 @@
     }
    ],
    "now_combos": 2,
-   "units": 45,
-   "now_units": 45
+   "units": 46,
+   "now_units": 46
   },
   {
    "name": "GLC 220 d 4MATIC",
@@ -3538,34 +3043,22 @@
      "ext": "폴라 화이트",
      "int": "아티코 인조 가죽, 시에나 브라운/블랙",
      "color": "white",
-     "now": 14,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 5
-      }
-     ],
+     "now": 19,
+     "sched": [],
      "total": 19
     },
     {
      "ext": "폴라 화이트",
      "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
      "color": "white",
-     "now": 3,
-     "sched": [
-      {
-       "month": "2026-11",
-       "label": "11월",
-       "n": 4
-      }
-     ],
+     "now": 7,
+     "sched": [],
      "total": 7
     }
    ],
    "now_combos": 2,
    "units": 26,
-   "now_units": 17
+   "now_units": 26
   },
   {
    "name": "GLE 450 4MATIC Coupé AMG Line",
@@ -3735,72 +3228,155 @@
      "count_unknown": true
     },
     {
+     "ext": "소달라이트 블루",
+     "int": "Leather black",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "소달라이트 블루",
+     "int": "leather black/sahara beige",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "소달라이트 블루",
+     "int": "leather saddle brown / black",
+     "color": "blue",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "leather saddle brown / black",
+     "color": "black",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "Leather black",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "leather black/sahara beige",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "leather saddle brown / black",
+     "color": "silver",
+     "now": 0,
+     "sched": [],
+     "total": 0,
+     "count_unknown": true
+    },
+    {
      "ext": "dark petrol non-metallic",
      "int": "leather saddle brown / black",
      "color": "green",
      "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 5
+      }
+     ],
+     "total": 5
     },
     {
      "ext": "옵시디안 블랙",
      "int": "Leather black",
      "color": "black",
      "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 10
+      }
+     ],
+     "total": 10
     },
     {
      "ext": "옵시디안 블랙",
      "int": "leather black/sahara beige",
      "color": "black",
      "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "leather saddle brown / black",
-     "color": "black",
-     "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 10
+      }
+     ],
+     "total": 10
     },
     {
      "ext": "폴라 화이트",
      "int": "Leather black",
      "color": "white",
      "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 22
+      }
+     ],
+     "total": 22
     },
     {
      "ext": "폴라 화이트",
      "int": "leather black/sahara beige",
      "color": "white",
      "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 14
+      }
+     ],
+     "total": 14
     },
     {
      "ext": "폴라 화이트",
      "int": "leather saddle brown / black",
      "color": "white",
      "now": 0,
-     "sched": [],
-     "total": 0,
-     "count_unknown": true
+     "sched": [
+      {
+       "month": "2026-11",
+       "label": "11월",
+       "n": 9
+      }
+     ],
+     "total": 9
     }
    ],
-   "model_units": 110,
    "now_combos": 0,
-   "units": 110,
+   "units": 70,
    "now_units": 0
   },
   {
@@ -3956,7 +3532,7 @@
    "now_units": 0
   },
   {
-   "name": "GLS 450 4MATIC",
+   "name": "GLS 450 4MATIC AMG Line",
    "my": "MY27",
    "classes": [
     "GLS"
@@ -3964,9 +3540,9 @@
    "tag": "GLS",
    "combos": [
     {
-     "ext": "소다라이트 블루",
-     "int": "Leather beech brown / black",
-     "color": "blue",
+     "ext": "하이 테크 실버",
+     "int": "leather saddle brown / black",
+     "color": "silver",
      "now": 0,
      "sched": [],
      "total": 0,
