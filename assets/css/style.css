@@ -954,10 +954,10 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .nc-clip figcaption a{color:inherit}
 @media(max-width:899px){.nc-clip{max-width:min(280px,100%)}}
 
-.nc-jump{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0 14px}
+.nc-jump{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:0 12px}
 .nc-jump a{flex-direction:column;align-items:flex-start;gap:2px;padding:12px 0;margin:0}
-.nc-jump a small{white-space:nowrap}
-@media(max-width:640px){.nc-jump{grid-template-columns:repeat(3,minmax(0,1fr));gap:0 10px}}
+.nc-jump a small{white-space:nowrap}@media(min-width:900px){.nc-jump a small{font-size:11px;white-space:normal}}
+@media(max-width:899px){.nc-jump{grid-template-columns:repeat(3,minmax(0,1fr));gap:0 10px}}
 .nw{white-space:nowrap}
 /* new-cars.html mobile: first screen = electric (h1 → line-up video → intro → jump bar incl. V/S) (2026-10-28) */
 @media(max-width:899px){
