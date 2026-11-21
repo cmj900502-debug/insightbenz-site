@@ -8,12 +8,16 @@
   }
   function apply(){
     var m = kstMonth(); if (!(m >= 1 && m <= 12)) return;
-    var re = /\d{1,2}월 할인/g, lab = m + '월 할인';
+    function sub(s){
+      return String(s)
+        .replace(/\d{1,2}월 포커스 할인/g, m + '월 포커스 할인')
+        .replace(/\d{1,2}월 할인/g, m + '월 할인');
+    }
     Array.prototype.forEach.call(document.querySelectorAll('[data-month-label]'), function(el){
       var at = el.getAttribute('data-month-label');
-      if (at) { var v = el.getAttribute(at); if (v != null) el.setAttribute(at, v.replace(re, lab)); }
-      else if (el.tagName === 'TITLE') document.title = document.title.replace(re, lab);
-      else if (!el.children.length) el.textContent = el.textContent.replace(re, lab);
+      if (at) { var v = el.getAttribute(at); if (v != null) el.setAttribute(at, sub(v)); }
+      else if (el.tagName === 'TITLE') document.title = sub(document.title);
+      else if (!el.children.length) el.textContent = sub(el.textContent);
     });
   }
   apply();
