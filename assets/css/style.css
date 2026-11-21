@@ -946,6 +946,14 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .vx-vis.nc-mv{aspect-ratio:auto;overflow:visible;background:none;border-radius:0}
 .vx-vis.nc-mv figcaption{position:static;background:none;color:var(--muted);font-size:12px;text-align:center;padding:8px 0 0}
 @media(max-width:899px){.vx-vis.nc-mv{max-width:280px}}
+.nc-clip-wrap{margin-top:28px;min-width:0;max-width:100%}
+.nc-clip-wrap .vx-h{margin-bottom:12px}
+.nc-clip{max-width:min(320px,100%);width:100%;margin:0 auto;min-width:0}
+.nc-clip .nc-vid{max-width:100%}
+.nc-clip figcaption{font-size:12px;color:var(--muted);margin-top:8px;text-align:center;line-height:1.55;word-break:keep-all}
+.nc-clip figcaption a{color:inherit}
+@media(max-width:899px){.nc-clip{max-width:min(280px,100%)}}
+
 .nc-jump{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0 14px}
 .nc-jump a{flex-direction:column;align-items:flex-start;gap:2px;padding:12px 0;margin:0}
 .nc-jump a small{white-space:nowrap}
