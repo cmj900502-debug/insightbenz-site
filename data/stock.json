@@ -1,7 +1,7 @@
 {
  "date": "2026-11-20",
  "source": "2026-11-20 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-22 16:51 KST",
+ "generated": "2026-11-23 11:08 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -16,7 +16,7 @@
   "models": 53,
   "combos": 282,
   "now_combos": 251,
-  "units": 3943,
+  "units": 3942,
   "now_units": 3419,
   "rows_in_file": 4711,
   "rows_used": 3675,
@@ -3421,10 +3421,10 @@
       {
        "month": "pending-unknown",
        "label": "출고 일정 확인",
-       "n": 218
+       "n": 217
       }
      ],
-     "total": 218
+     "total": 217
     },
     {
      "ext": "하이테크 실버",
@@ -3456,7 +3456,7 @@
     }
    ],
    "now_combos": 0,
-   "units": 293,
+   "units": 292,
    "now_units": 0
   },
   {
