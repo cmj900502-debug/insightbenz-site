@@ -1,7 +1,7 @@
 {
  "date": "2026-11-20",
  "source": "2026-11-20 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-24 16:04 KST",
+ "generated": "2026-11-24 19:03 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,10 +13,10 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 55,
-  "combos": 295,
+  "models": 56,
+  "combos": 299,
   "now_combos": 252,
-  "units": 3790,
+  "units": 4136,
   "now_units": 3421,
   "rows_in_file": 4711,
   "rows_used": 3679,
@@ -30,15 +30,15 @@
   "A": 1,
   "C": 1,
   "CLA": 1,
-  "E": 10,
+  "E": 11,
   "S": 3,
   "GLA": 1,
-  "GLB": 1,
-  "GLC": 7,
+  "GLB": 2,
+  "GLC": 8,
   "GLE": 6,
   "GLS": 6,
-  "CLE": 6,
-  "AMG": 17,
+  "CLE": 7,
+  "AMG": 18,
   "Maybach": 5,
   "EQ": 2,
   "G": 1,
@@ -50,19 +50,19 @@
    "key": "white",
    "label": "화이트",
    "hex": "#f4f4f2",
-   "n": 103
+   "n": 104
   },
   {
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 94
+   "n": 95
   },
   {
    "key": "grey",
    "label": "그레이",
    "hex": "#6d7275",
-   "n": 68
+   "n": 70
   },
   {
    "key": "silver",
@@ -1005,24 +1005,10 @@
       }
      ],
      "total": 1
-    },
-    {
-     "ext": "하이 테크 실버",
-     "int": "가죽, 통카 브라운",
-     "color": "silver",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 1
-      }
-     ],
-     "total": 1
     }
    ],
    "now_combos": 9,
-   "units": 524,
+   "units": 523,
    "now_units": 516
   },
   {
@@ -3566,10 +3552,10 @@
       {
        "month": "pending-unknown",
        "label": "출고 일정 확인",
-       "n": 5
+       "n": 8
       }
      ],
-     "total": 5
+     "total": 8
     },
     {
      "ext": "옵시디안 블랙",
@@ -3601,14 +3587,16 @@
     }
    ],
    "now_combos": 0,
-   "units": 116,
+   "units": 119,
    "now_units": 0
   },
   {
    "name": "CLE 450 4MATIC Cabriolet AMG Line",
    "my": "MY27",
-   "classes": [],
-   "tag": "",
+   "classes": [
+    "CLE"
+   ],
+   "tag": "CLE",
    "combos": [
     {
      "ext": "MANUFAKTUR 알파인 그레이",
@@ -3700,10 +3688,96 @@
    "now_units": 0
   },
   {
+   "name": "AMG GLC 53 4MATIC+",
+   "my": "MY27",
+   "classes": [
+    "GLC",
+    "AMG"
+   ],
+   "tag": "GLC",
+   "combos": [
+    {
+     "ext": "MANUFAKTUR 알파인 그레이 솔리드",
+     "int": "가죽, 블랙",
+     "color": "grey",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 32
+      }
+     ],
+     "total": 32
+    },
+    {
+     "ext": "그라파이트 그레이 메탈릭",
+     "int": "가죽, 블랙",
+     "color": "grey",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 25
+      }
+     ],
+     "total": 25
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "가죽, 블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 181
+      }
+     ],
+     "total": 181
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "가죽, 블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 100
+      }
+     ],
+     "total": 100
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "가죽, 블랙",
+     "color": "silver",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 6
+      }
+     ],
+     "total": 6
+    }
+   ],
+   "now_combos": 0,
+   "units": 344,
+   "now_units": 0
+  },
+  {
    "name": "E 300 4MATIC AMG Line",
    "my": "MY26",
-   "classes": [],
-   "tag": "",
+   "classes": [
+    "E"
+   ],
+   "tag": "E",
    "combos": [
     {
      "ext": "MANUFAKTUR 알파인 그레이",
@@ -3768,8 +3842,10 @@
   {
    "name": "GLB 250 4MATIC",
    "my": "MY26",
-   "classes": [],
-   "tag": "",
+   "classes": [
+    "GLB"
+   ],
+   "tag": "GLB",
    "combos": [
     {
      "ext": "폴라 화이트",
