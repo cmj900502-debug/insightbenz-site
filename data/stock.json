@@ -1,7 +1,7 @@
 {
  "date": "2026-11-20",
  "source": "2026-11-20 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-23 21:45 KST",
+ "generated": "2026-11-24 13:12 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -13,10 +13,10 @@
   "출고 가능 월(PDD 월 단위)"
  ],
  "stats": {
-  "models": 57,
-  "combos": 297,
+  "models": 55,
+  "combos": 295,
   "now_combos": 252,
-  "units": 3797,
+  "units": 3793,
   "now_units": 3421,
   "rows_in_file": 4711,
   "rows_used": 3679,
@@ -56,7 +56,7 @@
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 96
+   "n": 94
   },
   {
    "key": "grey",
@@ -68,13 +68,13 @@
    "key": "silver",
    "label": "실버",
    "hex": "#aab0b5",
-   "n": 19
+   "n": 20
   },
   {
    "key": "blue",
    "label": "블루",
    "hex": "#2f4f86",
-   "n": 7
+   "n": 6
   },
   {
    "key": "red",
@@ -400,10 +400,24 @@
       }
      ],
      "total": 1
+    },
+    {
+     "ext": "하이 테크 실버",
+     "int": "가죽, 통카 브라운",
+     "color": "silver",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 2
+      }
+     ],
+     "total": 2
     }
    ],
    "now_combos": 13,
-   "units": 622,
+   "units": 624,
    "now_units": 613
   },
   {
@@ -522,14 +536,14 @@
       {
        "month": "pending-unknown",
        "label": "출고 일정 확인",
-       "n": 4
+       "n": 3
       }
      ],
-     "total": 4
+     "total": 3
     }
    ],
    "now_combos": 11,
-   "units": 86,
+   "units": 85,
    "now_units": 77
   },
   {
@@ -1258,6 +1272,90 @@
    "now_units": 106
   },
   {
+   "name": "AMG CLE 53 4MATIC+ Cabriolet",
+   "my": "MY27",
+   "classes": [
+    "CLE",
+    "AMG"
+   ],
+   "tag": "CLE",
+   "combos": [
+    {
+     "ext": "옵시디안 블랙",
+     "int": "AMG 나파 가죽, 투톤 파워 레드/ 블랙",
+     "color": "black",
+     "now": 34,
+     "sched": [],
+     "total": 34
+    },
+    {
+     "ext": "MANUFAKTUR 오팔라이트 화이트",
+     "int": "AMG 나파 가죽, 투톤 파워 레드/ 블랙",
+     "color": "white",
+     "now": 8,
+     "sched": [],
+     "total": 8
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "AMG 나파 가죽, 블랙",
+     "color": "black",
+     "now": 3,
+     "sched": [],
+     "total": 3
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이",
+     "int": "AMG 나파 가죽, 블랙",
+     "color": "grey",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "MANUFAKTUR 오팔라이트 화이트",
+     "int": "AMG 가죽 블랙",
+     "color": "white",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "MANUFAKTUR 오팔라이트 화이트",
+     "int": "AMG 나파 가죽, 블랙",
+     "color": "white",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "AMG 가죽 블랙",
+     "color": "black",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이",
+     "int": "AMG 가죽 블랙",
+     "color": "grey",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
+    }
+   ],
+   "now_combos": 7,
+   "units": 50,
+   "now_units": 49
+  },
+  {
    "name": "GLC 300 4MATIC AVANTGARDE",
    "my": "MY27",
    "classes": [
@@ -1456,76 +1554,6 @@
    "now_combos": 7,
    "units": 61,
    "now_units": 56
-  },
-  {
-   "name": "AMG CLE 53 4MATIC+ Cabriolet",
-   "my": "MY27",
-   "classes": [
-    "CLE",
-    "AMG"
-   ],
-   "tag": "CLE",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "AMG 나파 가죽, 투톤 파워 레드/ 블랙",
-     "color": "black",
-     "now": 34,
-     "sched": [],
-     "total": 34
-    },
-    {
-     "ext": "MANUFAKTUR 오팔라이트 화이트",
-     "int": "AMG 나파 가죽, 투톤 파워 레드/ 블랙",
-     "color": "white",
-     "now": 8,
-     "sched": [],
-     "total": 8
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "AMG 나파 가죽, 블랙",
-     "color": "black",
-     "now": 3,
-     "sched": [],
-     "total": 3
-    },
-    {
-     "ext": "MANUFAKTUR 알파인 그레이",
-     "int": "AMG 나파 가죽, 블랙",
-     "color": "grey",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "MANUFAKTUR 오팔라이트 화이트",
-     "int": "AMG 가죽 블랙",
-     "color": "white",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "MANUFAKTUR 오팔라이트 화이트",
-     "int": "AMG 나파 가죽, 블랙",
-     "color": "white",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "AMG 가죽 블랙",
-     "color": "black",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    }
-   ],
-   "now_combos": 7,
-   "units": 49,
-   "now_units": 49
   },
   {
    "name": "C 200 AMG Line Special Edition",
@@ -3538,10 +3566,10 @@
       {
        "month": "pending-unknown",
        "label": "출고 일정 확인",
-       "n": 7
+       "n": 6
       }
      ],
-     "total": 7
+     "total": 6
     },
     {
      "ext": "옵시디안 블랙",
@@ -3573,7 +3601,7 @@
     }
    ],
    "now_combos": 0,
-   "units": 120,
+   "units": 119,
    "now_units": 0
   },
   {
@@ -3692,62 +3720,9 @@
      "total": 1
     },
     {
-     "ext": "MANUFAKTUR 알파인 그레이",
-     "int": "가죽, 통카 브라운",
-     "color": "grey",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 1
-      }
-     ],
-     "total": 1
-    },
-    {
      "ext": "그라파이트 그레이 메탈릭",
      "int": "가죽, 통카 브라운",
      "color": "grey",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 1
-      }
-     ],
-     "total": 1
-    }
-   ],
-   "now_combos": 0,
-   "units": 3,
-   "now_units": 0
-  },
-  {
-   "name": "E 300 4MATIC EXCLUSIVE",
-   "my": "MY26",
-   "classes": [],
-   "tag": "",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "Leather macchiato beige / black",
-     "color": "black",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 1
-      }
-     ],
-     "total": 1
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "가죽, 통카 브라운",
-     "color": "black",
      "now": 0,
      "sched": [
       {
@@ -3791,31 +3766,6 @@
    "now_units": 0
   },
   {
-   "name": "E 200 AMG Line",
-   "my": "MY26",
-   "classes": [],
-   "tag": "",
-   "combos": [
-    {
-     "ext": "노틱 블루",
-     "int": "아티코 가죽, 통카 브라운/블랙",
-     "color": "blue",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 1
-      }
-     ],
-     "total": 1
-    }
-   ],
-   "now_combos": 0,
-   "units": 1,
-   "now_units": 0
-  },
-  {
    "name": "GLB 250 4MATIC",
    "my": "MY26",
    "classes": [],
@@ -3830,14 +3780,14 @@
       {
        "month": "pending-unknown",
        "label": "출고 일정 확인",
-       "n": 2
+       "n": 1
       }
      ],
-     "total": 2
+     "total": 1
     }
    ],
    "now_combos": 0,
-   "units": 2,
+   "units": 1,
    "now_units": 0
   },
   {
