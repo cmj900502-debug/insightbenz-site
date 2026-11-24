@@ -82,7 +82,7 @@
       "value": "+1~2%",
       "points": [
         "차종에 따라 +1% 또는 +2% (모델별 할인표 참고)",
-        "마이바흐 S 680 · GLS 600 은 최대 +9%",
+        "마이바흐 S 680 · GLS 600 · EQS 680 SUV 는 최대 +9%",
         "새 차를 사는 달 기준 최근 3개월 이내 메르세데스-벤츠 보유 이력이 있으면 대상 (예: 11월 구매 → 8월 이후 보유 이력)",
         "장기렌트·리스·중고로 타신 경우도 인정 (단기렌터카 제외)",
         "MY27 S-Class 는 E클래스 이상 보유 시 ‘재구매+’ — 보유 횟수에 따라 보증연장 추가 (아래 추가 혜택 참고)",
@@ -97,7 +97,7 @@
       "points": [
         "BMW(MINI 제외) · Audi · Genesis · Volvo · Porsche · Land Rover · Lexus 보유 고객",
         "대상 차종: GLC · GLE (SUV · 쿠페) +1%",
-        "마이바흐 S 680 · GLS 600 은 +7% (롤스로이스 · 벤틀리 보유도 인정)",
+        "마이바흐 S 680 · GLS 600 · EQS 680 SUV 는 +7% (롤스로이스 · 벤틀리 보유도 인정)",
         "MY27 S-Class (마이바흐 포함) 는 보증연장 +1년 / +3만 km",
         "새 차 구매 달 1일 기준 보유 중이어야 합니다",
         "MY27 V 300 d 4MATIC EXCLUSIVE 는 토요타 알파드·시에나, 렉서스 LM, 기아 카니발(하이리무진 포함) 보유 시 추가 2%(사전계약 구매 시 3%). 구매월 1일 기준 보유 필요"
@@ -159,7 +159,7 @@
       "model": "MY27 E 300 4MATIC (Exclusive · AMG Line)",
       "cash": "8%",
       "fin": "+4%",
-      "monthly": "—"
+      "monthly": "24개월"
     },
     {
       "model": "S 450 4MATIC (SWB)",
@@ -310,7 +310,7 @@
     },
     {
       "group": "Compact",
-      "models": "MY26 Mercedes-AMG A 45 S · GLA 250 · GLB 250 / MY27 GLA 250",
+      "models": "MY26 GLA 250 · GLB 250 / MY27 GLA 250",
       "extra": "+4%"
     },
     {
@@ -397,8 +397,8 @@
     "limit": "경품은 12월 일괄 발송 · 사전 고지 없이 변경 또는 조기 종료될 수 있습니다"
   },
   "maybach": {
-    "models": "MY26 Mercedes-Maybach S 680 · GLS 600 (GLS 600 MANUFAKTUR 포함)",
-    "cash": "S 680 9% · GLS 600 5%",
+    "models": "MY26 Mercedes-Maybach S 680 · GLS 600 (GLS 600 MANUFAKTUR 포함) · EQS 680 SUV",
+    "cash": "S 680 9% · GLS 600 5% · EQS 680 SUV —",
     "retention": "+9%",
     "conquest": "+7%",
     "notes": [
@@ -429,7 +429,7 @@
     },
     {
       "title": "MY27 S-Class 재구매 운용리스 · 장기렌트 사은품",
-      "body": "MY27 S-Class (마이바흐 포함) 재구매 고객이 11월에 메르세데스-벤츠 재구매 특별 운용리스 또는 장기렌트를 실행하시면 여행상품권 100만원을 드립니다.",
+      "body": "MY27 S-Class (마이바흐 포함) 재구매 고객이 11월 1일 ~ 12월 31일에 메르세데스-벤츠 재구매 특별 운용리스 또는 장기렌트를 실행하시면 여행상품권 100만원을 드립니다.",
       "list": [],
       "note": "메르세데스-벤츠 금융 재구매 고객 또는 메르세데스-벤츠 재구매 할인 조건을 충족하는 고객 · 지급 전 해지·취소 시 제외"
     },
@@ -450,7 +450,7 @@
     },
     {
       "title": "보증 연장",
-      "body": "전기차(EQ) 모델과 MY26 Mercedes-Maybach S-Class 는 보증 연장 혜택이 있습니다. CLA · GLC 일렉트릭은 제외됩니다. MY27 V 300 d 4MATIC EXCLUSIVE 사전계약 고객은 보증 연장 +1년 / +3만 km(최대 4년 / 13만 km 선도래 기준, 선착순 50대, 조기 마감 가능)입니다.",
+      "body": "전기차(EQ) 모델과 MY26 Mercedes-Maybach S-Class 는 보증 연장 혜택이 있습니다. CLA · GLB · GLC 일렉트릭은 제외됩니다. MY27 V 300 d 4MATIC EXCLUSIVE 사전계약 고객은 보증 연장 +1년 / +3만 km(최대 4년 / 13만 km 선도래 기준, 선착순 50대, 조기 마감 가능)입니다.",
       "list": [],
       "note": "기간·주행거리 조건과 대상 모델은 상담 시 확인"
     },
@@ -486,19 +486,6 @@
       "cls": "Compact",
       "model": "A 220 Hatch",
       "cash": "10%",
-      "fin": "—",
-      "retention": "+1%",
-      "tradein": "+1%",
-      "conquest": "—",
-      "raised": false,
-      "note": "",
-      "slug": "a-class"
-    },
-    {
-      "my": "MY26",
-      "cls": "Compact",
-      "model": "A 220 Sedan",
-      "cash": "5%",
       "fin": "—",
       "retention": "+1%",
       "tradein": "+1%",
@@ -560,19 +547,6 @@
       "note": "",
       "slug": "mercedes-amg-glb",
       "nif": "24개월"
-    },
-    {
-      "my": "MY26",
-      "cls": "Compact",
-      "model": "Mercedes-AMG A 45 S 4MATIC+",
-      "cash": "7%",
-      "fin": "+4%",
-      "retention": "+2%",
-      "tradein": "+1%",
-      "conquest": "—",
-      "raised": false,
-      "note": "",
-      "slug": "mercedes-amg-a-class"
     },
     {
       "my": "MY26",
@@ -853,8 +827,9 @@
       "tradein": "+1%",
       "conquest": "—",
       "raised": false,
-      "note": "",
-      "slug": "e-class"
+      "note": "11/20~12/31 24개월 최대 선수금 무이자 할부 신설 (선수금 조건 상담 시 확인)",
+      "slug": "e-class",
+      "nif": "24개월"
     },
     {
       "my": "MY27",
@@ -866,8 +841,9 @@
       "tradein": "+1%",
       "conquest": "—",
       "raised": false,
-      "note": "",
-      "slug": "e-class"
+      "note": "11/20~12/31 24개월 최대 선수금 무이자 할부 신설 (선수금 조건 상담 시 확인)",
+      "slug": "e-class",
+      "nif": "24개월"
     },
     {
       "my": "MY27",
@@ -1759,13 +1735,13 @@
       "my": "MY27",
       "cls": "GLE",
       "model": "GLE 450 4MATIC AMG Line",
-      "cash": "-",
+      "cash": "5%",
       "fin": "—",
       "retention": "+1%",
       "tradein": "+1%",
       "conquest": "+1%",
       "raised": false,
-      "note": "11월 신규",
+      "note": "11/20 현금 할인 5% 신설",
       "slug": "gle"
     },
     {
@@ -1922,7 +1898,7 @@
       "model": "GLS 450 4MATIC",
       "cash": "-",
       "fin": "—",
-      "retention": "+1%",
+      "retention": "+2%",
       "tradein": "+1%",
       "conquest": "—",
       "raised": false,
@@ -1935,7 +1911,7 @@
       "model": "GLS 450 4MATIC AMG Line",
       "cash": "-",
       "fin": "—",
-      "retention": "+1%",
+      "retention": "+2%",
       "tradein": "+1%",
       "conquest": "—",
       "raised": false,
@@ -2123,12 +2099,26 @@
       "model": "Mercedes-Maybach EQS 680 SUV",
       "cash": "-",
       "fin": "—",
+      "retention": "+9%",
+      "tradein": "+1%",
+      "conquest": "+7%",
+      "raised": false,
+      "note": "",
+      "slug": "mercedes-maybach-eqs-suv"
+    },
+    {
+      "my": "MY27",
+      "cls": "EQ",
+      "model": "EQS 400",
+      "cash": "-",
+      "fin": "—",
       "retention": "+2%",
       "tradein": "+1%",
       "conquest": "—",
       "raised": false,
-      "note": "",
-      "slug": "mercedes-maybach-eqs-suv"
+      "note": "무이자 제외 · 보증 연장 대상",
+      "slug": null,
+      "href": "consult.html"
     },
     {
       "my": "MY27",
@@ -2346,6 +2336,20 @@
         "sub": "MY27",
         "base": null,
         "fin": null
+      },
+      {
+        "section": "A클래스",
+        "name": "A 220 Sedan",
+        "sub": "MY26",
+        "base": null,
+        "fin": null
+      },
+      {
+        "section": "A클래스",
+        "name": "Mercedes-AMG A 45 S 4MATIC+",
+        "sub": "MY26",
+        "base": null,
+        "fin": null
       }
     ],
     "notes_sub": [
@@ -2387,6 +2391,11 @@
           [
             "E-Class",
             "MY26 E 300 4MATIC (Exclusive · AMG Line)"
+          ],
+          [
+            "E-Class",
+            "MY27 E 300 4MATIC (Exclusive · AMG Line)",
+            "11/20~12/31 신설 · 선수금 조건 상담 시 확인"
           ],
           [
             "GLC",
@@ -2459,7 +2468,7 @@
           ],
           [
             "EQ",
-            "EQS 450 4MATIC 세단 · EQS 450 4MATIC SUV · EQS 580 4MATIC SUV"
+            "EQS 450 4MATIC SUV · EQS 580 4MATIC SUV"
           ]
         ]
       }
@@ -2474,11 +2483,6 @@
     "rate_only": {
       "title": "2027년식 · 메르세데스-벤츠 금융 추가 할인만 (일반 금리)",
       "items": [
-        [
-          "E-Class",
-          "MY27 E 300 4MATIC",
-          "추가 할인 4%"
-        ],
         [
           "GLC",
           "MY27 GLC 300 4MATIC",
