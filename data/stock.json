@@ -1,7 +1,7 @@
 {
  "date": "2026-11-20",
  "source": "2026-11-20 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-24 13:12 KST",
+ "generated": "2026-11-24 16:04 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -16,7 +16,7 @@
   "models": 55,
   "combos": 295,
   "now_combos": 252,
-  "units": 3793,
+  "units": 3790,
   "now_units": 3421,
   "rows_in_file": 4711,
   "rows_used": 3679,
@@ -3552,10 +3552,10 @@
       {
        "month": "pending-unknown",
        "label": "출고 일정 확인",
-       "n": 3
+       "n": 2
       }
      ],
-     "total": 3
+     "total": 2
     },
     {
      "ext": "dark petrol non-metallic",
@@ -3566,10 +3566,10 @@
       {
        "month": "pending-unknown",
        "label": "출고 일정 확인",
-       "n": 6
+       "n": 5
       }
      ],
-     "total": 6
+     "total": 5
     },
     {
      "ext": "옵시디안 블랙",
@@ -3580,10 +3580,10 @@
       {
        "month": "pending-unknown",
        "label": "출고 일정 확인",
-       "n": 64
+       "n": 63
       }
      ],
-     "total": 64
+     "total": 63
     },
     {
      "ext": "하이테크 실버",
@@ -3601,7 +3601,7 @@
     }
    ],
    "now_combos": 0,
-   "units": 119,
+   "units": 116,
    "now_units": 0
   },
   {
