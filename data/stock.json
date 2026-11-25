@@ -1,7 +1,7 @@
 {
  "date": "2026-11-24",
  "source": "2026-11-24 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-24 22:08 KST",
+ "generated": "2026-11-25 10:32 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -19,9 +19,9 @@
   "units": 3880,
   "now_units": 3070,
   "rows_in_file": 4820,
-  "rows_used": 3855,
+  "rows_used": 3865,
   "rows_skipped": {
-   "unconfirmed combo excluded": 602,
+   "unconfirmed combo excluded": 592,
    "위탁재고 excluded": 160,
    "contracted/sold": 203
   }
