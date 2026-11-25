@@ -1,7 +1,7 @@
 {
  "date": "2026-11-25",
  "source": "2026-11-25 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-25 19:09 KST",
+ "generated": "2026-11-25 22:07 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -14,9 +14,9 @@
  ],
  "stats": {
   "models": 59,
-  "combos": 282,
+  "combos": 283,
   "now_combos": 241,
-  "units": 3327,
+  "units": 3328,
   "now_units": 2900,
   "rows_in_file": 4165,
   "rows_used": 3294,
@@ -62,7 +62,7 @@
    "key": "grey",
    "label": "그레이",
    "hex": "#6d7275",
-   "n": 65
+   "n": 66
   },
   {
    "key": "silver",
@@ -3546,10 +3546,24 @@
       }
      ],
      "total": 12
+    },
+    {
+     "ext": "MANUFAKTUR 알파인 그레이 솔리드",
+     "int": "가죽, 블랙",
+     "color": "grey",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
     }
    ],
    "now_combos": 0,
-   "units": 42,
+   "units": 43,
    "now_units": 0
   },
   {
