@@ -1,7 +1,7 @@
 {
  "date": "2026-11-25",
  "source": "2026-11-25 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-26 19:05 KST",
+ "generated": "2026-11-26 22:03 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -14,9 +14,9 @@
  ],
  "stats": {
   "models": 59,
-  "combos": 284,
+  "combos": 285,
   "now_combos": 241,
-  "units": 3329,
+  "units": 3330,
   "now_units": 2900,
   "rows_in_file": 4165,
   "rows_used": 3294,
@@ -50,7 +50,7 @@
    "key": "white",
    "label": "화이트",
    "hex": "#f4f4f2",
-   "n": 101
+   "n": 102
   },
   {
    "key": "black",
@@ -2475,6 +2475,20 @@
     },
     {
      "ext": "폴라 화이트",
+     "int": "아티코 가죽, 마키아토 베이지",
+     "color": "white",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
+    },
+    {
+     "ext": "폴라 화이트",
      "int": "아티코 가죽, 블랙",
      "color": "white",
      "now": 0,
@@ -2489,7 +2503,7 @@
     }
    ],
    "now_combos": 3,
-   "units": 94,
+   "units": 95,
    "now_units": 90
   },
   {
