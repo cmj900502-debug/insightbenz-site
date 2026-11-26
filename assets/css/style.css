@@ -768,6 +768,8 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .gl-b{padding:22px 24px 24px;display:flex;flex-direction:column;flex:1}
 .gl-k{margin:0 0 6px;font-size:12.5px;font-weight:600;letter-spacing:.08em;color:var(--accent)}
 .gl-model{margin:0 0 4px;font-family:var(--serif);font-size:clamp(21px,2.2vw,24px)}
+.gl-model a{color:inherit;text-decoration:none}
+.gl-model a:hover,.gl-model a:focus-visible{text-decoration:underline;text-decoration-color:var(--accent)}
 .gl-who{margin:0;font-size:14.5px;color:var(--text-2)}
 .gl-msg{margin:16px 0 0;padding:14px 0 0;border-top:1px solid var(--line);flex:1}
 .gl-msg p{margin:0;font-family:var(--serif);font-size:16px;line-height:1.7;color:var(--head)}
