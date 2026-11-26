@@ -779,6 +779,14 @@ ul.clean{padding-left:18px;margin:0 0 1em} ul.clean li{margin-bottom:6px}
 .gl-thumbs a{display:block;width:56px;height:56px;border-radius:2px;overflow:hidden;border:1px solid var(--line-2)}
 .gl-thumbs img{width:100%;height:100%;object-fit:cover}
 .gl-thumbs a:hover{border-color:var(--accent)}
+/* gallery.html only: show the whole car. Cards stay 4:3 so the grid does not shift;
+   many photos are 3:4 / 4:5, so contain + ink letterbox replaces object-fit:cover.
+   Home teaser (.gl-grid.home) is left unchanged. Hover zoom is disabled — it would recrop. */
+.gl-grid:not(.home) .gl-fig{background:#0e0e10}
+.gl-grid:not(.home) .gl-cover img{object-fit:contain}
+.gl-grid:not(.home) .gl-thumbs a{background:#0e0e10}
+.gl-grid:not(.home) .gl-thumbs img{object-fit:contain}
+@media(hover:hover){.gl-grid:not(.home) .gl-cover:hover img{transform:none}}
 .gl-note{margin:28px 0 0;font-size:13px;color:var(--muted);text-align:center}
 .gl-grid.home .gl-b{padding:18px 20px 20px}
 .gl-lb{padding:0;border:0;margin:auto;width:100vw;height:100dvh;max-width:none;max-height:none;background:transparent;color:#f7f5f0}
