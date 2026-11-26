@@ -1,7 +1,7 @@
 {
  "date": "2026-11-25",
  "source": "2026-11-25 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-26 12:58 KST",
+ "generated": "2026-11-26 16:04 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -14,9 +14,9 @@
  ],
  "stats": {
   "models": 59,
-  "combos": 283,
+  "combos": 284,
   "now_combos": 241,
-  "units": 3328,
+  "units": 3330,
   "now_units": 2900,
   "rows_in_file": 4165,
   "rows_used": 3294,
@@ -56,7 +56,7 @@
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 87
+   "n": 88
   },
   {
    "key": "grey",
@@ -3116,6 +3116,20 @@
      "total": 1
     },
     {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
+    },
+    {
      "ext": "폴라 화이트",
      "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
      "color": "white",
@@ -3124,10 +3138,10 @@
       {
        "month": "pending-unknown",
        "label": "출고 일정 확인",
-       "n": 2
+       "n": 3
       }
      ],
-     "total": 2
+     "total": 3
     },
     {
      "ext": "하이 테크 실버",
@@ -3145,7 +3159,7 @@
     }
    ],
    "now_combos": 1,
-   "units": 7,
+   "units": 9,
    "now_units": 2
   },
   {
