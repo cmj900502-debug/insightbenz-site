@@ -1,7 +1,7 @@
 {
  "date": "2026-11-25",
  "source": "2026-11-25 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-27 13:03 KST",
+ "generated": "2026-11-27 16:05 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -16,7 +16,7 @@
   "models": 59,
   "combos": 284,
   "now_combos": 241,
-  "units": 3329,
+  "units": 3331,
   "now_units": 2900,
   "rows_in_file": 4165,
   "rows_used": 3294,
@@ -1812,14 +1812,14 @@
       {
        "month": "pending-unknown",
        "label": "출고 일정 확인",
-       "n": 1
+       "n": 2
       }
      ],
-     "total": 1
+     "total": 2
     }
    ],
    "now_combos": 5,
-   "units": 47,
+   "units": 48,
    "now_units": 44
   },
   {
@@ -3124,10 +3124,10 @@
       {
        "month": "pending-unknown",
        "label": "출고 일정 확인",
-       "n": 1
+       "n": 2
       }
      ],
-     "total": 1
+     "total": 2
     },
     {
      "ext": "폴라 화이트",
@@ -3159,7 +3159,7 @@
     }
    ],
    "now_combos": 1,
-   "units": 8,
+   "units": 9,
    "now_units": 2
   },
   {
