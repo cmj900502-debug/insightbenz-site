@@ -1,7 +1,7 @@
 {
  "date": "2026-11-25",
  "source": "2026-11-25 차량 재고현황-메일용.xlsx",
- "generated": "2026-11-26 22:03 KST",
+ "generated": "2026-11-27 10:41 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -14,9 +14,9 @@
  ],
  "stats": {
   "models": 59,
-  "combos": 285,
+  "combos": 286,
   "now_combos": 241,
-  "units": 3330,
+  "units": 3331,
   "now_units": 2900,
   "rows_in_file": 4165,
   "rows_used": 3294,
@@ -56,7 +56,7 @@
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 89
+   "n": 90
   },
   {
    "key": "grey",
@@ -2784,6 +2784,49 @@
    "now_units": 6
   },
   {
+   "name": "GLC 220 d 4MATIC",
+   "my": "MY27",
+   "classes": [
+    "GLC"
+   ],
+   "tag": "GLC",
+   "combos": [
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
+     "color": "white",
+     "now": 18,
+     "sched": [],
+     "total": 18
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
+     "color": "white",
+     "now": 2,
+     "sched": [],
+     "total": 2
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
+     "color": "black",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
+    }
+   ],
+   "now_combos": 2,
+   "units": 21,
+   "now_units": 20
+  },
+  {
    "name": "GLE 450 4MATIC Coupé AMG Line",
    "my": "MY26",
    "classes": [
@@ -2925,35 +2968,6 @@
    "now_combos": 2,
    "units": 43,
    "now_units": 43
-  },
-  {
-   "name": "GLC 220 d 4MATIC",
-   "my": "MY27",
-   "classes": [
-    "GLC"
-   ],
-   "tag": "GLC",
-   "combos": [
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
-     "color": "white",
-     "now": 18,
-     "sched": [],
-     "total": 18
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
-     "color": "white",
-     "now": 2,
-     "sched": [],
-     "total": 2
-    }
-   ],
-   "now_combos": 2,
-   "units": 20,
-   "now_units": 20
   },
   {
    "name": "GLE 450 4MATIC AMG Line",
