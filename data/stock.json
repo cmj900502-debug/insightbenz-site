@@ -1,7 +1,7 @@
 {
  "date": "2026-11-27",
  "source": "2026-11-27 차량 재고현황-메일.xlsx",
- "generated": "2026-11-27 19:07 KST",
+ "generated": "2026-11-27 21:49 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -14,9 +14,9 @@
  ],
  "stats": {
   "models": 60,
-  "combos": 284,
+  "combos": 282,
   "now_combos": 250,
-  "units": 3344,
+  "units": 3342,
   "now_units": 2941,
   "rows_in_file": 4028,
   "rows_used": 3325,
@@ -56,13 +56,13 @@
    "key": "black",
    "label": "블랙",
    "hex": "#0d0d0d",
-   "n": 90
+   "n": 89
   },
   {
    "key": "grey",
    "label": "그레이",
    "hex": "#6d7275",
-   "n": 65
+   "n": 64
   },
   {
    "key": "silver",
@@ -2455,71 +2455,6 @@
    "now_units": 96
   },
   {
-   "name": "GLC 220 d 4MATIC",
-   "my": "MY27",
-   "classes": [
-    "GLC"
-   ],
-   "tag": "GLC",
-   "combos": [
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
-     "color": "white",
-     "now": 20,
-     "sched": [],
-     "total": 20
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
-     "color": "black",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
-     "color": "white",
-     "now": 1,
-     "sched": [],
-     "total": 1
-    },
-    {
-     "ext": "MANUFAKTUR 알파인 그레이 솔리드",
-     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
-     "color": "grey",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 1
-      }
-     ],
-     "total": 1
-    },
-    {
-     "ext": "옵시디안 블랙",
-     "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
-     "color": "black",
-     "now": 0,
-     "sched": [
-      {
-       "month": "pending-unknown",
-       "label": "출고 일정 확인",
-       "n": 1
-      }
-     ],
-     "total": 1
-    }
-   ],
-   "now_combos": 3,
-   "units": 24,
-   "now_units": 22
-  },
-  {
    "name": "E 200 AMG Line",
    "my": "MY26",
    "classes": [
@@ -2722,6 +2657,43 @@
    "now_combos": 3,
    "units": 19,
    "now_units": 14
+  },
+  {
+   "name": "GLC 220 d 4MATIC",
+   "my": "MY27",
+   "classes": [
+    "GLC"
+   ],
+   "tag": "GLC",
+   "combos": [
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
+     "color": "white",
+     "now": 20,
+     "sched": [],
+     "total": 20
+    },
+    {
+     "ext": "옵시디안 블랙",
+     "int": "아티코 인조 가죽, 시에나 브라운/블랙",
+     "color": "black",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 인조 가죽, 마키아토 베이지/블랙",
+     "color": "white",
+     "now": 1,
+     "sched": [],
+     "total": 1
+    }
+   ],
+   "now_combos": 3,
+   "units": 22,
+   "now_units": 22
   },
   {
    "name": "GLE 450 4MATIC Coupé AMG Line",
