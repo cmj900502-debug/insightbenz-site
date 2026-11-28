@@ -1,7 +1,7 @@
 {
  "date": "2026-11-27",
  "source": "2026-11-27 차량 재고현황-메일.xlsx",
- "generated": "2026-11-27 21:49 KST",
+ "generated": "2026-11-28 12:25 KST",
  "published_fields": [
   "모델명",
   "모델 연도",
@@ -14,9 +14,9 @@
  ],
  "stats": {
   "models": 60,
-  "combos": 282,
+  "combos": 283,
   "now_combos": 250,
-  "units": 3342,
+  "units": 3343,
   "now_units": 2941,
   "rows_in_file": 4028,
   "rows_used": 3325,
@@ -50,7 +50,7 @@
    "key": "white",
    "label": "화이트",
    "hex": "#f4f4f2",
-   "n": 101
+   "n": 102
   },
   {
    "key": "black",
@@ -2506,50 +2506,6 @@
    "now_units": 4
   },
   {
-   "name": "AMG GLS 63 4MATIC+",
-   "my": "MY26",
-   "classes": [
-    "GLS",
-    "AMG"
-   ],
-   "tag": "GLS",
-   "combos": [
-    {
-     "ext": "옵시디안 블랙",
-     "int": "AMG 익스클루시브 나파 가죽 블랙",
-     "color": "black",
-     "now": 6,
-     "sched": [],
-     "total": 6
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "AMG 익스클루시브 나파 가죽, 마키아토 베이지/블랙",
-     "color": "white",
-     "now": 6,
-     "sched": [
-      {
-       "month": "2026-12",
-       "label": "12월",
-       "n": 1
-      }
-     ],
-     "total": 7
-    },
-    {
-     "ext": "폴라 화이트",
-     "int": "AMG 익스클루시브 나파 가죽 블랙",
-     "color": "white",
-     "now": 2,
-     "sched": [],
-     "total": 2
-    }
-   ],
-   "now_combos": 3,
-   "units": 15,
-   "now_units": 14
-  },
-  {
    "name": "E 200 EXCLUSIVE",
    "my": "MY27",
    "classes": [
@@ -2597,11 +2553,69 @@
      "now": 1,
      "sched": [],
      "total": 1
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "아티코 가죽, 블랙",
+     "color": "white",
+     "now": 0,
+     "sched": [
+      {
+       "month": "pending-unknown",
+       "label": "출고 일정 확인",
+       "n": 1
+      }
+     ],
+     "total": 1
     }
    ],
    "now_combos": 3,
-   "units": 93,
+   "units": 94,
    "now_units": 90
+  },
+  {
+   "name": "AMG GLS 63 4MATIC+",
+   "my": "MY26",
+   "classes": [
+    "GLS",
+    "AMG"
+   ],
+   "tag": "GLS",
+   "combos": [
+    {
+     "ext": "옵시디안 블랙",
+     "int": "AMG 익스클루시브 나파 가죽 블랙",
+     "color": "black",
+     "now": 6,
+     "sched": [],
+     "total": 6
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "AMG 익스클루시브 나파 가죽, 마키아토 베이지/블랙",
+     "color": "white",
+     "now": 6,
+     "sched": [
+      {
+       "month": "2026-12",
+       "label": "12월",
+       "n": 1
+      }
+     ],
+     "total": 7
+    },
+    {
+     "ext": "폴라 화이트",
+     "int": "AMG 익스클루시브 나파 가죽 블랙",
+     "color": "white",
+     "now": 2,
+     "sched": [],
+     "total": 2
+    }
+   ],
+   "now_combos": 3,
+   "units": 15,
+   "now_units": 14
   },
   {
    "name": "EQS 580 4MATIC SUV",
